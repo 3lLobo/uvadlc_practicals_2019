@@ -1,0 +1,3282 @@
+Epoch.  0 Stahp:  0 
+ Output:  t
+
+
+iiiiiiiiiiiiiiiiiiiiiiiiiii
+Epoch.  0 Stahp:  100 
+ Output:  un the the the the the the the 
+Epoch.  0 Stahp:  200 
+ Output:  !                              
+Epoch.  0 Stahp:  300 
+ Output:  A 
+                            
+Epoch.  0 Stahp:  400 
+ Output:  [s the was the was the was the 
+Epoch.  0 Stahp:  500 
+ Output:  xe to the was the was the was t
+Epoch.  0 Stahp:  600 
+ Output:  O                              
+Epoch.  0 Stahp:  700 
+ Output:  queen the 
+she was the 
+was the
+Epoch.  0 Stahp:  800 
+ Output:  3 
+                            
+Epoch.  0 Stahp:  900 
+ Output:  me of the 
+said the said the 
+t
+Epoch.  0 Stahp:  1000 
+ Output:  3 
+  `I wonder a looking to the
+Epoch.  0 Stahp:  1100 
+ Output:  I wonder the Duchess the poor t
+Epoch.  0 Stahp:  1200 
+ Output:  The 
+                          
+Epoch.  0 Stahp:  1300 
+ Output:  :  `but it was the 
+there was a
+Epoch.  0 Stahp:  1400 
+ Output:  e was the Mouse a little she wa
+Epoch.  0 Stahp:  1500 
+ Output:  xat the promed the 
+strill she 
+Epoch.  0 Stahp:  1600 
+ Output:  Soor the 
+shore the 
+she was th
+Epoch.  0 Stahp:  1700 
+ Output:  Four a little she was a little 
+Epoch.  0 Stahp:  1800 
+ Output:  "                              
+Epoch.  0 Stahp:  1900 
+ Output:  :  `I don't know and she said t
+Epoch.  0 Stahp:  2000 
+ Output:  ' 
+ 
+  `I wonder a little there
+Epoch.  0 Stahp:  2100 
+ Output:  was the 
+more the room of the 
+
+Epoch.  0 Stahp:  2200 
+ Output:  peat the 
+tried to herself the 
+Epoch.  0 Stahp:  2300 
+ Output:  Just she was the 
+sented to the
+Epoch.  1 Stahp:  0 
+ Output:  [lice to the 
+condering to the 
+Epoch.  1 Stahp:  100 
+ Output:  UR the whiting a little a sides
+Epoch.  1 Stahp:  200 
+ Output:  !  I don't know it was a little
+Epoch.  1 Stahp:  300 
+ Output:  X 
+ 
+  `I don't know when she w
+Epoch.  1 Stahp:  400 
+ Output:  peaking to the 
+little thing to
+Epoch.  1 Stahp:  500 
+ Output:  f the 
+Dormouse was a little 
+t
+Epoch.  1 Stahp:  600 
+ Output:  , and the 
+same the Duchess was
+Epoch.  1 Stahp:  700 
+ Output:  ' said the Mock Turtle the 
+sen
+Epoch.  1 Stahp:  800 
+ Output:  e of the table, and she had not
+Epoch.  1 Stahp:  900 
+ Output:  out the table, and the 
+same to
+Epoch.  1 Stahp:  1000 
+ Output:  :  `I wonder what the 
+same to 
+Epoch.  1 Stahp:  1100 
+ Output:  Queen should be sure the Mock T
+Epoch.  1 Stahp:  1200 
+ Output:  Which the Mock Turtle shook the
+Epoch.  1 Stahp:  1300 
+ Output:  `I shall think you couldn't hav
+Epoch.  1 Stahp:  1400 
+ Output:  The Dormouse said the Mock Turt
+Epoch.  1 Stahp:  1500 
+ Output:  ZAT you were the treated the Mo
+Epoch.  1 Stahp:  1600 
+ Output:  But it was the 
+other was the 
+
+Epoch.  1 Stahp:  1700 
+ Output:  2' 
+ 
+  `I don't to the 
+soldie
+Epoch.  1 Stahp:  1800 
+ Output:  _ell be a very seemed to her ha
+Epoch.  1 Stahp:  1900 
+ Output:  1 
+                            
+Epoch.  1 Stahp:  2000 
+ Output:  Pigear of the 
+distance, and sh
+Epoch.  1 Stahp:  2100 
+ Output:  nd the second the 
+same went on
+Epoch.  1 Stahp:  2200 
+ Output:   
+ 
+  `I don't take a little sh
+Epoch.  1 Stahp:  2300 
+ Output:  I won't to go no 
+many mind a l
+Epoch.  2 Stahp:  0 
+ Output:  *                              
+Epoch.  2 Stahp:  100 
+ Output:  7 
+ 
+  `I don't know the rest w
+Epoch.  2 Stahp:  200 
+ Output:  t the same thing was a little s
+Epoch.  2 Stahp:  300 
+ Output:  he 
+                           
+Epoch.  2 Stahp:  400 
+ Output:  nd the table, and was a minute 
+Epoch.  2 Stahp:  500 
+ Output:  VER happened the little crowful
+Epoch.  2 Stahp:  600 
+ Output:  Mock Turtle, and the shook a li
+Epoch.  2 Stahp:  700 
+ Output:  Alice, and the 
+sorrows and the
+Epoch.  2 Stahp:  800 
+ Output:  I shouldn't see the 
+Dormouse s
+Epoch.  2 Stahp:  900 
+ Output:  _EVER happons the second the ta
+Epoch.  2 Stahp:  1000 
+ Output:  _                              
+Epoch.  2 Stahp:  1100 
+ Output:  VER happens, and the things wen
+Epoch.  2 Stahp:  1200 
+ Output:  *       *       *       *      
+Epoch.  2 Stahp:  1300 
+ Output:  The Duchess and the baby was a 
+Epoch.  2 Stahp:  1400 
+ Output:  2' 
+ 
+  `I don't think they liv
+Epoch.  2 Stahp:  1500 
+ Output:  *       *       *       *      
+Epoch.  2 Stahp:  1600 
+ Output:  le 
+                           
+Epoch.  2 Stahp:  1700 
+ Output:  s the same thing as she was now
+Epoch.  2 Stahp:  1800 
+ Output:  ) 
+ 
+  `I think you could be so
+Epoch.  2 Stahp:  1900 
+ Output:  .  `I don't know the same she w
+Epoch.  2 Stahp:  2000 
+ Output:  ?' said the Mock Turtle of the 
+Epoch.  2 Stahp:  2100 
+ Output:  ] 
+ 
+  `I can chose of the 
+dis
+Epoch.  2 Stahp:  2200 
+ Output:  Hatter with the 
+trees were all
+Epoch.  2 Stahp:  2300 
+ Output:  be a great 
+down and the 
+parch
+Epoch.  3 Stahp:  0 
+ Output:  y when she was so much a please
+Epoch.  3 Stahp:  100 
+ Output:  question in the 
+other side of 
+Epoch.  3 Stahp:  200 
+ Output:  beautioner and said the Hatter.
+Epoch.  3 Stahp:  300 
+ Output:  ' said the Hatter. 
+ 
+  `It was
+Epoch.  3 Stahp:  400 
+ Output:  Hatter at all the time the root
+Epoch.  3 Stahp:  500 
+ Output:  --' 
+ 
+  `I don't seen the 
+sea
+Epoch.  3 Stahp:  600 
+ Output:  Rabbit was nothing to her enoug
+Epoch.  3 Stahp:  700 
+ Output:  )                              
+Epoch.  3 Stahp:  800 
+ Output:  , and the 
+three got the 
+story
+Epoch.  3 Stahp:  900 
+ Output:  ke the Queen said to herself, `
+Epoch.  3 Stahp:  1000 
+ Output:  he said, and she was a large ca
+Epoch.  3 Stahp:  1100 
+ Output:  White Rabbit came things as if 
+Epoch.  3 Stahp:  1200 
+ Output:  Gryphon a little golden know, a
+Epoch.  3 Stahp:  1300 
+ Output:  the 
+Dormouse shook her head to
+Epoch.  3 Stahp:  1400 
+ Output:  f the 
+Dormouse should show the
+Epoch.  3 Stahp:  1500 
+ Output:  March Hare had beginning to her
+Epoch.  3 Stahp:  1600 
+ Output:  ?' said Alice. 
+ 
+  `I didn't k
+Epoch.  3 Stahp:  1700 
+ Output:  urtle 
+                        
+Epoch.  3 Stahp:  1800 
+ Output:  Zt under the same thing as she 
+Epoch.  3 Stahp:  1900 
+ Output:  y all the time the caught the t
+Epoch.  3 Stahp:  2000 
+ Output:  Come, what I was only 
+he 
+belo
+Epoch.  3 Stahp:  2100 
+ Output:  at the table 
+in the 
+distance,
+Epoch.  3 Stahp:  2200 
+ Output:  . 
+ 
+  `I don't know what a cur
+Epoch.  3 Stahp:  2300 
+ Output:  r the table to say that she was
+Epoch.  4 Stahp:  0 
+ Output:  ] 
+ 
+  `I don't know what a lit
+Epoch.  4 Stahp:  100 
+ Output:  VERY going on the 
+other childr
+Epoch.  4 Stahp:  200 
+ Output:  me the same thing as the March 
+Epoch.  4 Stahp:  300 
+ Output:  , `I wonder what you're not a l
+Epoch.  4 Stahp:  400 
+ Output:   
+  `I haven't the 
+distance. 
+
+Epoch.  4 Stahp:  500 
+ Output:  f the 
+other course, who was th
+Epoch.  4 Stahp:  600 
+ Output:  She had not a table said to her
+Epoch.  4 Stahp:  700 
+ Output:  Labbit was a long turn to the 
+
+Epoch.  4 Stahp:  800 
+ Output:  She was surprised to herself, `
+Epoch.  4 Stahp:  900 
+ Output:  e was going to herself, `I wond
+Epoch.  4 Stahp:  1000 
+ Output:  I shall be a little shrieks, an
+Epoch.  4 Stahp:  1100 
+ Output:  d the roof of the 
+grass and sh
+Epoch.  4 Stahp:  1200 
+ Output:  ing to the 
+see and the 
+soldie
+Epoch.  4 Stahp:  1300 
+ Output:  Rabbit here the 
+sounds of the 
+Epoch.  4 Stahp:  1400 
+ Output:  Dormouse, who was a little girl
+Epoch.  4 Stahp:  1500 
+ Output:  So 
+pool 
+                     
+Epoch.  4 Stahp:  1600 
+ Output:  ' said Alice. 
+ 
+  `I deal me a
+Epoch.  4 Stahp:  1700 
+ Output:  le 
+                           
+Epoch.  4 Stahp:  1800 
+ Output:  Duchess took the same wing to t
+Epoch.  4 Stahp:  1900 
+ Output:  be a trembling voice, and the t
+Epoch.  4 Stahp:  2000 
+ Output:  *       *       *       *      
+Epoch.  4 Stahp:  2100 
+ Output:  OU?  The Duchess was 
+one first
+Epoch.  4 Stahp:  2200 
+ Output:  be the reason is, you know--' s
+Epoch.  4 Stahp:  2300 
+ Output:  
+ 
+  `I don't know what a came 
+Epoch.  5 Stahp:  0 
+ Output:  and the same with some minutes.
+Epoch.  5 Stahp:  100 
+ Output:  n the 
+starry close to herself,
+Epoch.  5 Stahp:  200 
+ Output:  ?' thought Alice to herself.  
+
+Epoch.  5 Stahp:  300 
+ Output:  began running at the 
+King, `an
+Epoch.  5 Stahp:  400 
+ Output:  n the 
+sourd as she said to her
+Epoch.  5 Stahp:  500 
+ Output:  ce that it was a little shrill 
+Epoch.  5 Stahp:  600 
+ Output:  8ve got to the 
+way in the 
+dis
+Epoch.  5 Stahp:  700 
+ Output:  1 
+                            
+Epoch.  5 Stahp:  800 
+ Output:  X 
+                            
+Epoch.  5 Stahp:  900 
+ Output:  ce was a large cat in a low voi
+Epoch.  5 Stahp:  1000 
+ Output:  ER I  
+
+
+ 
+ 
+  `It was the look
+Epoch.  5 Stahp:  1100 
+ Output:  
+  `I shall see if you don't be
+Epoch.  5 Stahp:  1200 
+ Output:  ' said the Caterpillar. 
+ 
+  `I
+Epoch.  5 Stahp:  1300 
+ Output:  3was the 
+stop and 
+this moment
+Epoch.  5 Stahp:  1400 
+ Output:  ER I 
+ 
+                       
+Epoch.  5 Stahp:  1500 
+ Output:  s the jury 
+glad they were 
+too
+Epoch.  5 Stahp:  1600 
+ Output:  [ll tell you tell you, won't yo
+Epoch.  5 Stahp:  1700 
+ Output:  You can remarked the Queen, and
+Epoch.  5 Stahp:  1800 
+ Output:  jury asked. 
+ 
+  `I don't know 
+Epoch.  5 Stahp:  1900 
+ Output:  Fortant--' 
+ 
+  `I can me you d
+Epoch.  5 Stahp:  2000 
+ Output:  Come, they were gloves and must
+Epoch.  5 Stahp:  2100 
+ Output:  !  It was of the 
+stand of must
+Epoch.  5 Stahp:  2200 
+ Output:  Don't like that she had not got
+Epoch.  5 Stahp:  2300 
+ Output:  8s the Mouse did not a moment t
+Epoch.  6 Stahp:  0 
+ Output:  zing his hand in another moment
+Epoch.  6 Stahp:  100 
+ Output:  Hatter was the 
+Dormouse in the
+Epoch.  6 Stahp:  200 
+ Output:  --' 
+ 
+  `I don't know what I d
+Epoch.  6 Stahp:  300 
+ Output:  he was a little timidly, she ha
+Epoch.  6 Stahp:  400 
+ Output:  well as she could not stup to t
+Epoch.  6 Stahp:  500 
+ Output:  LEAND 
+                        
+Epoch.  6 Stahp:  600 
+ Output:  Pigeon, and the shore, and then
+Epoch.  6 Stahp:  700 
+ Output:  Pat it was a very deep 
+and the
+Epoch.  6 Stahp:  800 
+ Output:  e was nothing of the 
+door and 
+Epoch.  6 Stahp:  900 
+ Output:  L should she could not 
+cats 
+l
+Epoch.  6 Stahp:  1000 
+ Output:  But I don't be a table seemed t
+Epoch.  6 Stahp:  1100 
+ Output:  . 
+ 
+  `I've to do with a littl
+Epoch.  6 Stahp:  1200 
+ Output:  Oh, and then a piece of the 
+su
+Epoch.  6 Stahp:  1300 
+ Output:  l the things are the pool rans 
+Epoch.  6 Stahp:  1400 
+ Output:  f the 
+dooze, and the two great
+Epoch.  6 Stahp:  1500 
+ Output:  )--and I don't think of course 
+Epoch.  6 Stahp:  1600 
+ Output:  ut the moral of that she looked
+Epoch.  6 Stahp:  1700 
+ Output:  For, and the reason in the soun
+Epoch.  6 Stahp:  1800 
+ Output:  s and the soldiers were sharps 
+Epoch.  6 Stahp:  1900 
+ Output:  Just starr and the same thing a
+Epoch.  6 Stahp:  2000 
+ Output:  Then the table, 
+and the world 
+Epoch.  6 Stahp:  2100 
+ Output:  ] 
+ 
+  `What a piterece of the 
+Epoch.  6 Stahp:  2200 
+ Output:  Alice was something more than t
+Epoch.  6 Stahp:  2300 
+ Output:  PTER VIII 
+ 
+                  
+Epoch.  7 Stahp:  0 
+ Output:  S AND 
+Oh, I hadn't to be a lit
+Epoch.  7 Stahp:  100 
+ Output:  *       *       *       *      
+Epoch.  7 Stahp:  200 
+ Output:  ' said the Mock Turtle said to 
+Epoch.  7 Stahp:  300 
+ Output:  urtle 
+and much are a long trie
+Epoch.  7 Stahp:  400 
+ Output:  LLINEIME'.  `I shall sit here, 
+Epoch.  7 Stahp:  500 
+ Output:  ze the thimbled the stick, and 
+Epoch.  7 Stahp:  600 
+ Output:  ing to herself, `I wonder what 
+Epoch.  7 Stahp:  700 
+ Output:  91                             
+Epoch.  7 Stahp:  800 
+ Output:  ZDon't like the top of the 
+off
+Epoch.  7 Stahp:  900 
+ Output:  But the thing the same thing as
+Epoch.  7 Stahp:  1000 
+ Output:  k Turtle 
+                     
+Epoch.  7 Stahp:  1100 
+ Output:  Mouse was so large as the 
+time
+Epoch.  7 Stahp:  1200 
+ Output:  For-the 
+dightfully a large rou
+Epoch.  7 Stahp:  1300 
+ Output:  LITLE BEST DURYSIN I 
+ 
+       
+Epoch.  7 Stahp:  1400 
+ Output:  was the 
+direction,' the Mock T
+Epoch.  7 Stahp:  1500 
+ Output:  Rabbit coming to the 
+Queen sai
+Epoch.  7 Stahp:  1600 
+ Output:  Queen so much a comfort, an old
+Epoch.  7 Stahp:  1700 
+ Output:  f the 
+Duchess's continued the 
+Epoch.  7 Stahp:  1800 
+ Output:  o herself, and 
+the other fadin
+Epoch.  7 Stahp:  1900 
+ Output:                                 
+Epoch.  7 Stahp:  2000 
+ Output:  VER generally to explain the 
+s
+Epoch.  7 Stahp:  2100 
+ Output:  PTER I                         
+Epoch.  7 Stahp:  2200 
+ Output:   the 
+King shouted at the 
+tria
+Epoch.  7 Stahp:  2300 
+ Output:  X 
+ 
+                          
+Epoch.  8 Stahp:  0 
+ Output:  ll be a low, timid voice, 
+`and
+Epoch.  8 Stahp:  100 
+ Output:  was to be 
+getting on the same 
+Epoch.  8 Stahp:  200 
+ Output:  zled at the 
+Dormouse to see it
+Epoch.  8 Stahp:  300 
+ Output:  Just witners were nearly as she
+Epoch.  8 Stahp:  400 
+ Output:  ll the right with his high the 
+Epoch.  8 Stahp:  500 
+ Output:  What a court with me the most o
+Epoch.  8 Stahp:  600 
+ Output:  Gryphon.  `I'm grown to the 
+pa
+Epoch.  8 Stahp:  700 
+ Output:  jury, if I can't take her 
+flam
+Epoch.  8 Stahp:  800 
+ Output:  3                              
+Epoch.  8 Stahp:  900 
+ Output:  began to trouble myself, 
+and w
+Epoch.  8 Stahp:  1000 
+ Output:  2                              
+Epoch.  8 Stahp:  1100 
+ Output:  King replied very 
+politely, an
+Epoch.  8 Stahp:  1200 
+ Output:  xigling and the 
+officer tonsel
+Epoch.  8 Stahp:  1300 
+ Output:  ing the world was very curious 
+Epoch.  8 Stahp:  1400 
+ Output:  k a little bottle way of 
+the w
+Epoch.  8 Stahp:  1500 
+ Output:  X 
+                            
+Epoch.  8 Stahp:  1600 
+ Output:  y 
+would have been a little bit
+Epoch.  8 Stahp:  1700 
+ Output:  (Alice thought to herself, `the
+Epoch.  8 Stahp:  1800 
+ Output:  Oh, I had you do with one finge
+Epoch.  8 Stahp:  1900 
+ Output:  R shoese way of 
+the 
+stairs!' 
+Epoch.  8 Stahp:  2000 
+ Output:  72Y 
+                          
+Epoch.  8 Stahp:  2100 
+ Output:  ut a little shriek of the Mock 
+Epoch.  8 Stahp:  2200 
+ Output:  2782                           
+Epoch.  8 Stahp:  2300 
+ Output:  But the whole party was sitting
+Epoch.  9 Stahp:  0 
+ Output:  ] 
+ 
+  `It isn't a little thing
+Epoch.  9 Stahp:  100 
+ Output:                                 
+Epoch.  9 Stahp:  200 
+ Output:  The Duchess, `and the moral of 
+Epoch.  9 Stahp:  300 
+ Output:  d to the three gardeners, and t
+Epoch.  9 Stahp:  400 
+ Output:  "' 
+ 
+  `It must be a little bi
+Epoch.  9 Stahp:  500 
+ Output:  g the 
+door and the first thing
+Epoch.  9 Stahp:  600 
+ Output:  and the trembled a little girls
+Epoch.  9 Stahp:  700 
+ Output:  R I 
+ 
+ 
+ 
+                    
+Epoch.  9 Stahp:  800 
+ Output:  y the side, and the Dormouse sa
+Epoch.  9 Stahp:  900 
+ Output:  [zl of 
+the great hurry to 
+see
+Epoch.  9 Stahp:  1000 
+ Output:  for the roof of the 
+grassed at
+Epoch.  9 Stahp:  1100 
+ Output:  ch out of its mouth she was lea
+Epoch.  9 Stahp:  1200 
+ Output:  ch a great hard as he spoke, bu
+Epoch.  9 Stahp:  1300 
+ Output:  March Hare is to the 
+pair of t
+Epoch.  9 Stahp:  1400 
+ Output:  UTSIY all you can find that she
+Epoch.  9 Stahp:  1500 
+ Output:  Fortening, and the mushroom at 
+Epoch.  9 Stahp:  1600 
+ Output:  Dormouse said, `I won't you thi
+Epoch.  9 Stahp:  1700 
+ Output:  ut it out to talk about it, you
+Epoch.  9 Stahp:  1800 
+ Output:  me to be the end of the 
+great 
+Epoch.  9 Stahp:  1900 
+ Output:  Project with some turtle of the
+Epoch.  9 Stahp:  2000 
+ Output:  Duchess of the 
+sentory to her 
+Epoch.  9 Stahp:  2100 
+ Output:  , and the mouse thought to be l
+Epoch.  9 Stahp:  2200 
+ Output:  OULD go now, all the things bei
+Epoch.  9 Stahp:  2300 
+ Output:  ing to the baby grown in a show
+Epoch.  10 Stahp:  0 
+ Output:  Prizes!' 
+ 
+  `I shall have the
+Epoch.  10 Stahp:  100 
+ Output:  k of the 
+one of the 
+conversat
+Epoch.  10 Stahp:  200 
+ Output:  8s she was now about it all she
+Epoch.  10 Stahp:  300 
+ Output:  !' 
+ 
+  `What did they lay open
+Epoch.  10 Stahp:  400 
+ Output:  ce was smile!' 
+ 
+  `I could be
+Epoch.  10 Stahp:  500 
+ Output:  ce said to herself, and the Moc
+Epoch.  10 Stahp:  600 
+ Output:  For, you know, you know, and th
+Epoch.  10 Stahp:  700 
+ Output:  me sure she had 
+been to the 
+l
+Epoch.  10 Stahp:  800 
+ Output:  --way you wouldn't say to be li
+Epoch.  10 Stahp:  900 
+ Output:  ver thing about it, you see, as
+Epoch.  10 Stahp:  1000 
+ Output:  e to set the 
+Queen, `that "I 
+
+Epoch.  10 Stahp:  1100 
+ Output:  8ve the things arm that would b
+Epoch.  10 Stahp:  1200 
+ Output:  Why, I should like to see the b
+Epoch.  10 Stahp:  1300 
+ Output:  Where was a little girls of the
+Epoch.  10 Stahp:  1400 
+ Output:  While the Mock Turtle, `they're
+Epoch.  10 Stahp:  1500 
+ Output:  zing in a low voice.  `Wauch a 
+Epoch.  10 Stahp:  1600 
+ Output:  But why it would be a large pla
+Epoch.  10 Stahp:  1700 
+ Output:  he same as he spoke, and the re
+Epoch.  10 Stahp:  1800 
+ Output:  3as she spoke.  `I won't you ou
+Epoch.  10 Stahp:  1900 
+ Output:  Hatter.  `I was a little shrill
+Epoch.  10 Stahp:  2000 
+ Output:  zing in a tiny mild acrought th
+Epoch.  10 Stahp:  2100 
+ Output:  d the Dormouse, who seemed to s
+Epoch.  10 Stahp:  2200 
+ Output:  Zther came the soldiers of the 
+Epoch.  10 Stahp:  2300 
+ Output:  ) 
+ 
+  `I don't know what you'r
+Epoch.  11 Stahp:  0 
+ Output:  -- 
+ 
+                         
+Epoch.  11 Stahp:  100 
+ Output:  use to herself, `If you can't b
+Epoch.  11 Stahp:  200 
+ Output:  2782        
+                  
+Epoch.  11 Stahp:  300 
+ Output:  [t the thought to herself, `I w
+Epoch.  11 Stahp:  400 
+ Output:  ' said the Dormouse, and she sa
+Epoch.  11 Stahp:  500 
+ Output:  X 
+ 
+                          
+Epoch.  11 Stahp:  600 
+ Output:                                 
+Epoch.  11 Stahp:  700 
+ Output:  What for?"' 
+ 
+  `In my youth,'
+Epoch.  11 Stahp:  800 
+ Output:  be the time she had 
+never ONE,
+Epoch.  11 Stahp:  900 
+ Output:  [ther enough of the 
+ground of 
+Epoch.  11 Stahp:  1000 
+ Output:  well sobs of the baby without a
+Epoch.  11 Stahp:  1100 
+ Output:  I should like to talk about 
+he
+Epoch.  11 Stahp:  1200 
+ Output:  --' 
+ 
+  `I don't know what a p
+Epoch.  11 Stahp:  1300 
+ Output:  X 
+ 
+                          
+Epoch.  11 Stahp:  1400 
+ Output:  e 
+thing I'm 
+sure that she was
+Epoch.  11 Stahp:  1500 
+ Output:  Rabbit read off, and she was no
+Epoch.  11 Stahp:  1600 
+ Output:  8ve got up this moment the door
+Epoch.  11 Stahp:  1700 
+ Output:  ke the 
+subject of things a goo
+Epoch.  11 Stahp:  1800 
+ Output:  Rabbit hurried off at once in t
+Epoch.  11 Stahp:  1900 
+ Output:  `I don't know what they were al
+Epoch.  11 Stahp:  2000 
+ Output:  LORT lark crock 
+              
+Epoch.  11 Stahp:  2100 
+ Output:  !' said the Mock Turtle. 
+ 
+  `
+Epoch.  11 Stahp:  2200 
+ Output:  2                              
+Epoch.  11 Stahp:  2300 
+ Output:  LE 
+      *       *       *    
+Epoch.  12 Stahp:  0 
+ Output:  But I don't know what you would
+Epoch.  12 Stahp:  100 
+ Output:  t the earth.  However, the 
+oth
+Epoch.  12 Stahp:  200 
+ Output:  ) that into the parts, and bega
+Epoch.  12 Stahp:  300 
+ Output:  quite first down in a dees 
+thi
+Epoch.  12 Stahp:  400 
+ Output:  began some way of 
+the matter w
+Epoch.  12 Stahp:  500 
+ Output:  :  `I see what I see!' 
+ 
+  `I 
+Epoch.  12 Stahp:  600 
+ Output:  782   
+Champaign, and the fan a
+Epoch.  12 Stahp:  700 
+ Output:  King was the Mock Turtle.  `Wha
+Epoch.  12 Stahp:  800 
+ Output:  Dormouse seemed to see it was n
+Epoch.  12 Stahp:  900 
+ Output:  n the same side of her 
+sharp b
+Epoch.  12 Stahp:  1000 
+ Output:  zled 
+its forgotten that it was
+Epoch.  12 Stahp:  1100 
+ Output:  782  
+ 
+                       
+Epoch.  12 Stahp:  1200 
+ Output:  pening in a low, timily to try 
+Epoch.  12 Stahp:  1300 
+ Output:  _ she was a little scream of th
+Epoch.  12 Stahp:  1400 
+ Output:  Beautiful Soup! 
+              
+Epoch.  12 Stahp:  1500 
+ Output:  Alice remarked. 
+ 
+  `I don't w
+Epoch.  12 Stahp:  1600 
+ Output:  he 
+tiny middle, my dear, there
+Epoch.  12 Stahp:  1700 
+ Output:  You're manner as she was a litt
+Epoch.  12 Stahp:  1800 
+ Output:  I don't know what a Dodo 
+with 
+Epoch.  12 Stahp:  1900 
+ Output:  just beginning to find that the
+Epoch.  12 Stahp:  2000 
+ Output:  991 
+Prizes!' 
+ 
+  `I shall hav
+Epoch.  12 Stahp:  2100 
+ Output:  t the table in the window, and 
+Epoch.  12 Stahp:  2200 
+ Output:  Just seemed to be a long time t
+Epoch.  12 Stahp:  2300 
+ Output:  r all the right way of executio
+Epoch.  13 Stahp:  0 
+ Output:  [l the 
+stion, and she went on 
+Epoch.  13 Stahp:  100 
+ Output:  Rabbit with a little shriek of 
+Epoch.  13 Stahp:  200 
+ Output:  ' 
+ 
+  `I never went on 
+`livin
+Epoch.  13 Stahp:  300 
+ Output:  Queen changed herself, as she c
+Epoch.  13 Stahp:  400 
+ Output:  2782   
+Champaited at the 
+grea
+Epoch.  13 Stahp:  500 
+ Output:  --' 
+ 
+  `I don't know he had b
+Epoch.  13 Stahp:  600 
+ Output:  ' said the Mock Turtle. 
+ 
+  `I
+Epoch.  13 Stahp:  700 
+ Output:  (she had neare!  I shall sime t
+Epoch.  13 Stahp:  800 
+ Output:  Just as she could see it was a 
+Epoch.  13 Stahp:  900 
+ Output:                                 
+Epoch.  13 Stahp:  1000 
+ Output:  ' said Alice very soon finished
+Epoch.  13 Stahp:  1100 
+ Output:  X 
+ 
+                          
+Epoch.  13 Stahp:  1200 
+ Output:  g the time the rest of the 
+sub
+Epoch.  13 Stahp:  1300 
+ Output:  he same tone, and she tried the
+Epoch.  13 Stahp:  1400 
+ Output:  the same thing as "I passed by 
+Epoch.  13 Stahp:  1500 
+ Output:  Oh, 
+                          
+Epoch.  13 Stahp:  1600 
+ Output:  Alice was so large enoot late.'
+Epoch.  13 Stahp:  1700 
+ Output:  ge 
+again, and the sour of 
+sti
+Epoch.  13 Stahp:  1800 
+ Output:  me the 
+starr confusion of that
+Epoch.  13 Stahp:  1900 
+ Output:  ZLENAND                        
+Epoch.  13 Stahp:  2000 
+ Output:  Alice was so large of the goldf
+Epoch.  13 Stahp:  2100 
+ Output:  white kid gloves, and she went 
+Epoch.  13 Stahp:  2200 
+ Output:  _ she stood that it would be 
+w
+Epoch.  13 Stahp:  2300 
+ Output:  X 
+ 
+                          
+Epoch.  14 Stahp:  0 
+ Output:  ing to herself, `and the fact. 
+Epoch.  14 Stahp:  100 
+ Output:  3when I should like to be so sh
+Epoch.  14 Stahp:  200 
+ Output:  jury clearly as she could see i
+Epoch.  14 Stahp:  300 
+ Output:  ' said the Mouse, turning to Al
+Epoch.  14 Stahp:  400 
+ Output:  ce she said to herself, `I woul
+Epoch.  14 Stahp:  500 
+ Output:  RE 
+you down stand on their hea
+Epoch.  14 Stahp:  600 
+ Output:  lice was not a minute or two th
+Epoch.  14 Stahp:  700 
+ Output:  So she was only a moment that i
+Epoch.  14 Stahp:  800 
+ Output:  ; 
+                            
+Epoch.  14 Stahp:  900 
+ Output:  xions, and she went on in the s
+Epoch.  14 Stahp:  1000 
+ Output:  .  `I should think oft!' said t
+Epoch.  14 Stahp:  1100 
+ Output:  ked the 
+trees 
+being them abou
+Epoch.  14 Stahp:  1200 
+ Output:  S the 
+other little sisters--th
+Epoch.  14 Stahp:  1300 
+ Output:  ?' 
+ 
+  `I didn't!' interrupted
+Epoch.  14 Stahp:  1400 
+ Output:  How fun now have to stay in the
+Epoch.  14 Stahp:  1500 
+ Output:  ing to get out again.  That she
+Epoch.  14 Stahp:  1600 
+ Output:  ve on the she was quite a conve
+Epoch.  14 Stahp:  1700 
+ Output:  E with a little bright out of a
+Epoch.  14 Stahp:  1800 
+ Output:  Gryphon, and the little golden 
+Epoch.  14 Stahp:  1900 
+ Output:  Gryphon, `why you are 
+painted 
+Epoch.  14 Stahp:  2000 
+ Output:  The Queen was sitting on 
+the 
+
+Epoch.  14 Stahp:  2100 
+ Output:  d the Mock Turtle in a 
+low voi
+Epoch.  14 Stahp:  2200 
+ Output:  me things all my glous 
+loud as
+Epoch.  14 Stahp:  2300 
+ Output:  d the Mock Turtle went on, `"mr
+Epoch.  15 Stahp:  0 
+ Output:  LE 
+should think I might just b
+Epoch.  15 Stahp:  100 
+ Output:  s the 
+people that it was a bac
+Epoch.  15 Stahp:  200 
+ Output:  LLIAM,' to herself, and then sa
+Epoch.  15 Stahp:  300 
+ Output:  r the trial cand with the trees
+Epoch.  15 Stahp:  400 
+ Output:  ) 
+ 
+  `I don't know what a ner
+Epoch.  15 Stahp:  500 
+ Output:  X 
+ 
+                          
+Epoch.  15 Stahp:  600 
+ Output:  ?' 
+ 
+  `I should like to say w
+Epoch.  15 Stahp:  700 
+ Output:  ) 
+ 
+  `I don't know what the m
+Epoch.  15 Stahp:  800 
+ Output:  , and the moment the more 
+soun
+Epoch.  15 Stahp:  900 
+ Output:  g to 
+her full of the baby with
+Epoch.  15 Stahp:  1000 
+ Output:  Rabbit hurried out of the 
+conv
+Epoch.  15 Stahp:  1100 
+ Output:  e the 
+direction in the last co
+Epoch.  15 Stahp:  1200 
+ Output:  Hatter went on, 
+and the twelve
+Epoch.  15 Stahp:  1300 
+ Output:  out the 
+starry catch as well a
+Epoch.  15 Stahp:  1400 
+ Output:  ) 
+                            
+Epoch.  15 Stahp:  1500 
+ Output:  ] 
+ 
+  `I can't think you could
+Epoch.  15 Stahp:  1600 
+ Output:  What is the regan said, `So you
+Epoch.  15 Stahp:  1700 
+ Output:  1 
+                            
+Epoch.  15 Stahp:  1800 
+ Output:  King said, `thand yer doubtfull
+Epoch.  15 Stahp:  1900 
+ Output:  What arm after all!  I shall fe
+Epoch.  15 Stahp:  2000 
+ Output:  Y out of the 
+grunted will be a
+Epoch.  15 Stahp:  2100 
+ Output:  UST butter,' said the Hatter. 
+
+Epoch.  15 Stahp:  2200 
+ Output:  ve 
+                           
+Epoch.  15 Stahp:  2300 
+ Output:  s the pool appeared. 
+ 
+  `It i
+Epoch.  16 Stahp:  0 
+ Output:  Rabbit before, and he 
+dooring,
+Epoch.  16 Stahp:  100 
+ Output:  I wish I had you down't to see 
+Epoch.  16 Stahp:  200 
+ Output:  ?' said the Mock Turtle recover
+Epoch.  16 Stahp:  300 
+ Output:  King, `I don't know what they'r
+Epoch.  16 Stahp:  400 
+ Output:  ce 
+thing,' Alice 
+thought to h
+Epoch.  16 Stahp:  500 
+ Output:  What for?' said the Gryphon.  `
+Epoch.  16 Stahp:  600 
+ Output:  k Turtle 
+                     
+Epoch.  16 Stahp:  700 
+ Output:  ve to see what the 
+great deal 
+Epoch.  16 Stahp:  800 
+ Output:  ) `I wondered at the mouse--Oh,
+Epoch.  16 Stahp:  900 
+ Output:  Be what to you ever see at the 
+Epoch.  16 Stahp:  1000 
+ Output:  quite again, and the Queen were
+Epoch.  16 Stahp:  1100 
+ Output:  782   
+(He twenth, and she spok
+Epoch.  16 Stahp:  1200 
+ Output:  just now, I wouldn't be so eat 
+Epoch.  16 Stahp:  1300 
+ Output:  (she was to look 
+down the 
+sea
+Epoch.  16 Stahp:  1400 
+ Output:  , and the poor little thing but
+Epoch.  16 Stahp:  1500 
+ Output:  me to do win.  Now, I 
+like the
+Epoch.  16 Stahp:  1600 
+ Output:  ERY mull of the table 
+quick ab
+Epoch.  16 Stahp:  1700 
+ Output:  s the Dormouse sholders will no
+Epoch.  16 Stahp:  1800 
+ Output:  Present 
+off the 
+singers in th
+Epoch.  16 Stahp:  1900 
+ Output:  " you're a low 
+voice, (`the mo
+Epoch.  16 Stahp:  2000 
+ Output:  X 
+                            
+Epoch.  16 Stahp:  2100 
+ Output:  ] 
+ 
+  `What a curious promoing
+Epoch.  16 Stahp:  2200 
+ Output:  So she was silence for some tim
+Epoch.  16 Stahp:  2300 
+ Output:  X 
+                            
+Epoch.  17 Stahp:  0 
+ Output:  ce speak again the thimble, in 
+Epoch.  17 Stahp:  100 
+ Output:  Alice had nothing yet Alice in 
+Epoch.  17 Stahp:  200 
+ Output:  ] 
+ 
+  `I didn't know it to get
+Epoch.  17 Stahp:  300 
+ Output:  [ll you, won't you, will you, w
+Epoch.  17 Stahp:  400 
+ Output:  me the ground. 
+ 
+  `I did to a
+Epoch.  17 Stahp:  500 
+ Output:  e 
+things are the moral of that
+Epoch.  17 Stahp:  600 
+ Output:  I ever saw offended to her feet
+Epoch.  17 Stahp:  700 
+ Output:  Oh, of course you can't take th
+Epoch.  17 Stahp:  800 
+ Output:  zly on the sea,' said the King.
+Epoch.  17 Stahp:  900 
+ Output:  , and then the Dormouse said, a
+Epoch.  17 Stahp:  1000 
+ Output:  Cat, and the other guinea-pigs 
+Epoch.  17 Stahp:  1100 
+ Output:  Alice had 
+been to the three ga
+Epoch.  17 Stahp:  1200 
+ Output:  she was now only ten at the whi
+Epoch.  17 Stahp:  1300 
+ Output:  zad patient 
+off after it, and 
+Epoch.  17 Stahp:  1400 
+ Output:  :  `I'm 
+too she stood near the
+Epoch.  17 Stahp:  1500 
+ Output:  "                              
+Epoch.  17 Stahp:  1600 
+ Output:  `They were like her very much p
+Epoch.  17 Stahp:  1700 
+ Output:  91
+                            
+Epoch.  17 Stahp:  1800 
+ Output:  queer 
+things all make us since
+Epoch.  17 Stahp:  1900 
+ Output:  2'                             
+Epoch.  17 Stahp:  2000 
+ Output:  be a very long silence for such
+Epoch.  17 Stahp:  2100 
+ Output:  Duchess as she spoke. 
+ 
+  `I d
+Epoch.  17 Stahp:  2200 
+ Output:  e to 
+see the rest of the 
+sea-
+Epoch.  17 Stahp:  2300 
+ Output:  Dormouse is a mouse--a constant
+Epoch.  18 Stahp:  0 
+ Output:  
+ 
+  `I don't think I might do 
+Epoch.  18 Stahp:  100 
+ Output:  ' 
+ 
+  `I don't know what a Duc
+Epoch.  18 Stahp:  200 
+ Output:  The Dormouse indeed 
+down the c
+Epoch.  18 Stahp:  300 
+ Output:  E DUIT NOARM HAT 
+and she saw t
+Epoch.  18 Stahp:  400 
+ Output:  d the Gryphon. 
+ 
+  `I don't kn
+Epoch.  18 Stahp:  500 
+ Output:  and the poor little thing to sa
+Epoch.  18 Stahp:  600 
+ Output:  --' 
+ 
+  `I don't know what a p
+Epoch.  18 Stahp:  700 
+ Output:  ] 
+ 
+  `Well, I can't think you
+Epoch.  18 Stahp:  800 
+ Output:  . 
+ 
+  `It's a puppy nerjunting
+Epoch.  18 Stahp:  900 
+ Output:  ng to herself, `I wonder what a
+Epoch.  18 Stahp:  1000 
+ Output:  ght the words:-- 
+ 
+           
+Epoch.  18 Stahp:  1100 
+ Output:  d the Queen was so long them su
+Epoch.  18 Stahp:  1200 
+ Output:  L 
+shook up the 
+starts--' she 
+Epoch.  18 Stahp:  1300 
+ Output:  2782   
+Champaited at the thimb
+Epoch.  18 Stahp:  1400 
+ Output:  What are for the same things as
+Epoch.  18 Stahp:  1500 
+ Output:  Yer arm and off a comfort, and 
+Epoch.  18 Stahp:  1600 
+ Output:  UGT OU THING intear, you know.'
+Epoch.  18 Stahp:  1700 
+ Output:  Caterpillar. 
+ 
+  `I don't cut 
+Epoch.  18 Stahp:  1800 
+ Output:  ng at the 
+guessan the sea.  Bu
+Epoch.  18 Stahp:  1900 
+ Output:  and the Dormouse said--' 
+ 
+  `
+Epoch.  18 Stahp:  2000 
+ Output:  :  `and I do you begin with ey-
+Epoch.  18 Stahp:  2100 
+ Output:  Preaked into the court. 
+ 
+  `I
+Epoch.  18 Stahp:  2200 
+ Output:  be very gravely, `I must be a g
+Epoch.  18 Stahp:  2300 
+ Output:  zard as she could to get out ag
+Epoch.  19 Stahp:  0 
+ Output:  Hatter, and the poor little thi
+Epoch.  19 Stahp:  100 
+ Output:  
+  `I should think you could be
+Epoch.  19 Stahp:  200 
+ Output:  g to the 
+Queen, `and have to g
+Epoch.  19 Stahp:  300 
+ Output:  ould say "What am I they were 
+
+Epoch.  19 Stahp:  400 
+ Output:  Footman in 
+by the whole pack e
+Epoch.  19 Stahp:  500 
+ Output:  No, indeed that had a bottle wa
+Epoch.  19 Stahp:  600 
+ Output:  f the 
+people here,' said the D
+Epoch.  19 Stahp:  700 
+ Output:  f the sort,' she thought to her
+Epoch.  19 Stahp:  800 
+ Output:  *       *       *       *      
+Epoch.  19 Stahp:  900 
+ Output:  91
+                            
+Epoch.  19 Stahp:  1000 
+ Output:  --the way of 
+the chimney, and 
+Epoch.  19 Stahp:  1100 
+ Output:  like the tames the same to make
+Epoch.  19 Stahp:  1200 
+ Output:  n the trees as she said this wa
+Epoch.  19 Stahp:  1300 
+ Output:  White Rabbit cats on the trumpe
+Epoch.  19 Stahp:  1400 
+ Output:  Queen said to the 
+Queen, `and 
+Epoch.  19 Stahp:  1500 
+ Output:  g to her the treacle from?' 
+ 
+
+Epoch.  19 Stahp:  1600 
+ Output:  me the shriek hall, and then sh
+Epoch.  19 Stahp:  1700 
+ Output:  xt any more 
+she could see a wo
+Epoch.  19 Stahp:  1800 
+ Output:  "' 
+ 
+  `I wish I had you spoke
+Epoch.  19 Stahp:  1900 
+ Output:  *       *       *       *      
+Epoch.  19 Stahp:  2000 
+ Output:  Hatter was the Mock Turtle. 
+ 
+
+Epoch.  19 Stahp:  2100 
+ Output:  :  `you know you see, and went 
+Epoch.  19 Stahp:  2200 
+ Output:  xplained the roof of the 
+side 
+Epoch.  19 Stahp:  2300 
+ Output:  You are old down with the brack
+Epoch.  20 Stahp:  0 
+ Output:  Just, and she went on, `that th
+Epoch.  20 Stahp:  100 
+ Output:  
+ 
+  `I don't know what a 
+more
+Epoch.  20 Stahp:  200 
+ Output:  y to say it over) `--yow mixed 
+Epoch.  20 Stahp:  300 
+ Output:  Prees 
+you executed to herself,
+Epoch.  20 Stahp:  400 
+ Output:  8s the King very glad to leave 
+Epoch.  20 Stahp:  500 
+ Output:  me the 
+month it was the three 
+Epoch.  20 Stahp:  600 
+ Output:  Dormouse, who was 
+beginning to
+Epoch.  20 Stahp:  700 
+ Output:  y think I can crash of it in a 
+Epoch.  20 Stahp:  800 
+ Output:  (it was all the while, and the 
+Epoch.  20 Stahp:  900 
+ Output:  ?' 
+ 
+  `It was a deal too she 
+Epoch.  20 Stahp:  1000 
+ Output:  782   
+Champaitions continued t
+Epoch.  20 Stahp:  1100 
+ Output:  Beautiful Soup! 
+ 
+            
+Epoch.  20 Stahp:  1200 
+ Output:  3which was going to begin with.
+Epoch.  20 Stahp:  1300 
+ Output:  What for?' said the Mouse to he
+Epoch.  20 Stahp:  1400 
+ Output:  ce of the 
+confused fallen into
+Epoch.  20 Stahp:  1500 
+ Output:  ut the thing that she had not l
+Epoch.  20 Stahp:  1600 
+ Output:  ce said to herself, `and the mo
+Epoch.  20 Stahp:  1700 
+ Output:  , and the words don't seem to h
+Epoch.  20 Stahp:  1800 
+ Output:  . 
+ 
+  `It isn't a cry of the g
+Epoch.  20 Stahp:  1900 
+ Output:  f the 
+time the 
+treacle for a 
+Epoch.  20 Stahp:  2000 
+ Output:  ze a 
+little thing she had noth
+Epoch.  20 Stahp:  2100 
+ Output:  quet--' 
+ 
+  `It isn't a cried,
+Epoch.  20 Stahp:  2200 
+ Output:  Just be a large pattern and the
+Epoch.  20 Stahp:  2300 
+ Output:  For the table in the pool a 
+li
+Epoch.  21 Stahp:  0 
+ Output:  question is, I should like to h
+Epoch.  21 Stahp:  100 
+ Output:  "                              
+Epoch.  21 Stahp:  200 
+ Output:  !' the Mouse did not 
+get out a
+Epoch.  21 Stahp:  300 
+ Output:  [That?' it added 
+across his br
+Epoch.  21 Stahp:  400 
+ Output:  be a little bit of the 
+starts 
+Epoch.  21 Stahp:  500 
+ Output:  Alice looked at the 
+Queen, `an
+Epoch.  21 Stahp:  600 
+ Output:  --' 
+ 
+  `I can't mine,' said t
+Epoch.  21 Stahp:  700 
+ Output:  [d that sorrow. 
+ 
+  `I don't s
+Epoch.  21 Stahp:  800 
+ Output:  Z only the 
+stick and a long wa
+Epoch.  21 Stahp:  900 
+ Output:  ked at once, and began to fancy
+Epoch.  21 Stahp:  1000 
+ Output:  --' 
+ 
+  `There's more than tha
+Epoch.  21 Stahp:  1100 
+ Output:  8ve glad to sell this 
+they can
+Epoch.  21 Stahp:  1200 
+ Output:  _                              
+Epoch.  21 Stahp:  1300 
+ Output:  g to the 
+party was silent, and
+Epoch.  21 Stahp:  1400 
+ Output:  So she was on growing, and she 
+Epoch.  21 Stahp:  1500 
+ Output:  You may lean the moment she was
+Epoch.  21 Stahp:  1600 
+ Output:  782   
+Champaints and sadly:-- 
+Epoch.  21 Stahp:  1700 
+ Output:  8ve the subject of 
+replied, en
+Epoch.  21 Stahp:  1800 
+ Output:  RY nearled of little court, by 
+Epoch.  21 Stahp:  1900 
+ Output:  !'  (Sounds of musent?' 
+ 
+  `I
+Epoch.  21 Stahp:  2000 
+ Output:  ) `--for she had 
+quite now, an
+Epoch.  21 Stahp:  2100 
+ Output:  Hatter, and the wood off the 
+s
+Epoch.  21 Stahp:  2200 
+ Output:  8ll the really goose.  Alice 
+l
+Epoch.  21 Stahp:  2300 
+ Output:  NDER WAINGY OW TWARE           
+Epoch.  22 Stahp:  0 
+ Output:  VERY looked of the court," and 
+Epoch.  22 Stahp:  100 
+ Output:  e 
+sensation.  `What did they l
+Epoch.  22 Stahp:  200 
+ Output:  was so much larger, 
+fout when 
+Epoch.  22 Stahp:  300 
+ Output:  *       *       *       *      
+Epoch.  22 Stahp:  400 
+ Output:  CAN SHE HER FILLENNIUM FUES FER
+Epoch.  22 Stahp:  500 
+ Output:  g to the 
+parken; and the Duche
+Epoch.  22 Stahp:  600 
+ Output:  What did they live at the 
+Dorm
+Epoch.  22 Stahp:  700 
+ Output:  he wasn't a real of the 
+office
+Epoch.  22 Stahp:  800 
+ Output:  Queen, who seemed to be a good 
+Epoch.  22 Stahp:  900 
+ Output:  " 
+                            
+Epoch.  22 Stahp:  1000 
+ Output:  ERY wine,' the March Hare said 
+Epoch.  22 Stahp:  1100 
+ Output:  3course in the same side with a
+Epoch.  22 Stahp:  1200 
+ Output:  RE 
+                           
+Epoch.  22 Stahp:  1300 
+ Output:  [                              
+Epoch.  22 Stahp:  1400 
+ Output:  y to the 
+officer as she spoke,
+Epoch.  22 Stahp:  1500 
+ Output:  _ 
+                            
+Epoch.  22 Stahp:  1600 
+ Output:  She was 
+beginning to feel whic
+Epoch.  22 Stahp:  1700 
+ Output:  You're sure to do that she had 
+Epoch.  22 Stahp:  1800 
+ Output:  --' 
+ 
+  `I couldn't guess over
+Epoch.  22 Stahp:  1900 
+ Output:  very curious 
+voice.  `I've som
+Epoch.  22 Stahp:  2000 
+ Output:  2  
+                           
+Epoch.  22 Stahp:  2100 
+ Output:  Zle and then the Mock Turtle. 
+
+Epoch.  22 Stahp:  2200 
+ Output:  8d the Queen said to the jury. 
+Epoch.  22 Stahp:  2300 
+ Output:  was the 
+find off. 
+ 
+  `I don'
+Epoch.  23 Stahp:  0 
+ Output:  1 
+                            
+Epoch.  23 Stahp:  100 
+ Output:  But it doesn't be afraid of the
+Epoch.  23 Stahp:  200 
+ Output:  , and 
+went on the same thing a
+Epoch.  23 Stahp:  300 
+ Output:  OUR deny more 
+much was, 
+that 
+Epoch.  23 Stahp:  400 
+ Output:  quetired off at the 
+still it s
+Epoch.  23 Stahp:  500 
+ Output:  782   
+Chample suddenly upon an
+Epoch.  23 Stahp:  600 
+ Output:  s the thing me like a star--' 
+
+Epoch.  23 Stahp:  700 
+ Output:  "' 
+ 
+  `I should like to tell 
+Epoch.  23 Stahp:  800 
+ Output:  Alice after it, and burn some t
+Epoch.  23 Stahp:  900 
+ Output:  at the words:  
+`Where AROVES. 
+Epoch.  23 Stahp:  1000 
+ Output:  . 
+ 
+  `It's the most in the sa
+Epoch.  23 Stahp:  1100 
+ Output:  Grypher 
+to get out again, and 
+Epoch.  23 Stahp:  1200 
+ Output:  ; and the Duchess said nothing.
+Epoch.  23 Stahp:  1300 
+ Output:  g to her life.  Indeed, she wal
+Epoch.  23 Stahp:  1400 
+ Output:  The Dormouse followed him Torto
+Epoch.  23 Stahp:  1500 
+ Output:  the 
+King, the Duchess, `and th
+Epoch.  23 Stahp:  1600 
+ Output:  I don't keep the cook and the l
+Epoch.  23 Stahp:  1700 
+ Output:  !' 
+ 
+  `I didn't know what a G
+Epoch.  23 Stahp:  1800 
+ Output:  ; and the three.' she said to h
+Epoch.  23 Stahp:  1900 
+ Output:  o the 
+Dormouse began to fancy 
+Epoch.  23 Stahp:  2000 
+ Output:  . 
+ 
+  `I can tell you may made
+Epoch.  23 Stahp:  2100 
+ Output:  pen as she went on, `you think 
+Epoch.  23 Stahp:  2200 
+ Output:  She said to herself, `and don't
+Epoch.  23 Stahp:  2300 
+ Output:  What was in 
+another moment tha
+Epoch.  24 Stahp:  0 
+ Output:  You know what a 
+moment down it
+Epoch.  24 Stahp:  100 
+ Output:  (she had to get out of the 
+cau
+Epoch.  24 Stahp:  200 
+ Output:  began staring about in the spot
+Epoch.  24 Stahp:  300 
+ Output:  PQRES HINK I can find a little 
+Epoch.  24 Stahp:  400 
+ Output:  y to the 
+partnessal in the win
+Epoch.  24 Stahp:  500 
+ Output:  re the contemptuoces in the sam
+Epoch.  24 Stahp:  600 
+ Output:  --' 
+ 
+  `I don't see and a pit
+Epoch.  24 Stahp:  700 
+ Output:  question in the window, and sto
+Epoch.  24 Stahp:  800 
+ Output:  :  `it's very anything to do, a
+Epoch.  24 Stahp:  900 
+ Output:  VERY turned all the jury 
+and s
+Epoch.  24 Stahp:  1000 
+ Output:  WHAT?' said the Mock Turtle. 
+ 
+Epoch.  24 Stahp:  1100 
+ Output:  !' said Alice, always "Come, sh
+Epoch.  24 Stahp:  1200 
+ Output:  UR 
+  
+
+                       
+Epoch.  24 Stahp:  1300 
+ Output:  Alice was the White Rabbit as h
+Epoch.  24 Stahp:  1400 
+ Output:  So she was not a bit. 
+ 
+  `I d
+Epoch.  24 Stahp:  1500 
+ Output:  8d the Caterpillar. 
+ 
+  `It is
+Epoch.  24 Stahp:  1600 
+ Output:  g on the same thing about it,' 
+Epoch.  24 Stahp:  1700 
+ Output:  e 
+thing I ear offended.  Then 
+Epoch.  24 Stahp:  1800 
+ Output:  *       *       *       *      
+Epoch.  24 Stahp:  1900 
+ Output:  ?' 
+ 
+  `I haven't one of the g
+Epoch.  24 Stahp:  2000 
+ Output:  ked at the 
+things I used it is
+Epoch.  24 Stahp:  2100 
+ Output:  Mock Turtle repained little cro
+Epoch.  24 Stahp:  2200 
+ Output:  Why, I do you know a bottle doe
+Epoch.  24 Stahp:  2300 
+ Output:  OUR table,' said the Mock Turtl
+Epoch.  25 Stahp:  0 
+ Output:  3
+                             
+Epoch.  25 Stahp:  100 
+ Output:  (she was now much confusion, wo
+Epoch.  25 Stahp:  200 
+ Output:  Alice felt that it was a large 
+Epoch.  25 Stahp:  300 
+ Output:  Alice looked at the Mouse had b
+Epoch.  25 Stahp:  400 
+ Output:  82                             
+Epoch.  25 Stahp:  500 
+ Output:  Bill 
+soup?' 
+ 
+  `I can have n
+Epoch.  25 Stahp:  600 
+ Output:  !' said Alice. 
+ 
+  `What did t
+Epoch.  25 Stahp:  700 
+ Output:  Just, and she tried 
+the treacl
+Epoch.  25 Stahp:  800 
+ Output:  "  I'm sure sharply. 
+ 
+  `I sh
+Epoch.  25 Stahp:  900 
+ Output:  he same size in her head to see
+Epoch.  25 Stahp:  1000 
+ Output:  .  `What surprised to be almost
+Epoch.  25 Stahp:  1100 
+ Output:  !' 
+ 
+  `I don't know what a 
+m
+Epoch.  25 Stahp:  1200 
+ Output:  .  `I suppose the moral of that
+Epoch.  25 Stahp:  1300 
+ Output:  !' 
+ 
+  `I can't see it questio
+Epoch.  25 Stahp:  1400 
+ Output:  2  
+                           
+Epoch.  25 Stahp:  1500 
+ Output:  Dormouse in the same thing abou
+Epoch.  25 Stahp:  1600 
+ Output:  So you can't take more than the
+Epoch.  25 Stahp:  1700 
+ Output:  2782   
+Champais again, and mad
+Epoch.  25 Stahp:  1800 
+ Output:  _ the Dodo cat they were 
+to ki
+Epoch.  25 Stahp:  1900 
+ Output:  I can't help that the thing tha
+Epoch.  25 Stahp:  2000 
+ Output:  You must be a letter, with a li
+Epoch.  25 Stahp:  2100 
+ Output:  lice looked at the 
+trick, and 
+Epoch.  25 Stahp:  2200 
+ Output:  just as she could, and the 
+pat
+Epoch.  25 Stahp:  2300 
+ Output:  Rabbit at once without being he
+Epoch.  26 Stahp:  0 
+ Output:  ) 
+ 
+  `I shall do nothing or t
+Epoch.  26 Stahp:  100 
+ Output:  Queen said to the Hatter went o
+Epoch.  26 Stahp:  200 
+ Output:  plied, indeed:  `Unimportant,' 
+Epoch.  26 Stahp:  300 
+ Output:  be live anxiously for she was n
+Epoch.  26 Stahp:  400 
+ Output:  I shall eater to you for anythi
+Epoch.  26 Stahp:  500 
+ Output:  was a little places!' shouted t
+Epoch.  26 Stahp:  600 
+ Output:  8d the Queen, the Queen said to
+Epoch.  26 Stahp:  700 
+ Output:  , and she 
+ran away into a sort
+Epoch.  26 Stahp:  800 
+ Output:  Cat they were all drawure to as
+Epoch.  26 Stahp:  900 
+ Output:  But why did you 
+wouldn't see y
+Epoch.  26 Stahp:  1000 
+ Output:  --' 
+ 
+  `I shall sit here,' th
+Epoch.  26 Stahp:  1100 
+ Output:  the 
+trees hurry to change the 
+Epoch.  26 Stahp:  1200 
+ Output:  [                              
+Epoch.  26 Stahp:  1300 
+ Output:  r the trees 
+being the 
+       
+Epoch.  26 Stahp:  1400 
+ Output:  me to her eat hur close by the 
+Epoch.  26 Stahp:  1500 
+ Output:  Caterpillar took the same thing
+Epoch.  26 Stahp:  1600 
+ Output:  3
+                             
+Epoch.  26 Stahp:  1700 
+ Output:  782   
+Come, if you don't 
+gett
+Epoch.  26 Stahp:  1800 
+ Output:  (And the March Hare said to the
+Epoch.  26 Stahp:  1900 
+ Output:  xt things at all,' said the Duc
+Epoch.  26 Stahp:  2000 
+ Output:  ' said Alice, `thand it was sit
+Epoch.  26 Stahp:  2100 
+ Output:  `I wondering what you wouldn't 
+Epoch.  26 Stahp:  2200 
+ Output:  [lated to see if she were looki
+Epoch.  26 Stahp:  2300 
+ Output:  Z)                             
+Epoch.  27 Stahp:  0 
+ Output:  nd the baby--' 
+ 
+  `I wish I h
+Epoch.  27 Stahp:  100 
+ Output:  --' 
+ 
+  `What a pity it would 
+Epoch.  27 Stahp:  200 
+ Output:  xt witness was the 
+pair of 
+sh
+Epoch.  27 Stahp:  300 
+ Output:  So she was now about for a minu
+Epoch.  27 Stahp:  400 
+ Output:  quite again,' the Mock Turtle s
+Epoch.  27 Stahp:  500 
+ Output:  , and the things all made her a
+Epoch.  27 Stahp:  600 
+ Output:  Gryphon said to Alice, `that it
+Epoch.  27 Stahp:  700 
+ Output:  
+  `I wish I hadn't try the 
+so
+Epoch.  27 Stahp:  800 
+ Output:  ke the 
+trees as well as she co
+Epoch.  27 Stahp:  900 
+ Output:  verything to you cance of yourl
+Epoch.  27 Stahp:  1000 
+ Output:  So she could see it coming to t
+Epoch.  27 Stahp:  1100 
+ Output:  82   
+What seem to the 
+party s
+Epoch.  27 Stahp:  1200 
+ Output:  he world of live his shoulder i
+Epoch.  27 Stahp:  1300 
+ Output:  But they were IN the midd with 
+Epoch.  27 Stahp:  1400 
+ Output:  Foth many more to find that her
+Epoch.  27 Stahp:  1500 
+ Output:  PTER V 
+ 
+                     
+Epoch.  27 Stahp:  1600 
+ Output:  Caterpillar called out as she w
+Epoch.  27 Stahp:  1700 
+ Output:  ERG I 
+mind 
+with a sort of kno
+Epoch.  27 Stahp:  1800 
+ Output:  L don't be a little bit of the 
+Epoch.  27 Stahp:  1900 
+ Output:  xt the table, but it said nothi
+Epoch.  27 Stahp:  2000 
+ Output:  Rabbit with its little bottle o
+Epoch.  27 Stahp:  2100 
+ Output:  _ don't be 
+behind the table, a
+Epoch.  27 Stahp:  2200 
+ Output:  Just at last the Rabbit was sur
+Epoch.  27 Stahp:  2300 
+ Output:  [ldn't like a tell you my conve
+Epoch.  28 Stahp:  0 
+ Output:  ut it was sitting on the sand w
+Epoch.  28 Stahp:  100 
+ Output:  found herself in a great hurry 
+Epoch.  28 Stahp:  200 
+ Output:  e soldiers were up to Alice, an
+Epoch.  28 Stahp:  300 
+ Output:  jury consider their heads down 
+Epoch.  28 Stahp:  400 
+ Output:  me to her feet at the 
+Queen, a
+Epoch.  28 Stahp:  500 
+ Output:                                 
+Epoch.  28 Stahp:  600 
+ Output:  ; and before them shrill cround
+Epoch.  28 Stahp:  700 
+ Output:  ures, `I wonder what I say,' sa
+Epoch.  28 Stahp:  800 
+ Output:  f the court, and the party coul
+Epoch.  28 Stahp:  900 
+ Output:  --' 
+ 
+  `It must be a settict 
+Epoch.  28 Stahp:  1000 
+ Output:  ER handed me to the 
+party of t
+Epoch.  28 Stahp:  1100 
+ Output:  ] 
+ 
+  `It was a very little cr
+Epoch.  28 Stahp:  1200 
+ Output:  he same thing as "I eat!  For 
+
+Epoch.  28 Stahp:  1300 
+ Output:  ze the reason of that 
+interrup
+Epoch.  28 Stahp:  1400 
+ Output:  Just then she was quite a choru
+Epoch.  28 Stahp:  1500 
+ Output:  k and said nothing you dear, wi
+Epoch.  28 Stahp:  1600 
+ Output:  .  `I this trice of a tree and 
+Epoch.  28 Stahp:  1700 
+ Output:  The Queen!' 
+ 
+  She was now ab
+Epoch.  28 Stahp:  1800 
+ Output:  peared, she was quite a consult
+Epoch.  28 Stahp:  1900 
+ Output:  quetired.  However, she did not
+Epoch.  28 Stahp:  2000 
+ Output:  I didn't see you again, and muc
+Epoch.  28 Stahp:  2100 
+ Output:  place for seen in children; the
+Epoch.  28 Stahp:  2200 
+ Output:  UR about it, and she said to he
+Epoch.  28 Stahp:  2300 
+ Output:  (White Rabbit and the end of th
+Epoch.  29 Stahp:  0 
+ Output:  with the Lizard), realm of terr
+Epoch.  29 Stahp:  100 
+ Output:  ; `but 
+they all moved off, and
+Epoch.  29 Stahp:  200 
+ Output:  ke the Mock Turtle said to hers
+Epoch.  29 Stahp:  300 
+ Output:  Cat they were still it sat disp
+Epoch.  29 Stahp:  400 
+ Output:  The Dormouse shook itself, and 
+Epoch.  29 Stahp:  500 
+ Output:  ce was immediately 
+suppressed 
+Epoch.  29 Stahp:  600 
+ Output:  xecutioner 
+way back to the thr
+Epoch.  29 Stahp:  700 
+ Output:  y the time she heard the Queen 
+Epoch.  29 Stahp:  800 
+ Output:  k the same size:  the 
+others w
+Epoch.  29 Stahp:  900 
+ Output:  !' said the Mouse, surprised to
+Epoch.  29 Stahp:  1000 
+ Output:  f the trial don't see you any m
+Epoch.  29 Stahp:  1100 
+ Output:  f the 
+stick, and she said to h
+Epoch.  29 Stahp:  1200 
+ Output:  (she was a little worried. 
+ 
+ 
+Epoch.  29 Stahp:  1300 
+ Output:  was a long time with the Lizard
+Epoch.  29 Stahp:  1400 
+ Output:  he 
+could, 
+for the right 
+way 
+Epoch.  29 Stahp:  1500 
+ Output:  s she waltions of the 
+conversa
+Epoch.  29 Stahp:  1600 
+ Output:  White Rabbit, who was reading t
+Epoch.  29 Stahp:  1700 
+ Output:  ped the Queen.  `Off with her h
+Epoch.  29 Stahp:  1800 
+ Output:  991 Duncan Research of her head
+Epoch.  29 Stahp:  1900 
+ Output:  , and the three. 
+ 
+  `I wish I
+Epoch.  29 Stahp:  2000 
+ Output:  ] 
+ 
+  `I wish you couldn't see
+Epoch.  29 Stahp:  2100 
+ Output:  queer 
+things happening, but I 
+Epoch.  29 Stahp:  2200 
+ Output:  xtrable?' 
+ 
+  `I can't take mi
+Epoch.  29 Stahp:  2300 
+ Output:  the pool, and this tirned to be
+Epoch.  30 Stahp:  0 
+ Output:  _I_ don't 
+seem to draw, you kn
+Epoch.  30 Stahp:  100 
+ Output:  No, indering to the 
+Queen, `an
+Epoch.  30 Stahp:  200 
+ Output:  Queen in a low voice. 
+ 
+  `I s
+Epoch.  30 Stahp:  300 
+ Output:  `I can't pretent. 
+ 
+  `Not at 
+Epoch.  30 Stahp:  400 
+ Output:  e the 
+stuff. 
+ 
+  `I wish I ha
+Epoch.  30 Stahp:  500 
+ Output:  jury 
+and scrarm in the sea, as
+Epoch.  30 Stahp:  600 
+ Output:  d the Mouse, turning to Alice a
+Epoch.  30 Stahp:  700 
+ Output:  ing tone, and the paper and 
+se
+Epoch.  30 Stahp:  800 
+ Output:  y the still in her hands and do
+Epoch.  30 Stahp:  900 
+ Output:  ked at the 
+officers of the 
+co
+Epoch.  30 Stahp:  1000 
+ Output:  I don't know the baby to the ju
+Epoch.  30 Stahp:  1100 
+ Output:                                 
+Epoch.  30 Stahp:  1200 
+ Output:  782   
+Champades.  There was no
+Epoch.  30 Stahp:  1300 
+ Output:  ing the sort,' said the King, `
+Epoch.  30 Stahp:  1400 
+ Output:  join the same size:  the next w
+Epoch.  30 Stahp:  1500 
+ Output:  3and the three. 
+ 
+            
+Epoch.  30 Stahp:  1600 
+ Output:  !' said Alice, as she 
+remember
+Epoch.  30 Stahp:  1700 
+ Output:  f the soldiers were believed he
+Epoch.  30 Stahp:  1800 
+ Output:  ] 
+ 
+  `The soobled at the Marc
+Epoch.  30 Stahp:  1900 
+ Output:  just as you saying to herself h
+Epoch.  30 Stahp:  2000 
+ Output:  E with a long way in a minute o
+Epoch.  30 Stahp:  2100 
+ Output:  _ hear you 
+wouldn't much sust 
+Epoch.  30 Stahp:  2200 
+ Output:  2782   
+Came 
+far offended on t
+Epoch.  30 Stahp:  2300 
+ Output:  ] 
+ 
+  `It's a Caucus-race to t
+Epoch.  31 Stahp:  0 
+ Output:  French Grape.  Alice was quite 
+Epoch.  31 Stahp:  100 
+ Output:  3                              
+Epoch.  31 Stahp:  200 
+ Output:  f the soup, and said to herself
+Epoch.  31 Stahp:  300 
+ Output:  could not stand it began 
+about
+Epoch.  31 Stahp:  400 
+ Output:  1991
+                          
+Epoch.  31 Stahp:  500 
+ Output:  Gryphon in the sea, `or I'll ke
+Epoch.  31 Stahp:  600 
+ Output:  k the right way of 
+silence and
+Epoch.  31 Stahp:  700 
+ Output:  ut another last remarkal, and s
+Epoch.  31 Stahp:  800 
+ Output:  ER IVE ise if I know?' said the
+Epoch.  31 Stahp:  900 
+ Output:  jure with the glass table as sh
+Epoch.  31 Stahp:  1000 
+ Output:  X 
+ 
+                          
+Epoch.  31 Stahp:  1100 
+ Output:  at the trees on would go anywhe
+Epoch.  31 Stahp:  1200 
+ Output:  CHAPTER XI 
+ 
+                 
+Epoch.  31 Stahp:  1300 
+ Output:  Dormouself and she had nothing 
+Epoch.  31 Stahp:  1400 
+ Output:  .  `I don't know the remarrfule
+Epoch.  31 Stahp:  1500 
+ Output:  RY diry-butter, and the Queen s
+Epoch.  31 Stahp:  1600 
+ Output:  3and a little shrill, 
+        
+Epoch.  31 Stahp:  1700 
+ Output:  --' 
+ 
+  `I don't see to 
+repea
+Epoch.  31 Stahp:  1800 
+ Output:  Soo--oop of the 
+distance, and 
+Epoch.  31 Stahp:  1900 
+ Output:  The Dormouse shook her head to 
+Epoch.  31 Stahp:  2000 
+ Output:  
+  `I don't know what to beauti
+Epoch.  31 Stahp:  2100 
+ Output:  `I don't know the house, and wa
+Epoch.  31 Stahp:  2200 
+ Output:  So you can't have enough to day
+Epoch.  31 Stahp:  2300 
+ Output:  n the whole pack of her eyes 
+w
+Epoch.  32 Stahp:  0 
+ Output:  e the Mock Turtle. 
+ 
+  `Well, 
+Epoch.  32 Stahp:  100 
+ Output:  Duchess, `and I don't think you
+Epoch.  32 Stahp:  200 
+ Output:  e 
+they were gardeners, and the
+Epoch.  32 Stahp:  300 
+ Output:  Zace was not at all!' 
+ 
+  `I w
+Epoch.  32 Stahp:  400 
+ Output:  o 
+ 
+                          
+Epoch.  32 Stahp:  500 
+ Output:  y as she could, and the poor li
+Epoch.  32 Stahp:  600 
+ Output:  1 
+                            
+Epoch.  32 Stahp:  700 
+ Output:  Let me nearly in the story. 
+ 
+
+Epoch.  32 Stahp:  800 
+ Output:  question, you know.' 
+ 
+  `I be
+Epoch.  32 Stahp:  900 
+ Output:  e stop in the 
+distance--' and 
+Epoch.  32 Stahp:  1000 
+ Output:  I should like to see at the 
+pa
+Epoch.  32 Stahp:  1100 
+ Output:  Soup!  Who she was a little sis
+Epoch.  32 Stahp:  1200 
+ Output:  o the 
+Duchess,' she 
+asked to 
+Epoch.  32 Stahp:  1300 
+ Output:  King, `if you would go an one f
+Epoch.  32 Stahp:  1400 
+ Output:  n the second it was all dark to
+Epoch.  32 Stahp:  1500 
+ Output:  ked her after the end of the co
+Epoch.  32 Stahp:  1600 
+ Output:  ut a little bit, and 
+went by t
+Epoch.  32 Stahp:  1700 
+ Output:  ve 
+seen the thing about it, yo
+Epoch.  32 Stahp:  1800 
+ Output:  82   
+Come bround if I can the 
+Epoch.  32 Stahp:  1900 
+ Output:  the same size:  then youd again
+Epoch.  32 Stahp:  2000 
+ Output:  xt as she could, and the Queen 
+Epoch.  32 Stahp:  2100 
+ Output:  ing had to leave off a little, 
+Epoch.  32 Stahp:  2200 
+ Output:  Zame of the way what they're do
+Epoch.  32 Stahp:  2300 
+ Output:  Queen was that there was no tim
+Epoch.  33 Stahp:  0 
+ Output:  ou see, and began by the right 
+Epoch.  33 Stahp:  100 
+ Output:  please your Majesty!' the Duche
+Epoch.  33 Stahp:  200 
+ Output:  Zdeal on which was a bit, and s
+Epoch.  33 Stahp:  300 
+ Output:  and the Queen said as the twelf
+Epoch.  33 Stahp:  400 
+ Output:  re were all dry under her head!
+Epoch.  33 Stahp:  500 
+ Output:  me the same thing about it, and
+Epoch.  33 Stahp:  600 
+ Output:  ve to speak at the 
+Lizard as s
+Epoch.  33 Stahp:  700 
+ Output:  ?' said the King said to 
+herse
+Epoch.  33 Stahp:  800 
+ Output:  ] 
+ 
+  `Well, then she was quit
+Epoch.  33 Stahp:  900 
+ Output:  Rabbit with the 
+other!'  And t
+Epoch.  33 Stahp:  1000 
+ Output:  the Mock Turtle were ughing its
+Epoch.  33 Stahp:  1100 
+ Output:  Queen of Hearts, and the morrly
+Epoch.  33 Stahp:  1200 
+ Output:  Alice, `and the moral of that?'
+Epoch.  33 Stahp:  1300 
+ Output:  Gryphon, and the 
+hedgehog to d
+Epoch.  33 Stahp:  1400 
+ Output:  78ling and 
+growing to herself,
+Epoch.  33 Stahp:  1500 
+ Output:  :  `it mean you would be off, y
+Epoch.  33 Stahp:  1600 
+ Output:  . 
+ 
+  `I wish I hadn't cracled
+Epoch.  33 Stahp:  1700 
+ Output:  82   
+Coming in the look of the
+Epoch.  33 Stahp:  1800 
+ Output:  n the trial done to ask me for 
+Epoch.  33 Stahp:  1900 
+ Output:  out the top of the great questi
+Epoch.  33 Stahp:  2000 
+ Output:  , a little birds and bread-and-
+Epoch.  33 Stahp:  2100 
+ Output:  
+  `I believe the right words a
+Epoch.  33 Stahp:  2200 
+ Output:  Gryphon surprised to be a good 
+Epoch.  33 Stahp:  2300 
+ Output:  g to the door and the baby was 
+Epoch.  34 Stahp:  0 
+ Output:  No, no!  The more there's no us
+Epoch.  34 Stahp:  100 
+ Output:  The Queen said--' 
+ 
+  `I can t
+Epoch.  34 Stahp:  200 
+ Output:  one of the court was a dead dow
+Epoch.  34 Stahp:  300 
+ Output:  he said to herself, `I won't ma
+Epoch.  34 Stahp:  400 
+ Output:  Rabbit arguether, for she was a
+Epoch.  34 Stahp:  500 
+ Output:  y to talk about caused afforly 
+Epoch.  34 Stahp:  600 
+ Output:  1 
+                            
+Epoch.  34 Stahp:  700 
+ Output:  ) 
+ 
+    While the Mouse feet, 
+Epoch.  34 Stahp:  800 
+ Output:  --' 
+ 
+  `I don't even know wha
+Epoch.  34 Stahp:  900 
+ Output:  Queen jumped up in the soldiers
+Epoch.  34 Stahp:  1000 
+ Output:  X 
+ 
+                          
+Epoch.  34 Stahp:  1100 
+ Output:  le things are the White Rabbit 
+Epoch.  34 Stahp:  1200 
+ Output:  ULD 
+pita!' the Caterpillar 
+ 
+
+Epoch.  34 Stahp:  1300 
+ Output:  (she was sitting on the sats--a
+Epoch.  34 Stahp:  1400 
+ Output:  :  `it's a veget 
+together. 
+ 
+
+Epoch.  34 Stahp:  1500 
+ Output:  ?' said the King, `that they we
+Epoch.  34 Stahp:  1600 
+ Output:  VERY would be no business thoug
+Epoch.  34 Stahp:  1700 
+ Output:  be a letter, the Dormouse say,'
+Epoch.  34 Stahp:  1800 
+ Output:  RE  
+bell as they lay on the 
+s
+Epoch.  34 Stahp:  1900 
+ Output:  782   
+Champains, and she was v
+Epoch.  34 Stahp:  2000 
+ Output:  S she 
+fell as the whole party 
+Epoch.  34 Stahp:  2100 
+ Output:  d the Mock Turtle went on, `wha
+Epoch.  34 Stahp:  2200 
+ Output:  Z cheered her sister was that i
+Epoch.  34 Stahp:  2300 
+ Output:  Queen. 
+ 
+  `What a pity!" 
+it 
+Epoch.  35 Stahp:  0 
+ Output:  ' said the Duchess; `and the mo
+Epoch.  35 Stahp:  100 
+ Output:  Hare the Dormouse saying to her
+Epoch.  35 Stahp:  200 
+ Output:  --' 
+ 
+  `I don't know what a M
+Epoch.  35 Stahp:  300 
+ Output:  *       *       *       *      
+Epoch.  35 Stahp:  400 
+ Output:  _ have no 
+orden she saw the Wh
+Epoch.  35 Stahp:  500 
+ Output:  But after they were still very 
+Epoch.  35 Stahp:  600 
+ Output:  1991
+ 
+                        
+Epoch.  35 Stahp:  700 
+ Output:  1991
+   Presers, which way out 
+Epoch.  35 Stahp:  800 
+ Output:  
+ 
+  `I'm a poor man, your Maje
+Epoch.  35 Stahp:  900 
+ Output:  Beau--ootiful Soo--oop! 
+      
+Epoch.  35 Stahp:  1000 
+ Output:  ' said the Mouse, that she was 
+Epoch.  35 Stahp:  1100 
+ Output:  ) 
+ 
+  `I won't!' said the Cate
+Epoch.  35 Stahp:  1200 
+ Output:  and the Duchess was sitting on 
+Epoch.  35 Stahp:  1300 
+ Output:  82                             
+Epoch.  35 Stahp:  1400 
+ Output:  VERY time and a little 
+differe
+Epoch.  35 Stahp:  1500 
+ Output:  the same thing as "I get what I
+Epoch.  35 Stahp:  1600 
+ Output:  *       *       *       *      
+Epoch.  35 Stahp:  1700 
+ Output:  "  I do so little door, so she 
+Epoch.  35 Stahp:  1800 
+ Output:  ke a little pattering of the 
+d
+Epoch.  35 Stahp:  1900 
+ Output:  begin with.' 
+ 
+  `I don't like
+Epoch.  35 Stahp:  2000 
+ Output:  (she had not gone mind to her e
+Epoch.  35 Stahp:  2100 
+ Output:  (she was a body to lit wasn't g
+Epoch.  35 Stahp:  2200 
+ Output:  Forton within an of croquet ste
+Epoch.  35 Stahp:  2300 
+ Output:  991
+                           
+Epoch.  36 Stahp:  0 
+ Output:  
+  `I will waiting on the soon 
+Epoch.  36 Stahp:  100 
+ Output:  d the Mock Turtle.  `I've somet
+Epoch.  36 Stahp:  200 
+ Output:  just as if she went on a bright
+Epoch.  36 Stahp:  300 
+ Output:  Gryphon, `and then--I must have
+Epoch.  36 Stahp:  400 
+ Output:  How do you know?' said Alice, `
+Epoch.  36 Stahp:  500 
+ Output:  I ever saw the thing I could, a
+Epoch.  36 Stahp:  600 
+ Output:  RE at a large cause was some ti
+Epoch.  36 Stahp:  700 
+ Output:  me the 
+snueld as she could, 
+f
+Epoch.  36 Stahp:  800 
+ Output:  xt that makes them at last it m
+Epoch.  36 Stahp:  900 
+ Output:  UR 
+                           
+Epoch.  36 Stahp:  1000 
+ Output:  ?' 
+ 
+  `I don't think--' 
+ 
+  
+Epoch.  36 Stahp:  1100 
+ Output:  782   
+Cares,' said the Cat. 
+ 
+Epoch.  36 Stahp:  1200 
+ Output:  Gryphon. 
+ 
+  `I didn't know th
+Epoch.  36 Stahp:  1300 
+ Output:  Jused to say `It always to play
+Epoch.  36 Stahp:  1400 
+ Output:  Alice, as she spoke, and the 
+t
+Epoch.  36 Stahp:  1500 
+ Output:  There was not got into the sky.
+Epoch.  36 Stahp:  1600 
+ Output:  ll do, to begin into a ling the
+Epoch.  36 Stahp:  1700 
+ Output:  well it as for 
+the fall a far 
+Epoch.  36 Stahp:  1800 
+ Output:  , and the poor little thing bit
+Epoch.  36 Stahp:  1900 
+ Output:  nd the pair of it was very glad
+Epoch.  36 Stahp:  2000 
+ Output:  78liegh contemptuously at the t
+Epoch.  36 Stahp:  2100 
+ Output:  She had not attended to the jur
+Epoch.  36 Stahp:  2200 
+ Output:  " 
+ 
+  `I don't know what they'
+Epoch.  36 Stahp:  2300 
+ Output:  .  `I see you from the same thi
+Epoch.  37 Stahp:  0 
+ Output:  jury as the pliest, and the par
+Epoch.  37 Stahp:  100 
+ Output:  many tea--' 
+ 
+  `I don't belie
+Epoch.  37 Stahp:  200 
+ Output:  But of anything to get out agai
+Epoch.  37 Stahp:  300 
+ Output:  ] 
+ 
+  `It isn't a large fas, a
+Epoch.  37 Stahp:  400 
+ Output:  2                              
+Epoch.  37 Stahp:  500 
+ Output:  But once in a moming of 
+a long
+Epoch.  37 Stahp:  600 
+ Output:  3                              
+Epoch.  37 Stahp:  700 
+ Output:  But as I shall 
+that they're al
+Epoch.  37 Stahp:  800 
+ Output:  Dormouse shook ites in a low of
+Epoch.  37 Stahp:  900 
+ Output:  what you were nervours, and it 
+Epoch.  37 Stahp:  1000 
+ Output:  ce with a fan and gloves, and t
+Epoch.  37 Stahp:  1100 
+ Output:  Gryphon with one for she was a 
+Epoch.  37 Stahp:  1200 
+ Output:  . 
+ 
+  `I don't know what a 
+mu
+Epoch.  37 Stahp:  1300 
+ Output:  pleased the Mock Turtle indigna
+Epoch.  37 Stahp:  1400 
+ Output:  s and she saw the King, and the
+Epoch.  37 Stahp:  1500 
+ Output:  Nor I can't put it 
+all the jur
+Epoch.  37 Stahp:  1600 
+ Output:  ought to say a little three soo
+Epoch.  37 Stahp:  1700 
+ Output:  ER VIII 
+ 
+                    
+Epoch.  37 Stahp:  1800 
+ Output:  No, it goes on the 
+distance, a
+Epoch.  37 Stahp:  1900 
+ Output:  )  `I shall ever see you any mo
+Epoch.  37 Stahp:  2000 
+ Output:  nd the Dormouse shall be a lett
+Epoch.  37 Stahp:  2100 
+ Output:  Alice to herself, `if you know 
+Epoch.  37 Stahp:  2200 
+ Output:  ing the table, but it was over 
+Epoch.  37 Stahp:  2300 
+ Output:  X 
+                            
+Epoch.  38 Stahp:  0 
+ Output:  ing them attempts delightful it
+Epoch.  38 Stahp:  100 
+ Output:  began again, and went before th
+Epoch.  38 Stahp:  200 
+ Output:  e was 
+exactly the shriek of th
+Epoch.  38 Stahp:  300 
+ Output:  ' said the Footman, `and that's
+Epoch.  38 Stahp:  400 
+ Output:  URS All candly see anything mor
+Epoch.  38 Stahp:  500 
+ Output:  re the court and got back to th
+Epoch.  38 Stahp:  600 
+ Output:  Fourself, they were minute, 
+Li
+Epoch.  38 Stahp:  700 
+ Output:  s she was cried 
+upstaits oven 
+Epoch.  38 Stahp:  800 
+ Output:  Gryphon said to the jury, if it
+Epoch.  38 Stahp:  900 
+ Output:  k the 
+King's got up to the coo
+Epoch.  38 Stahp:  1000 
+ Output:  g as you ask them a good deal o
+Epoch.  38 Stahp:  1100 
+ Output:  I shall see it written up somew
+Epoch.  38 Stahp:  1200 
+ Output:  he could not swim in such a thi
+Epoch.  38 Stahp:  1300 
+ Output:  :  `it would be of 
+very glad t
+Epoch.  38 Stahp:  1400 
+ Output:  ) 
+ 
+  `It isn't a bit, which 
+
+Epoch.  38 Stahp:  1500 
+ Output:  lice was not a memoral of thing
+Epoch.  38 Stahp:  1600 
+ Output:  1 
+                            
+Epoch.  38 Stahp:  1700 
+ Output:  OULD it behind it was 
+executio
+Epoch.  38 Stahp:  1800 
+ Output:  
+ 
+  `I don't know what to see 
+Epoch.  38 Stahp:  1900 
+ Output:  Fourself, that she had never su
+Epoch.  38 Stahp:  2000 
+ Output:  begin with the bread-and-butter
+Epoch.  38 Stahp:  2100 
+ Output:  ; and in 
+she went on a repeat 
+Epoch.  38 Stahp:  2200 
+ Output:  pened the 
+sisters--they man't 
+Epoch.  38 Stahp:  2300 
+ Output:  use had no 
+reason to have 
+bef
+Epoch.  39 Stahp:  0 
+ Output:  ?' said Alice, always ready to 
+Epoch.  39 Stahp:  100 
+ Output:  ' 
+ 
+  `I didn't know it was al
+Epoch.  39 Stahp:  200 
+ Output:  , and began smoking at the 
+Que
+Epoch.  39 Stahp:  300 
+ Output:  ?' said Alice. 
+ 
+  `It is righ
+Epoch.  39 Stahp:  400 
+ Output:  82   
+Come, 
+and they went on a
+Epoch.  39 Stahp:  500 
+ Output:  f the trees, and the fall was v
+Epoch.  39 Stahp:  600 
+ Output:  Rabbit began followed him:  the
+Epoch.  39 Stahp:  700 
+ Output:  s the 
+King's crowded 
+what the
+Epoch.  39 Stahp:  800 
+ Output:  s to think that there was no ar
+Epoch.  39 Stahp:  900 
+ Output:  f the tone of the 
+ground.' 
+ 
+
+Epoch.  39 Stahp:  1000 
+ Output:  [late was the White Rabbit say 
+Epoch.  39 Stahp:  1100 
+ Output:  OUR temper,' said the Dormouse,
+Epoch.  39 Stahp:  1200 
+ Output:  ce could not silence,' said the
+Epoch.  39 Stahp:  1300 
+ Output:  persisted the Queen was sneezin
+Epoch.  39 Stahp:  1400 
+ Output:  r the air, I 
+suppose it all ca
+Epoch.  39 Stahp:  1500 
+ Output:  Rabbit attending to this 
+tearl
+Epoch.  39 Stahp:  1600 
+ Output:  3and a large plainly and she we
+Epoch.  39 Stahp:  1700 
+ Output:  !' 
+ 
+  `I can't talk about as 
+Epoch.  39 Stahp:  1800 
+ Output:  Queen. 
+ 
+  `I'm sure I'm not m
+Epoch.  39 Stahp:  1900 
+ Output:                                 
+Epoch.  39 Stahp:  2000 
+ Output:  Why, I haven't happens when you
+Epoch.  39 Stahp:  2100 
+ Output:  ce, `and the moral of that is--
+Epoch.  39 Stahp:  2200 
+ Output:  out the chimney 
+so conversatio
+Epoch.  39 Stahp:  2300 
+ Output:  .  `I see down with a whiting b
+Epoch.  40 Stahp:  0 
+ Output:  ; but she had not attended to h
+Epoch.  40 Stahp:  100 
+ Output:  R I 
+ 
+                        
+Epoch.  40 Stahp:  200 
+ Output:  just begun her hands, and she h
+Epoch.  40 Stahp:  300 
+ Output:  s to be beheaded!' said Alice, 
+Epoch.  40 Stahp:  400 
+ Output:  )  `That'l came in a low, and s
+Epoch.  40 Stahp:  500 
+ Output:  ] 
+ 
+  `They deed with any good
+Epoch.  40 Stahp:  600 
+ Output:  Mouse was the White Rabbit, and
+Epoch.  40 Stahp:  700 
+ Output:  ing them attempted to find that
+Epoch.  40 Stahp:  800 
+ Output:  "  It's the other side of the 
+
+Epoch.  40 Stahp:  900 
+ Output:  3
+                             
+Epoch.  40 Stahp:  1000 
+ Output:  3
+                             
+Epoch.  40 Stahp:  1100 
+ Output:  :  `I went to the door and the 
+Epoch.  40 Stahp:  1200 
+ Output:  ] 
+ 
+  `I don't keep me?' said 
+Epoch.  40 Stahp:  1300 
+ Output:  Z change it with a minute or tw
+Epoch.  40 Stahp:  1400 
+ Output:  ing about in a frightened 
+to b
+Epoch.  40 Stahp:  1500 
+ Output:  e the cook was looking up and r
+Epoch.  40 Stahp:  1600 
+ Output:  ] 
+ 
+  `I shall sit her hands a
+Epoch.  40 Stahp:  1700 
+ Output:  R ISON m 
+the 
+reason the 
+stan
+Epoch.  40 Stahp:  1800 
+ Output:  ?' said the Mock Turtle. 
+ 
+  `
+Epoch.  40 Stahp:  1900 
+ Output:  ked at the first she was sing?'
+Epoch.  40 Stahp:  2000 
+ Output:  ' said the Duchess, `as the fir
+Epoch.  40 Stahp:  2100 
+ Output:  quite first was a good many lit
+Epoch.  40 Stahp:  2200 
+ Output:  ULD 
+large Hatter with such a n
+Epoch.  40 Stahp:  2300 
+ Output:  perhainly was grave and 
+notice
+Epoch.  41 Stahp:  0 
+ Output:  d the King. 
+ 
+  `I won't 
+see 
+Epoch.  41 Stahp:  100 
+ Output:  91
+                            
+Epoch.  41 Stahp:  200 
+ Output:  r that she was quite silent, an
+Epoch.  41 Stahp:  300 
+ Output:  was a Caterpillar. 
+ 
+  `I didn
+Epoch.  41 Stahp:  400 
+ Output:  peaked.  `What a curious plan, 
+Epoch.  41 Stahp:  500 
+ Output:  Rabbit crowded 
+it as she spoke
+Epoch.  41 Stahp:  600 
+ Output:  91
+                            
+Epoch.  41 Stahp:  700 
+ Output:  Soup into the court was the fan
+Epoch.  41 Stahp:  800 
+ Output:  *       *       *       *      
+Epoch.  41 Stahp:  900 
+ Output:  he song as she could for sneezi
+Epoch.  41 Stahp:  1000 
+ Output:  URTHE QUARES the rest of the 
+s
+Epoch.  41 Stahp:  1100 
+ Output:  S she was quite pleased to find
+Epoch.  41 Stahp:  1200 
+ Output:  URY timid and had not stange 
+d
+Epoch.  41 Stahp:  1300 
+ Output:  , and the Queen said--' as some
+Epoch.  41 Stahp:  1400 
+ Output:  xecution. 
+ 
+  `I couldn't see 
+Epoch.  41 Stahp:  1500 
+ Output:  very 
+house, and 
+looking anxio
+Epoch.  41 Stahp:  1600 
+ Output:  it thing I ever saw them, they 
+Epoch.  41 Stahp:  1700 
+ Output:  Queen in a 
+home,' thought she,
+Epoch.  41 Stahp:  1800 
+ Output:  :  `I wish they're all looked a
+Epoch.  41 Stahp:  1900 
+ Output:  just as she spoke. 
+ 
+  `I coul
+Epoch.  41 Stahp:  2000 
+ Output:  !' said Alice, and the 
+Queen w
+Epoch.  41 Stahp:  2100 
+ Output:  (at last the two creatures of t
+Epoch.  41 Stahp:  2200 
+ Output:  w she had never been in a sort 
+Epoch.  41 Stahp:  2300 
+ Output:  the 
+trees upon her arm, you kn
+Epoch.  42 Stahp:  0 
+ Output:  _ have nothing of the court.  (
+Epoch.  42 Stahp:  100 
+ Output:  82   
+Come beginning to 
+see an
+Epoch.  42 Stahp:  200 
+ Output:  But I don't believe the right 
+
+Epoch.  42 Stahp:  300 
+ Output:  3
+                             
+Epoch.  42 Stahp:  400 
+ Output:  What for a minute or two the co
+Epoch.  42 Stahp:  500 
+ Output:  g on 
+the court, arm that was 
+
+Epoch.  42 Stahp:  600 
+ Output:  E going to see if he can be a l
+Epoch.  42 Stahp:  700 
+ Output:  [large 
+question is she was so 
+Epoch.  42 Stahp:  800 
+ Output:  Z coming off, 
+they all make on
+Epoch.  42 Stahp:  900 
+ Output:  ll the thought it over her head
+Epoch.  42 Stahp:  1000 
+ Output:  he 
+conversatiousing the 
+Dormo
+Epoch.  42 Stahp:  1100 
+ Output:  Pleased to be the Owl had the p
+Epoch.  42 Stahp:  1200 
+ Output:  S A MIREAGPTER VII 
+ 
+         
+Epoch.  42 Stahp:  1300 
+ Output:  ) `I 
+been 
+looking at the 
+   
+Epoch.  42 Stahp:  1400 
+ Output:  Dorabling anxiously about in th
+Epoch.  42 Stahp:  1500 
+ Output:  82   
+                         
+Epoch.  42 Stahp:  1600 
+ Output:  ERY much caught the things bein
+Epoch.  42 Stahp:  1700 
+ Output:  Alice was no 
+more there was no
+Epoch.  42 Stahp:  1800 
+ Output:  Mock Turtle 
+said:  `and then t
+Epoch.  42 Stahp:  1900 
+ Output:  pent, and much she had felt the
+Epoch.  42 Stahp:  2000 
+ Output:  ' said the Hatter, `you did the
+Epoch.  42 Stahp:  2100 
+ Output:  xplain the shriek of the Grypho
+Epoch.  42 Stahp:  2200 
+ Output:  red the Mouse, turning to the t
+Epoch.  42 Stahp:  2300 
+ Output:  re with a little pattering of f
+Epoch.  43 Stahp:  0 
+ Output:  f the table 
+stay--' 
+ 
+  `I di
+Epoch.  43 Stahp:  100 
+ Output:  2782   
+Came 
+a very duecled ea
+Epoch.  43 Stahp:  200 
+ Output:  k to her eyes and sometimes she
+Epoch.  43 Stahp:  300 
+ Output:  She is to do 
+with one fing her
+Epoch.  43 Stahp:  400 
+ Output:  ] 
+ 
+  `I don't know what to be
+Epoch.  43 Stahp:  500 
+ Output:  ET THIS FIT--"  you 
+can't take
+Epoch.  43 Stahp:  600 
+ Output:  782   
+Chaminity of the 
+simple
+Epoch.  43 Stahp:  700 
+ Output:  , and the cook tulig-Nereveryth
+Epoch.  43 Stahp:  800 
+ Output:  Zhat down at once, she was 
+sla
+Epoch.  43 Stahp:  900 
+ Output:  Alice began to repeat it, and t
+Epoch.  43 Stahp:  1000 
+ Output:  , and she had never been to the
+Epoch.  43 Stahp:  1100 
+ Output:  RE OOR  
+  The King looked alon
+Epoch.  43 Stahp:  1200 
+ Output:  d the Queen. 
+ 
+  `It is wrong 
+Epoch.  43 Stahp:  1300 
+ Output:  Now I grow up mad, and the repl
+Epoch.  43 Stahp:  1400 
+ Output:  quite as she could grow to my r
+Epoch.  43 Stahp:  1500 
+ Output:  Caterpillar cats once 
+a little
+Epoch.  43 Stahp:  1600 
+ Output:  Queen.  `I shall sit here, Male
+Epoch.  43 Stahp:  1700 
+ Output:  *       *       *       *      
+Epoch.  43 Stahp:  1800 
+ Output:  King just as if she had 
+been t
+Epoch.  43 Stahp:  1900 
+ Output:  On a long tail.  I don't like t
+Epoch.  43 Stahp:  2000 
+ Output:  y along the course, that a hist
+Epoch.  43 Stahp:  2100 
+ Output:  jumping up in a 
+more you can f
+Epoch.  43 Stahp:  2200 
+ Output:  he top of the 
+court, and the f
+Epoch.  43 Stahp:  2300 
+ Output:  YOU don't have a piece of it in
+Epoch.  44 Stahp:  0 
+ Output:  t the pool of the same thing ab
+Epoch.  44 Stahp:  100 
+ Output:  re the same side of the childre
+Epoch.  44 Stahp:  200 
+ Output:  Caterpillar called a whiting be
+Epoch.  44 Stahp:  300 
+ Output:  e was some surprise. 
+ 
+  `Well
+Epoch.  44 Stahp:  400 
+ Output:  just as she spoke. 
+ 
+  `I don'
+Epoch.  44 Stahp:  500 
+ Output:  Please crowded round her head!'
+Epoch.  44 Stahp:  600 
+ Output:  I don't think they had to say w
+Epoch.  44 Stahp:  700 
+ Output:  g the 
+open anxioxioned for the
+Epoch.  44 Stahp:  800 
+ Output:  ET THE LORTS ECK WHIL   
+ 
+    
+Epoch.  44 Stahp:  900 
+ Output:  Just as she spoke.  `I don't se
+Epoch.  44 Stahp:  1000 
+ Output:  No acced to be a lesson to you 
+Epoch.  44 Stahp:  1100 
+ Output:  Nou may not tempered that she w
+Epoch.  44 Stahp:  1200 
+ Output:  n a low, trembling voice, `are 
+Epoch.  44 Stahp:  1300 
+ Output:  le she had been would be so man
+Epoch.  44 Stahp:  1400 
+ Output:  Cat, as soon as she spoke; `I w
+Epoch.  44 Stahp:  1500 
+ Output:  zing at the place was a little 
+Epoch.  44 Stahp:  1600 
+ Output:  :  she was not a moment to be l
+Epoch.  44 Stahp:  1700 
+ Output:  2782   
+Whate carefully, and se
+Epoch.  44 Stahp:  1800 
+ Output:  VE with its 
+voice.  `What day 
+Epoch.  44 Stahp:  1900 
+ Output:  *       *       *       *      
+Epoch.  44 Stahp:  2000 
+ Output:  RE the paper 
+as herself, for s
+Epoch.  44 Stahp:  2100 
+ Output:  ] 
+ 
+  `Then it was sending mad
+Epoch.  44 Stahp:  2200 
+ Output:  the Queen turned prizes, and sh
+Epoch.  44 Stahp:  2300 
+ Output:                                 
+Epoch.  45 Stahp:  0 
+ Output:  d the Queen, who had been and a
+Epoch.  45 Stahp:  100 
+ Output:  Mouse didn't know that she was 
+Epoch.  45 Stahp:  200 
+ Output:  White Rabbit, `and then the rea
+Epoch.  45 Stahp:  300 
+ Output:  me the 
+stairs!' 
+ 
+ 
+  `I don'
+Epoch.  45 Stahp:  400 
+ Output:  What would become of the court 
+Epoch.  45 Stahp:  500 
+ Output:  Four hear she could not 
+think 
+Epoch.  45 Stahp:  600 
+ Output:  U did,' said the March Hare. 
+ 
+Epoch.  45 Stahp:  700 
+ Output:  the 
+Duchess?' 
+ 
+  `I don't th
+Epoch.  45 Stahp:  800 
+ Output:  `I know 
+SOMETHING interesting 
+Epoch.  45 Stahp:  900 
+ Output:  lice felt a very curious thing 
+Epoch.  45 Stahp:  1000 
+ Output:  [later doable 
+  The 
+Dormouse 
+Epoch.  45 Stahp:  1100 
+ Output:  Zhamplency, that you didn't sig
+Epoch.  45 Stahp:  1200 
+ Output:  Oh, my dear, who was passing ab
+Epoch.  45 Stahp:  1300 
+ Output:  `I haven't gone down the secot.
+Epoch.  45 Stahp:  1400 
+ Output:  ] 
+ 
+  `I don't know what they 
+Epoch.  45 Stahp:  1500 
+ Output:  Mat, with a moment to be lest s
+Epoch.  45 Stahp:  1600 
+ Output:  3                              
+Epoch.  45 Stahp:  1700 
+ Output:  " 
+                            
+Epoch.  45 Stahp:  1800 
+ Output:  OUR 
+better finish the 
+only th
+Epoch.  45 Stahp:  1900 
+ Output:  L  
+one of them at last the Mou
+Epoch.  45 Stahp:  2000 
+ Output:  King said to the contemptuously
+Epoch.  45 Stahp:  2100 
+ Output:  Just as she saw the roof of the
+Epoch.  45 Stahp:  2200 
+ Output:  me a little wider of the guinea
+Epoch.  45 Stahp:  2300 
+ Output:  Why did they lives opened hers 
+Epoch.  46 Stahp:  0 
+ Output:  was a little sighed the Queen i
+Epoch.  46 Stahp:  100 
+ Output:  Presently smiling a real not as
+Epoch.  46 Stahp:  200 
+ Output:  The Queen was to the 
+pictures 
+Epoch.  46 Stahp:  300 
+ Output:  _ dear or large place 
+did not 
+Epoch.  46 Stahp:  400 
+ Output:  Project Groved sometimes so she
+Epoch.  46 Stahp:  500 
+ Output:  R IIN 
+                        
+Epoch.  46 Stahp:  600 
+ Output:  k Turtle 
+san that she had not 
+Epoch.  46 Stahp:  700 
+ Output:  1991 Duncan Reseave finirech th
+Epoch.  46 Stahp:  800 
+ Output:  !' 
+ 
+  `I can't go on!' Alice 
+Epoch.  46 Stahp:  900 
+ Output:  I can find them at all attend o
+Epoch.  46 Stahp:  1000 
+ Output:  g at the 
+Gryphon. 
+ 
+  `And be
+Epoch.  46 Stahp:  1100 
+ Output:  You game in the 
+distance--' an
+Epoch.  46 Stahp:  1200 
+ Output:  Dormouse indignantly. 
+ 
+  `Com
+Epoch.  46 Stahp:  1300 
+ Output:  Zeady mind about it, and 
+wonde
+Epoch.  46 Stahp:  1400 
+ Output:  `I don't believe the chimney!' 
+Epoch.  46 Stahp:  1500 
+ Output:  _I_ don't be so stingy about th
+Epoch.  46 Stahp:  1600 
+ Output:  just as long as there was a goo
+Epoch.  46 Stahp:  1700 
+ Output:  (Alice had 
+been that it made n
+Epoch.  46 Stahp:  1800 
+ Output:  1991 Duncan Research   
+P--or y
+Epoch.  46 Stahp:  1900 
+ Output:  Queen of Hearts, childed off, a
+Epoch.  46 Stahp:  2000 
+ Output:  Do you think I can remember as 
+Epoch.  46 Stahp:  2100 
+ Output:  Don't get to think the whole pa
+Epoch.  46 Stahp:  2200 
+ Output:  he same as she could go, and 
+s
+Epoch.  46 Stahp:  2300 
+ Output:  I should think you'd better to 
+Epoch.  47 Stahp:  0 
+ Output:  3and the two creatures off. 
+ 
+
+Epoch.  47 Stahp:  100 
+ Output:  quite forgot foot the 
+person a
+Epoch.  47 Stahp:  200 
+ Output:  X 
+ 
+                          
+Epoch.  47 Stahp:  300 
+ Output:  zled. 
+ 
+  `Then you should be 
+Epoch.  47 Stahp:  400 
+ Output:  82   
+Come, 
+                  
+Epoch.  47 Stahp:  500 
+ Output:  I wonder what to see that she h
+Epoch.  47 Stahp:  600 
+ Output:  Rabbit was nothing of the 
+conv
+Epoch.  47 Stahp:  700 
+ Output:  [                              
+Epoch.  47 Stahp:  800 
+ Output:  Queen was silent, and she went 
+Epoch.  47 Stahp:  900 
+ Output:  ; but she could not as a lark, 
+Epoch.  47 Stahp:  1000 
+ Output:  Soup, and said to 
+herself, and
+Epoch.  47 Stahp:  1100 
+ Output:  *       *       *       *      
+Epoch.  47 Stahp:  1200 
+ Output:  91`I must be grown up and said,
+Epoch.  47 Stahp:  1300 
+ Output:  g a little birds and a long 
+wa
+Epoch.  47 Stahp:  1400 
+ Output:  The Dormouse shooked him after 
+Epoch.  47 Stahp:  1500 
+ Output:  Mouse don't see you like"!' sai
+Epoch.  47 Stahp:  1600 
+ Output:  Oh, I do won a great 
+up the co
+Epoch.  47 Stahp:  1700 
+ Output:  nd the three great 
+coming back
+Epoch.  47 Stahp:  1800 
+ Output:  y again, and the first down and
+Epoch.  47 Stahp:  1900 
+ Output:  ou out of the way YOU like cats
+Epoch.  47 Stahp:  2000 
+ Output:  Hatter and pairse was gone in a
+Epoch.  47 Stahp:  2100 
+ Output:  
+                              
+Epoch.  47 Stahp:  2200 
+ Output:  82   "Come, 
+there's no more to
+Epoch.  47 Stahp:  2300 
+ Output:  le she had never done such a ne
+Epoch.  48 Stahp:  0 
+ Output:  was sit up and the first witnes
+Epoch.  48 Stahp:  100 
+ Output:  VERY all, cand made out the 
+di
+Epoch.  48 Stahp:  200 
+ Output:  OU do it as she could get the w
+Epoch.  48 Stahp:  300 
+ Output:  --' 
+ 
+  `I don't know what the
+Epoch.  48 Stahp:  400 
+ Output:  Pan,' thought Alice, `becal con
+Epoch.  48 Stahp:  500 
+ Output:  r with a time she had not atten
+Epoch.  48 Stahp:  600 
+ Output:  `I don't know I'm anning that s
+Epoch.  48 Stahp:  700 
+ Output:  King said, `I wonder what did t
+Epoch.  48 Stahp:  800 
+ Output:  82   
+I shall never go on for s
+Epoch.  48 Stahp:  900 
+ Output:  782   
+Champaign, and then she 
+Epoch.  48 Stahp:  1000 
+ Output:  King said to the jury, and she 
+Epoch.  48 Stahp:  1100 
+ Output:  Rabbit hearth at the 
+         
+Epoch.  48 Stahp:  1200 
+ Output:  just as she spoon as the rest o
+Epoch.  48 Stahp:  1300 
+ Output:  (peeped 
+looking at the 
+Dormou
+Epoch.  48 Stahp:  1400 
+ Output:  Alice replied very 
+politely, `
+Epoch.  48 Stahp:  1500 
+ Output:  She had never heard you 
+knust 
+Epoch.  48 Stahp:  1600 
+ Output:  ke at the 
+Gryphon. 
+ 
+  `I don
+Epoch.  48 Stahp:  1700 
+ Output:  ) the time the Queen said to th
+Epoch.  48 Stahp:  1800 
+ Output:  King said, and was just in time
+Epoch.  48 Stahp:  1900 
+ Output:  pered in a deep 
+voice, `are th
+Epoch.  48 Stahp:  2000 
+ Output:  I don't think--' (for with her 
+Epoch.  48 Stahp:  2100 
+ Output:  Queen was a little birds and th
+Epoch.  48 Stahp:  2200 
+ Output:  t this time the Mock Turtle wen
+Epoch.  48 Stahp:  2300 
+ Output:  g to her 
+shoulder in the windo
+Epoch.  49 Stahp:  0 
+ Output:  ut the place of a could, for th
+Epoch.  49 Stahp:  100 
+ Output:  the 
+same try the two creatures
+Epoch.  49 Stahp:  200 
+ Output:  Alice was indeed,' Alice replie
+Epoch.  49 Stahp:  300 
+ Output:  Caterpillar. 
+ 
+  `Not at all w
+Epoch.  49 Stahp:  400 
+ Output:  ze of half things!' Alice thoug
+Epoch.  49 Stahp:  500 
+ Output:  xt again. 
+ 
+  `I should think 
+Epoch.  49 Stahp:  600 
+ Output:  ur to talk about it, you may go
+Epoch.  49 Stahp:  700 
+ Output:  queer 
+thing, and she was quite
+Epoch.  49 Stahp:  800 
+ Output:  [lected at the 
+Hatter, who tur
+Epoch.  49 Stahp:  900 
+ Output:  he same side with the court, as
+Epoch.  49 Stahp:  1000 
+ Output:  Duchess, `and I did,' said the 
+Epoch.  49 Stahp:  1100 
+ Output:  Queen just under the 
+mouth fea
+Epoch.  49 Stahp:  1200 
+ Output:  VENIN COULD 
+Dinine end of the 
+Epoch.  49 Stahp:  1300 
+ Output:  . 
+ 
+  `I don't know what a lit
+Epoch.  49 Stahp:  1400 
+ Output:  O-- 
+ 
+                        
+Epoch.  49 Stahp:  1500 
+ Output:  2  
+                           
+Epoch.  49 Stahp:  1600 
+ Output:  ] 
+ 
+  `Then it was a little sh
+Epoch.  49 Stahp:  1700 
+ Output:  King in a deep voice, `If you p
+Epoch.  49 Stahp:  1800 
+ Output:  ing to the jury, who 
+a penting
+Epoch.  49 Stahp:  1900 
+ Output:  UR seemed to be looking at the 
+Epoch.  49 Stahp:  2000 
+ Output:  No, the birds had not gone far 
+Epoch.  49 Stahp:  2100 
+ Output:  x a little sisters,' the Hatter
+Epoch.  49 Stahp:  2200 
+ Output:  Cat was the fan and grave the s
+Epoch.  49 Stahp:  2300 
+ Output:  ng to get out of the 
+gardeners

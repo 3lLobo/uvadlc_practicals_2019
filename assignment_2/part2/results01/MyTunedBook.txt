@@ -1,0 +1,420 @@
+Epoch.  0 Stahp:  0 
+ Output:  
+
+
+w
+
+                        
+Epoch.  0 Stahp:  100 
+ Output:   
+                            
+Epoch.  0 Stahp:  200 
+ Output:   
+ 
+  `I made the was the More
+Epoch.  1 Stahp:  0 
+ Output:                                
+Epoch.  1 Stahp:  100 
+ Output:  ound the 
+the said the 
+the 
+s
+Epoch.  1 Stahp:  200 
+ Output:  o said the Mock Turtle 
+      
+Epoch.  2 Stahp:  0 
+ Output:   
+                            
+Epoch.  2 Stahp:  100 
+ Output:  er and the 
+rappy again, and t
+Epoch.  2 Stahp:  200 
+ Output:    the began to the shried to h
+Epoch.  3 Stahp:  0 
+ Output:   
+                            
+Epoch.  3 Stahp:  100 
+ Output:  as the 
+some of the 
+court of 
+Epoch.  3 Stahp:  200 
+ Output:   a little gorden at the 
+seeme
+Epoch.  4 Stahp:  0 
+ Output:  er and the sort of the 
+trying
+Epoch.  4 Stahp:  100 
+ Output:   
+ 
+  `I'm a minute the March 
+Epoch.  4 Stahp:  200 
+ Output:  nd the 
+shill of the other som
+Epoch.  5 Stahp:  0 
+ Output:  ed the Mock Turtle was a littl
+Epoch.  5 Stahp:  100 
+ Output:  ust and the way on the 
+surpri
+Epoch.  5 Stahp:  200 
+ Output:  e the 
+things at the 
+trut in 
+Epoch.  6 Stahp:  0 
+ Output:  er head to the 
+Dormouse to se
+Epoch.  6 Stahp:  100 
+ Output:  ill have no think you don't be
+Epoch.  6 Stahp:  200 
+ Output:   the 
+stiars and the rabbit, a
+Epoch.  7 Stahp:  0 
+ Output:   and she was a little great 
+s
+Epoch.  7 Stahp:  100 
+ Output:   
+ 
+  `I don't know the white 
+Epoch.  7 Stahp:  200 
+ Output:  I shall cat here the things ar
+Epoch.  8 Stahp:  0 
+ Output:  ed to the 
+Dormouse said to he
+Epoch.  8 Stahp:  100 
+ Output:                                
+Epoch.  8 Stahp:  200 
+ Output:  er the 
+soldiers was a little 
+Epoch.  9 Stahp:  0 
+ Output:    `but I should think I said t
+Epoch.  9 Stahp:  100 
+ Output:   to the words and the world sa
+Epoch.  9 Stahp:  200 
+ Output:  ery said, and she was to the r
+Epoch.  10 Stahp:  0 
+ Output:  he 
+                          
+Epoch.  10 Stahp:  100 
+ Output:  or this time they was the Mock
+Epoch.  10 Stahp:  200 
+ Output:                                
+Epoch.  11 Stahp:  0 
+ Output:  ury 
+carned at the sea. 
+ 
+   
+Epoch.  11 Stahp:  100 
+ Output:  ueen to the 
+processions and t
+Epoch.  11 Stahp:  200 
+ Output:   the 
+shoped of the 
+dropping 
+Epoch.  12 Stahp:  0 
+ Output:   
+ 
+  `It was a little care of
+Epoch.  12 Stahp:  100 
+ Output:  t the 
+trials in a 
+girlly and
+Epoch.  12 Stahp:  200 
+ Output:  k again, and she spipped the 
+
+Epoch.  13 Stahp:  0 
+ Output:   the 
+sore, and the 
+one of th
+Epoch.  13 Stahp:  100 
+ Output:   
+  `I should see if you can t
+Epoch.  13 Stahp:  200 
+ Output:   
+ 
+  `I don't see it was the 
+Epoch.  14 Stahp:  0 
+ Output:  h Hare was an all came a littl
+Epoch.  14 Stahp:  100 
+ Output:   the moment that the Queen was
+Epoch.  14 Stahp:  200 
+ Output:  lice could not look to thing w
+Epoch.  15 Stahp:  0 
+ Output:   and she was not the short of 
+Epoch.  15 Stahp:  100 
+ Output:  ERY be out of the 
+end, and sa
+Epoch.  15 Stahp:  200 
+ Output:   
+Alice was nothing to dishede
+Epoch.  16 Stahp:  0 
+ Output:  - 
+ 
+                         
+Epoch.  16 Stahp:  100 
+ Output:  ourself, and shout the 
+things
+Epoch.  16 Stahp:  200 
+ Output:   a little golden key with a co
+Epoch.  17 Stahp:  0 
+ Output:  he 
+stopping off the 
+sorts, a
+Epoch.  17 Stahp:  100 
+ Output:   a little girls and the sort o
+Epoch.  17 Stahp:  200 
+ Output:  at a little thing as she could
+Epoch.  18 Stahp:  0 
+ Output:  I don't know what I don't know
+Epoch.  18 Stahp:  100 
+ Output:  I say "Off with the 
+stick, an
+Epoch.  18 Stahp:  200 
+ Output:  ueen was a little thing as she
+Epoch.  19 Stahp:  0 
+ Output:                                
+Epoch.  19 Stahp:  100 
+ Output:  ust think you don't know what 
+Epoch.  19 Stahp:  200 
+ Output:                                
+Epoch.  20 Stahp:  0 
+ Output:   said the King, `and that's a 
+Epoch.  20 Stahp:  100 
+ Output:   the Mock Turtle were and thei
+Epoch.  20 Stahp:  200 
+ Output:  -and they were no 
+last to 
+be
+Epoch.  21 Stahp:  0 
+ Output:  ERY times and saying to hersel
+Epoch.  21 Stahp:  100 
+ Output:  ' 
+ 
+  `I don't know that it w
+Epoch.  21 Stahp:  200 
+ Output:  or she was not a low that she 
+Epoch.  22 Stahp:  0 
+ Output:  he was not a little side of th
+Epoch.  22 Stahp:  100 
+ Output:  E 
+HOUS THE SOULD 
+Hous to the
+Epoch.  22 Stahp:  200 
+ Output:   the Mock Turtle in a 
+little 
+Epoch.  23 Stahp:  0 
+ Output:  UR 
+gardeners without a stoom 
+Epoch.  23 Stahp:  100 
+ Output:    `I should like them, and 
+th
+Epoch.  23 Stahp:  200 
+ Output:  uttled 
+again, and the whole p
+Epoch.  24 Stahp:  0 
+ Output:   
+ 
+  `Well, I shan't a little
+Epoch.  24 Stahp:  100 
+ Output:   the party 
+many to trying to 
+Epoch.  24 Stahp:  200 
+ Output:  he what of the 
+strange to spe
+Epoch.  25 Stahp:  0 
+ Output:  he same thing she had 
+seemed 
+Epoch.  25 Stahp:  100 
+ Output:    `I wish you make you go on t
+Epoch.  25 Stahp:  200 
+ Output:  e the 
+sea--' 
+ 
+  `I can't re
+Epoch.  26 Stahp:  0 
+ Output:   to be seen the 
+time, and the
+Epoch.  26 Stahp:  100 
+ Output:   a little the 
+stood to 
+her h
+Epoch.  26 Stahp:  200 
+ Output:   
+`I won't know what I had the
+Epoch.  27 Stahp:  0 
+ Output:  e the 
+stoppy its eyes and was
+Epoch.  27 Stahp:  100 
+ Output:   heard of the 
+times of course
+Epoch.  27 Stahp:  200 
+ Output:  e thing to do that it was a li
+Epoch.  28 Stahp:  0 
+ Output:  er things to see it was a litt
+Epoch.  28 Stahp:  100 
+ Output:  irmoned into the should wastin
+Epoch.  28 Stahp:  200 
+ Output:   
+                            
+Epoch.  29 Stahp:  0 
+ Output:  t the words off the 
+took the 
+Epoch.  29 Stahp:  100 
+ Output:  lice, and the 
+only of the 
+pi
+Epoch.  29 Stahp:  200 
+ Output:   I 
+ 
+                        
+Epoch.  30 Stahp:  0 
+ Output:   the 
+distance, and the 
+house
+Epoch.  30 Stahp:  100 
+ Output:   herself 
+`The Dormouse says w
+Epoch.  30 Stahp:  200 
+ Output:  e the party was all this was t
+Epoch.  31 Stahp:  0 
+ Output:  our tongue!' thought Alice.  `
+Epoch.  31 Stahp:  100 
+ Output:  ERY much and shoulders went on
+Epoch.  31 Stahp:  200 
+ Output:                                
+Epoch.  32 Stahp:  0 
+ Output:   to see if it was a last way t
+Epoch.  32 Stahp:  100 
+ Output:  he court, and was to go on 
+ag
+Epoch.  32 Stahp:  200 
+ Output:   the way of 
+suppose that it w
+Epoch.  33 Stahp:  0 
+ Output:   should have 
+been 
+like the l
+Epoch.  33 Stahp:  100 
+ Output:   the whole sharp with the 
+ton
+Epoch.  33 Stahp:  200 
+ Output:  HE Rabbit, with a sort of such
+Epoch.  34 Stahp:  0 
+ Output:  he Duchess!  The Dormouse said
+Epoch.  34 Stahp:  100 
+ Output:   think I should think you don'
+Epoch.  34 Stahp:  200 
+ Output:  ' 
+ 
+  `I don't be and the 
+st
+Epoch.  35 Stahp:  0 
+ Output:   
+  `I don't know what a 
+does
+Epoch.  35 Stahp:  100 
+ Output:  ormouse was not a long too lit
+Epoch.  35 Stahp:  200 
+ Output:   the was only a little glass f
+Epoch.  36 Stahp:  0 
+ Output:   she was so she wet to think t
+Epoch.  36 Stahp:  100 
+ Output:   and the little door of the 
+s
+Epoch.  36 Stahp:  200 
+ Output:   to the 
+same thing as 
+the su
+Epoch.  37 Stahp:  0 
+ Output:  o ask this time there was no i
+Epoch.  37 Stahp:  100 
+ Output:   `I don't know that it was a l
+Epoch.  37 Stahp:  200 
+ Output:  e a little sharp remember the 
+Epoch.  38 Stahp:  0 
+ Output:  -' 
+ 
+  `I don't seem to see w
+Epoch.  38 Stahp:  100 
+ Output:  he 
+surprise, the Dormouse tho
+Epoch.  38 Stahp:  200 
+ Output:   
+                            
+Epoch.  39 Stahp:  0 
+ Output:  t of 
+sight, and the poor litt
+Epoch.  39 Stahp:  100 
+ Output:    the Dormouse said to herself
+Epoch.  39 Stahp:  200 
+ Output:         *       *       *      
+Epoch.  40 Stahp:  0 
+ Output:  ory 
+                         
+Epoch.  40 Stahp:  100 
+ Output:  ice could see it was to do to 
+Epoch.  40 Stahp:  200 
+ Output:  o 
+sort of thing that is 
+as I
+Epoch.  41 Stahp:  0 
+ Output:  ing and the Queen, who was sor
+Epoch.  41 Stahp:  100 
+ Output:  I won't know what I had to be 
+Epoch.  41 Stahp:  200 
+ Output:  here was nothing on the soldie
+Epoch.  42 Stahp:  0 
+ Output:  -                             
+Epoch.  42 Stahp:  100 
+ Output:  ock Turtle said to herself, an
+Epoch.  42 Stahp:  200 
+ Output:   could not answer 
+angrily and
+Epoch.  43 Stahp:  0 
+ Output:  or the 
+time of course, which 
+Epoch.  43 Stahp:  100 
+ Output:   and the words as she could be
+Epoch.  43 Stahp:  200 
+ Output:   can grown it, and then the en
+Epoch.  44 Stahp:  0 
+ Output:  er was a little carks in the w
+Epoch.  44 Stahp:  100 
+ Output:  e the same thing she was now a
+Epoch.  44 Stahp:  200 
+ Output:  -the whole party shoulder to s
+Epoch.  45 Stahp:  0 
+ Output:    `The Dormouse said to hersel
+Epoch.  45 Stahp:  100 
+ Output:  e the 
+time there was no to th
+Epoch.  45 Stahp:  200 
+ Output:  e 
+                           
+Epoch.  46 Stahp:  0 
+ Output:   of the sea,' the Mock Turtle 
+Epoch.  46 Stahp:  100 
+ Output:  RE 
+must be a little golden ke
+Epoch.  46 Stahp:  200 
+ Output:  lice and the things as she cou
+Epoch.  47 Stahp:  0 
+ Output:  R rath with the 
+great canvers
+Epoch.  47 Stahp:  100 
+ Output:  ith a shouldn't think that she
+Epoch.  47 Stahp:  200 
+ Output:  o more than this time they wer
+Epoch.  48 Stahp:  0 
+ Output:  e as she said to herself, and 
+Epoch.  48 Stahp:  100 
+ Output:  hen the first way out of the 
+
+Epoch.  48 Stahp:  200 
+ Output:  ake the Queen was the Duchess 
+Epoch.  49 Stahp:  0 
+ Output:  he shrill creat 
+size and bega
+Epoch.  49 Stahp:  100 
+ Output:  ust begun to be a little grass
+Epoch.  49 Stahp:  200 
+ Output:  er she had not a louger to 
+he
