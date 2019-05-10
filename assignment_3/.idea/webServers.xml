@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a7e6cabc-6eef-4a6e-9d9b-0ede17b01486" name="LISA" url="http://lisa-gpu.lisa.surfsara.nl">
+        <fileTransfer host="lisa-gpu.lisa.surfsara.nl" port="22" rootFolder="/home/lgpu0401" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

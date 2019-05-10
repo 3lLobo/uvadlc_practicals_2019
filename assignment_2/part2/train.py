@@ -25,6 +25,7 @@ import argparse
 import numpy as np
 
 import torch
+<<<<<<< HEAD
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
@@ -32,11 +33,19 @@ import pandas as pd
 
 from dataset import TextDataset
 from model import TextGenerationModel
+=======
+import torch.optim as optim
+from torch.utils.data import DataLoader
+
+from part2.dataset import TextDataset
+from part2.model import TextGenerationModel
+>>>>>>> 6482db2f27c75cbc122b668ce0719fb5aa1e3de1
 
 ################################################################################
 
 def train(config):
 
+<<<<<<< HEAD
     def acc(predictions, targets):
         hotvec = predictions.argmax(-2) == targets
         accuracy = torch.mean(hotvec.float())
@@ -184,6 +193,60 @@ def train(config):
 
 
 ################################################################################
+=======
+    # Initialize the device which to run the model on
+    device = torch.device(config.device)
+
+    # Initialize the model that we are going to use
+    model = TextGenerationModel( ... )  # fixme
+
+    # Initialize the dataset and data loader (note the +1)
+    dataset = TextDataset( ... )  # fixme
+    data_loader = DataLoader(dataset, config.batch_size, num_workers=1)
+
+    # Setup the loss and optimizer
+    criterion = None  # fixme
+    optimizer = None  # fixme
+
+    for step, (batch_inputs, batch_targets) in enumerate(data_loader):
+
+        # Only for time measurement of step through network
+        t1 = time.time()
+
+        #######################################################
+        # Add more code here ...
+        #######################################################
+
+        loss = np.inf   # fixme
+        accuracy = 0.0  # fixme
+
+        # Just for time measurement
+        t2 = time.time()
+        examples_per_second = config.batch_size/float(t2-t1)
+
+        if step % config.print_every == 0:
+
+            print("[{}] Train Step {:04d}/{:04d}, Batch Size = {}, Examples/Sec = {:.2f}, "
+                  "Accuracy = {:.2f}, Loss = {:.3f}".format(
+                    datetime.now().strftime("%Y-%m-%d %H:%M"), step,
+                    config.train_steps, config.batch_size, examples_per_second,
+                    accuracy, loss
+            ))
+
+        if step == config.sample_every:
+            # Generate some sentences by sampling from the model
+            pass
+
+        if step == config.train_steps:
+            # If you receive a PyTorch data-loader error, check this bug report:
+            # https://github.com/pytorch/pytorch/pull/9655
+            break
+
+    print('Done training.')
+
+
+ ################################################################################
+>>>>>>> 6482db2f27c75cbc122b668ce0719fb5aa1e3de1
  ################################################################################
 
 if __name__ == "__main__":

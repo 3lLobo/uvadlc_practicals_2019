@@ -23,11 +23,16 @@ import torch.nn as nn
 class TextGenerationModel(nn.Module):
 
     def __init__(self, batch_size, seq_length, vocabulary_size,
+<<<<<<< HEAD
                  lstm_num_hidden=256, lstm_num_layers=2, dropout=0, device='cuda:0'):
+=======
+                 lstm_num_hidden=256, lstm_num_layers=2, device='cuda:0'):
+>>>>>>> 6482db2f27c75cbc122b668ce0719fb5aa1e3de1
 
         super(TextGenerationModel, self).__init__()
         # Initialization here...
 
+<<<<<<< HEAD
         self.lstm_mod = nn.LSTM(
             input_size=vocabulary_size,
             hidden_size=lstm_num_hidden,
@@ -55,3 +60,8 @@ class TextGenerationModel(nn.Module):
 
         out_lin = self.linear_mod(out_lstm)
         return out_lin, hidden
+=======
+    def forward(self, x):
+        # Implementation here...
+        pass
+>>>>>>> 6482db2f27c75cbc122b668ce0719fb5aa1e3de1

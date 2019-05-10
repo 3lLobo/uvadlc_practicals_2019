@@ -29,6 +29,7 @@ class VanillaRNN(nn.Module):
         super(VanillaRNN, self).__init__()
         # Initialization here ...
 
+<<<<<<< HEAD
         # init Parameters
         self.Whx = nn.Parameter(torch.randn(input_dim, num_hidden), requires_grad=True)
         self.Whh = nn.Parameter(torch.randn(num_hidden, num_hidden), requires_grad=True)
@@ -54,3 +55,8 @@ class VanillaRNN(nn.Module):
 
         p = torch.matmul(h, self.Whp) + self.bp
         return p
+=======
+    def forward(self, x):
+        # Implementation here ...
+        pass
+>>>>>>> 6482db2f27c75cbc122b668ce0719fb5aa1e3de1

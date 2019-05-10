@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{MLP backprop and NumPy implementation}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Analytical derivation of gradients}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{NumPy Implementation}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{PyTorch MLP}{}% 5
+\BOOKMARK [1][-]{section.4}{Custom Module: Batch Normalization}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{Automatic differentiation}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.2}{Manual implementation of backwards pass}{section.4}% 8
+\BOOKMARK [1][-]{section.5}{PyTorch CNN}{}% 9
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 10

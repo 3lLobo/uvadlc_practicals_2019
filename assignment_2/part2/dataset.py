@@ -45,9 +45,12 @@ class TextDataset(data.Dataset):
     def convert_to_string(self, char_ix):
         return ''.join(self._ix_to_char[ix] for ix in char_ix)
 
+<<<<<<< HEAD
     def convert_to_idx(self, char):
         return self._char_to_ix[char]
 
+=======
+>>>>>>> 6482db2f27c75cbc122b668ce0719fb5aa1e3de1
     def __len__(self):
         return self._data_size
 

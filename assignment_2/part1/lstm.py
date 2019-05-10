@@ -23,13 +23,17 @@ import torch.nn as nn
 
 ################################################################################
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6482db2f27c75cbc122b668ce0719fb5aa1e3de1
 class LSTM(nn.Module):
 
     def __init__(self, seq_length, input_dim, num_hidden, num_classes, batch_size, device='cpu'):
         super(LSTM, self).__init__()
         # Initialization here ...
 
+<<<<<<< HEAD
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.device = device
         self.seq_length = seq_length
@@ -75,3 +79,8 @@ class LSTM(nn.Module):
         p = h @ params['PWx'] + params['Pb']
 
         return p
+=======
+    def forward(self, x):
+        # Implementation here ...
+        pass
+>>>>>>> 6482db2f27c75cbc122b668ce0719fb5aa1e3de1
