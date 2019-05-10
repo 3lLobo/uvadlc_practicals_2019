@@ -36,7 +36,7 @@ class Encoder(nn.Module):
         x is input image space.
         """
 
-        flat = input.view(28*28, -1)
+        flat = input.view(-1, 28*28)
         flat = flat.squeeze()
         out = self.net(flat)
         mean = out[:self.z_dim]
@@ -60,7 +60,7 @@ class Decoder(nn.Module):
                             nn.ReLU,
                             nn.Dropout(0.2),
                             nn.Linear(hidden_dim, output_dim),
-                            nn.Softmax)
+                            nn.Sigmoid)
         # Need to init?
         torch.nn.init.xavier_uniform(net.weight)
         net.bias.data.fill_(0.01)
@@ -73,9 +73,8 @@ class Decoder(nn.Module):
         Returns mean with shape [batch_size, 784].
         """
 
-
-
-        mean = torch.mean(input)
+        mean = self.net(input)
+        mean = mean.view(-1, 784)
 
         return mean
 
@@ -94,8 +93,26 @@ class VAE(nn.Module):
         Given input, perform an encoding and decoding step and return the
         negative average elbo for the given batch.
         """
-        average_negative_elbo = None
-        raise NotImplementedError()
+
+        enco_mean, enco_std = self.encoder(input)
+        latent_mean = torch.zeros(self.z_dim).view(1, self.z_dim)
+        latent_std = torch.diag(torch.ones(self.z_dim)).view(1, self.z_dim, self.z_dim)
+
+        KL = (torch.log(torch.sqrt(enco_std) / torch.sqrt(latent_std)) +
+              (latent_std + (latent_mean - enco_mean).pow(2) / 2 * enco_std) - 1/2)
+
+        # Calculate latent space
+        eps = torch.randn(self.z_dim)
+
+        latent_space = eps * latent_std + latent_mean
+
+        deco_mean = self.decoder(latent_space)
+        self.deco_mean = deco_mean
+
+        average_negative_elbo = - 1/784 * torch.sum(
+            nn.functional.binary_cross_entropy(deco_mean, input) - KL)
+
+
         return average_negative_elbo
 
     def sample(self, n_samples):
@@ -104,8 +121,9 @@ class VAE(nn.Module):
         (from bernoulli) and the means for these bernoullis (as these are
         used to plot the data manifold).
         """
+        # TODO: Bernuli distribution from deco_mean sample 20 times
+        im_means = self.deco_mean
         sampled_ims, im_means = None, None
-        raise NotImplementedError()
 
         return sampled_ims, im_means
 
