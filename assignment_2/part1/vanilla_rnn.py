@@ -29,6 +29,34 @@ class VanillaRNN(nn.Module):
         super(VanillaRNN, self).__init__()
         # Initialization here ...
 
+<<<<<<< HEAD
+        # init Parameters
+        self.Whx = nn.Parameter(torch.randn(input_dim, num_hidden), requires_grad=True)
+        self.Whh = nn.Parameter(torch.randn(num_hidden, num_hidden), requires_grad=True)
+        self.Whp = nn.Parameter(torch.randn(num_hidden, num_classes), requires_grad=True)
+        self.bh = nn.Parameter(torch.randn(num_hidden), requires_grad=True)
+        self.bp = nn.Parameter(torch.randn(num_classes), requires_grad=True)
+
+        self.time_steps = seq_length
+        self.num_hidden = num_hidden
+        self.batch_size = batch_size
+        self.input_dim = input_dim
+        self.device = device
+
+    def forward(self, x):
+        # Implementation here ...
+        # x input must be a list with ints
+        x = x.to(self.device)
+        h = torch.zeros((self.num_hidden, self.batch_size)).to(self.device)
+        for step in range(self.time_steps):
+            xx = torch.matmul(x[:, step].reshape(-1, self.input_dim), self.Whx)
+            hh = torch.matmul(h, self.Whh) + self.bh
+            h = torch.tanh( xx + hh )
+
+        p = torch.matmul(h, self.Whp) + self.bp
+        return p
+=======
     def forward(self, x):
         # Implementation here ...
         pass
+>>>>>>> 6482db2f27c75cbc122b668ce0719fb5aa1e3de1

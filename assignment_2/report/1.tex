@@ -1,0 +1,54 @@
+
+\subsection{Vanilla RNN }
+
+\begin{itemize}
+    \item Understanding
+    
+    \textbf{Question 1.1}\\
+    The Derivative of the loss over the output Weight matrix.
+    \[
+    \frac { \partial L } { \partial W _ { ph } } = \frac {\partial L } { \partial \hat { y } } \frac { \partial \hat { y } } { \partial p _ { 3 } } \frac{\partial p _ { 3 }}{\partial W _ { ph }}
+    \]\[
+    \frac { \partial L } { \partial \hat { y } _ { i } } = - \sum y_ { i } \frac { 1 } { \hat { y } _ { i } }
+    \]
+    This derivative returns a vector of size of te $i$ entries.
+    \[
+    \frac{\partial \hat{y}_{i}}{\partial p _ { 3 i }} =  \hat{y}_{i}(\delta_{ij} - \hat[{y}_j)
+    \]
+    \[
+    \delta_{ij} = \begin{cases}
+        1 & \text{for } i= j \\
+        0 & \text{for } i \neq j \\
+    \end{cases}
+    \]
+        This is the derivative of the sofmax function using the Kronecka delta. It returns a Matrix of the final size of $i$ and $j$.\\
+    \[
+    \frac{\partial L}{\partial p _ {  i }} =  p _ { 3i } - { y } _ { i }
+    \]\[
+     \frac{\partial p}{\partial W _ { ph }}= h
+     \]
+    This derivative is a three dimensional Matrix with $h$ along the diagonal.\\
+    
+    
+    Putting all the equations together we get:
+    \begin{equation}
+    \frac { \partial L } { \partial W _ { ph } } = (p - { y } _ { i }) h_{j}
+    \end{equation}
+    \begini{eq}
+    
+    \item Implementation in PyTorch
+    \\
+
+    \end{itemize}
+\end{itemize}
+\\
+
+\subsection{Long-Short Term Network (LSTM) in PyTorch}
+
+\begin{itemize}
+    \item Understanding
+    
+    \item Implementation in PyTorch
+    
+\end{itemize}
+

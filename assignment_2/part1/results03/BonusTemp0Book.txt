@@ -1,0 +1,4 @@
+greedy:  0.5 
+ Output:  Alice said to herself, `to be going 
+messages for a rabbit!  I suppose Dinah'll be sending me on 
+messages after all

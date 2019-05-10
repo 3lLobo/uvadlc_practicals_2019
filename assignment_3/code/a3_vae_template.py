@@ -12,6 +12,18 @@ class Encoder(nn.Module):
 
     def __init__(self, hidden_dim=500, z_dim=20):
         super().__init__()
+        self.hidden_dim = hidden_dim
+        self.z_dim = z_dim
+        input_dim = 28*28
+
+        net = nn.Sequential(nn.Linear(input_dim, hidden_dim),
+                                   nn.ReLU,
+                                   nn.Dropout(0.2),
+                                   nn.Linear(hidden_dim, 2*z_dim))
+        # Need to init?
+        torch.nn.init.xavier_uniform(net.weight)
+        net.bias.data.fill_(0.01)
+        self.net = net
 
     def forward(self, input):
         """
@@ -19,9 +31,18 @@ class Encoder(nn.Module):
 
         Returns mean and std with shape [batch_size, z_dim]. Make sure
         that any constraints are enforced.
+
+        Of q distribution.
+        x is input image space.
         """
-        mean, std = None, None
-        raise NotImplementedError()
+
+        flat = input.view(28*28, -1)
+        flat = flat.squeeze()
+        out = self.net(flat)
+        mean = out[:self.z_dim]
+        std = out[self.z_dim:]
+        ident = torch.diag(torch.ones_like(self.z_dim))
+        std = ident @ std
 
         return mean, std
 
@@ -30,6 +51,20 @@ class Decoder(nn.Module):
 
     def __init__(self, hidden_dim=500, z_dim=20):
         super().__init__()
+        output_dim = 28 * 28
+        self.hidden_dim = hidden_dim
+        self.z_dim = z_dim
+        input_dim = z_dim
+
+        net = nn.Sequential(nn.Linear(input_dim, hidden_dim),
+                            nn.ReLU,
+                            nn.Dropout(0.2),
+                            nn.Linear(hidden_dim, output_dim),
+                            nn.Softmax)
+        # Need to init?
+        torch.nn.init.xavier_uniform(net.weight)
+        net.bias.data.fill_(0.01)
+        self.net = net
 
     def forward(self, input):
         """
@@ -37,8 +72,10 @@ class Decoder(nn.Module):
 
         Returns mean with shape [batch_size, 784].
         """
-        mean = None
-        raise NotImplementedError()
+
+
+
+        mean = torch.mean(input)
 
         return mean
 
