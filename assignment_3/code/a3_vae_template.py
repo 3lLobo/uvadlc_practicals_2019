@@ -4,9 +4,13 @@ import torch
 import torch.nn as nn
 import matplotlib.pyplot as plt
 from torchvision.utils import make_grid
+from tensorboardX import SummaryWriter
 
 from datasets.bmnist import bmnist
+import numpy as np
+from scipy.stats import norm
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 class Encoder(nn.Module):
 
@@ -17,12 +21,15 @@ class Encoder(nn.Module):
         input_dim = 28*28
 
         net = nn.Sequential(nn.Linear(input_dim, hidden_dim),
-                                   nn.ReLU,
+                                   nn.ReLU(),
                                    nn.Dropout(0.2),
                                    nn.Linear(hidden_dim, 2*z_dim))
         # Need to init?
-        torch.nn.init.xavier_uniform(net.weight)
-        net.bias.data.fill_(0.01)
+        for m in self.modules():
+            if isinstance(m, nn.Linear):
+                nn.init.xavier_uniform(m.weight, mean=0, std=0.01)
+                nn.init.data.fill_(m.bias, 0.01)
+
         self.net = net
 
     def forward(self, input):
@@ -36,13 +43,9 @@ class Encoder(nn.Module):
         x is input image space.
         """
 
-        flat = input.view(-1, 28*28)
-        flat = flat.squeeze()
-        out = self.net(flat)
-        mean = out[:self.z_dim]
-        std = out[self.z_dim:]
-        ident = torch.diag(torch.ones_like(self.z_dim))
-        std = ident @ std
+        out = self.net(input)
+        mean = out[:, :self.z_dim]
+        std = out[:, self.z_dim:]
 
         return mean, std
 
@@ -57,13 +60,16 @@ class Decoder(nn.Module):
         input_dim = z_dim
 
         net = nn.Sequential(nn.Linear(input_dim, hidden_dim),
-                            nn.ReLU,
+                            nn.ReLU(),
                             nn.Dropout(0.2),
                             nn.Linear(hidden_dim, output_dim),
-                            nn.Sigmoid)
+                            nn.Sigmoid())
         # Need to init?
-        torch.nn.init.xavier_uniform(net.weight)
-        net.bias.data.fill_(0.01)
+        for m in self.modules():
+            if isinstance(m, nn.Linear):
+                nn.init.xavier_uniform(m.weight, mean=0, std=0.01)
+                nn.init.data.fill_(m.bias, 0.01)
+
         self.net = net
 
     def forward(self, input):
@@ -88,70 +94,98 @@ class VAE(nn.Module):
         self.encoder = Encoder(hidden_dim, z_dim)
         self.decoder = Decoder(hidden_dim, z_dim)
 
-    def forward(self, input):
+    def forward(self, input, writer, idx):
         """
         Given input, perform an encoding and decoding step and return the
         negative average elbo for the given batch.
         """
 
-        enco_mean, enco_std = self.encoder(input)
-        latent_mean = torch.zeros(self.z_dim).view(1, self.z_dim)
-        latent_std = torch.diag(torch.ones(self.z_dim)).view(1, self.z_dim, self.z_dim)
+        # Plot input
+        im_grid = make_grid(input[0, :, :, :], normalize=True, scale_each=True)
+        writer.add_image('Input Image', im_grid, idx)
 
-        KL = (torch.log(torch.sqrt(enco_std) / torch.sqrt(latent_std)) +
-              (latent_std + (latent_mean - enco_mean).pow(2) / 2 * enco_std) - 1/2)
+        input = input.view(-1, 28 * 28)
+        input = input.squeeze()
+        enco_mean, enco_std = self.encoder.forward(input)
+        enco_var = enco_std.pow(2)
 
-        # Calculate latent space
+        # KL divergence
+        KL = 1/2 * torch.sum((enco_var + enco_mean.pow(2) - enco_var.log() - 1), dim=-1)
+
+        # Create latent space
         eps = torch.randn(self.z_dim)
 
-        latent_space = eps * latent_std + latent_mean
+        latent_space = eps * enco_std + enco_mean
+        deco_mean = self.decoder.forward(latent_space)
+        inside_elbo = nn.functional.binary_cross_entropy(deco_mean, input, reduction='none').sum(dim=-1)
+        print('elbo:', inside_elbo.mean().item())
+        print('KL:', KL.mean().item())
+        writer.add_scalars('data/KL', {'KL': KL.mean().item(),
+                                          'Bernulli prob': inside_elbo.mean().item()})
 
-        deco_mean = self.decoder(latent_space)
-        self.deco_mean = deco_mean
-
-        average_negative_elbo = - 1/784 * torch.sum(
-            nn.functional.binary_cross_entropy(deco_mean, input) - KL)
-
+        # Loss function
+        average_negative_elbo = torch.mean(inside_elbo + KL)
+        print('AV:', average_negative_elbo.item())
 
         return average_negative_elbo
 
-    def sample(self, n_samples):
+    def sample(self, n_samples, z=None):
         """
         Sample n_samples from the model. Return both the sampled images
         (from bernoulli) and the means for these bernoullis (as these are
         used to plot the data manifold).
         """
-        # TODO: Bernuli distribution from deco_mean sample 20 times
-        im_means = self.deco_mean
-        sampled_ims, im_means = None, None
+        # TODO: Bernulli means for manifold?
+
+        if not z:
+            z = torch.randn(n_samples, self.z_dim)
+        im_means = self.decoder.forward(z)
+        im_means = im_means.view(-1, 1, 28, 28)
+        m = torch.distributions.Bernoulli(im_means)
+        sampled_ims = m.sample()
 
         return sampled_ims, im_means
 
 
-def epoch_iter(model, data, optimizer):
+def epoch_iter(model, data, optimizer, writer, val=False):
     """
     Perform a single epoch for either the training or validation.
     use model.training to determine if in 'training mode' or not.
 
     Returns the average elbo for the complete epoch.
     """
-    average_epoch_elbo = None
-    raise NotImplementedError()
+    if val:
+        model.training = False
+    else:
+        model.training = True
 
+    elbo_sum = torch.tensor(0).to(device)
+    count = 0
+    for idx, batch in enumerate(data):
+        average_epoch_elbo = model.forward(batch, writer, idx)
+        if not val:
+            optimizer.zero_grad()
+            average_epoch_elbo.backward()
+            optimizer.step()
+        elbo_sum = elbo_sum + average_epoch_elbo
+        count += 1
+
+    average_epoch_elbo = elbo_sum / count
+    print(average_epoch_elbo.item())
     return average_epoch_elbo
 
 
-def run_epoch(model, data, optimizer):
+def run_epoch(model, data, optimizer, writer):
     """
     Run a train and validation epoch and return average elbo for each.
     """
     traindata, valdata = data
 
     model.train()
-    train_elbo = epoch_iter(model, traindata, optimizer)
+    train_elbo = epoch_iter(model, traindata, optimizer, writer)
 
     model.eval()
-    val_elbo = epoch_iter(model, valdata, optimizer)
+    val_elbo = epoch_iter(model, valdata, optimizer, writer, val=True)
 
     return train_elbo, val_elbo
 
@@ -168,31 +202,63 @@ def save_elbo_plot(train_curve, val_curve, filename):
 
 
 def main():
+
     data = bmnist()[:2]  # ignore test split
     model = VAE(z_dim=ARGS.zdim)
-    optimizer = torch.optim.Adam(model.parameters())
+    model = model.to(device)
+    optimizer = torch.optim.Adam(model.parameters(), lr=5e-4)
+    writer = SummaryWriter('logs/log1')
 
     train_curve, val_curve = [], []
     for epoch in range(ARGS.epochs):
-        elbos = run_epoch(model, data, optimizer)
+        #"""
+        elbos = run_epoch(model, data, optimizer, writer)
         train_elbo, val_elbo = elbos
+        writer.add_scalars('data/elbos', {'train elbo': train_elbo.item(),
+                                          'val elbo': val_elbo.item()})
         train_curve.append(train_elbo)
         val_curve.append(val_elbo)
         print(f"[Epoch {epoch}] train elbo: {train_elbo} val_elbo: {val_elbo}")
+#       """
 
         # --------------------------------------------------------------------
         #  Add functionality to plot samples from model during training.
         #  You can use the make_grid functioanlity that is already imported.
         # --------------------------------------------------------------------
 
+        #torch.save(model.state_dict(), 'modelstate' + str(epoch) + '.pt')
+        #model.load_state_dict(torch.load('modelstate/modelstate30.pt'))
+        #model.eval()
+
+        model_im = model.sample(9)[0]
+        im_grid = make_grid(model_im, nrow=3)
+        writer.add_image('data/DecoIm', im_grid, epoch)
+
+        plt.imshow(im_grid.permute(1, 2, 0))
+        plt.axis('off')
+        plt.savefig('VAEsample' + str(epoch) + '.png')
+        plt.close()
+
     # --------------------------------------------------------------------
-    #  Add functionality to plot plot the learned data manifold after
+    #  Add functionality to plot the learned data manifold after
     #  if required (i.e., if zdim == 2). You can use the make_grid
     #  functionality that is already imported.
     # --------------------------------------------------------------------
+    if ARGS.zdim == 2:
+        # TODO: ppf to cover significant z-space?
+        ls = torch.linspace(-2, 2, 10)
+        xx, xy = torch.meshgrid(x, x)
+        z_mesh = torch.stack([xx, xy], dim=0)
+        z_mesh = z_mesh.view(-1,2)
+        model_bern = model.sample(1, z_mesh)[1]
+        im_grid = make_grid(model_bern, nrow=3)
+        plt.imshow(im_grid.permute(1, 2, 0))
+        plt.axis('off')
+        plt.savefig('VAEmanifold.png')
 
     save_elbo_plot(train_curve, val_curve, 'elbo.pdf')
-
+    writer.export_scalars_to_json("./all_scalars.json")
+    writer.close()
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
