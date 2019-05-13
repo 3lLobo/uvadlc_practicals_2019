@@ -7,8 +7,7 @@ from torchvision.utils import make_grid
 from tensorboardX import SummaryWriter
 
 from datasets.bmnist import bmnist
-import numpy as np
-from scipy.stats import norm
+
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -120,8 +119,6 @@ class VAE(nn.Module):
         inside_elbo = nn.functional.binary_cross_entropy(deco_mean, input, reduction='none').sum(dim=-1)
         print('elbo:', inside_elbo.mean().item())
         print('KL:', KL.mean().item())
-        writer.add_scalars('data/KL', {'KL': KL.mean().item(),
-                                          'Bernulli prob': inside_elbo.mean().item()})
 
         # Loss function
         average_negative_elbo = torch.mean(inside_elbo + KL)
@@ -180,7 +177,6 @@ def run_epoch(model, data, optimizer, writer):
     Run a train and validation epoch and return average elbo for each.
     """
     traindata, valdata = data
-
     model.train()
     train_elbo = epoch_iter(model, traindata, optimizer, writer)
 
@@ -215,7 +211,7 @@ def main():
         elbos = run_epoch(model, data, optimizer, writer)
         train_elbo, val_elbo = elbos
         writer.add_scalars('data/elbos', {'train elbo': train_elbo.item(),
-                                          'val elbo': val_elbo.item()})
+                                          'val elbo': val_elbo.item()}, epoch)
         train_curve.append(train_elbo)
         val_curve.append(val_elbo)
         print(f"[Epoch {epoch}] train elbo: {train_elbo} val_elbo: {val_elbo}")

@@ -9,8 +9,8 @@ from torchvision import datasets
 
 
 class Generator(nn.Module):
-    def __init__(self):
-        super(Generator, self).__init__()
+    def __init__(self, latent_dim=20):
+        super(Generator, self,).__init__()
 
         # Construct generator. You are free to experiment with your model,
         # but the following is a good start:
@@ -25,12 +25,36 @@ class Generator(nn.Module):
         #   Linear 512 -> 1024
         #   Bnorm
         #   LeakyReLU(0.2)
-        #   Linear 1024 -> 768
+        #   Linear 1024 -> 768 <== WTF?!?
         #   Output non-linearity
+
+        self.latent_dim = latent_dim
+        self.gen = nn.Sequential(nn.Linear(latent_dim, 128),
+                      nn.LeakyReLU(0.2),
+                      nn.Linear(128, 256),
+                      nn.BatchNorm2d(256),
+                      nn.LeakyReLU(0.2),
+                      nn.Linear(256, 512),
+                      nn.BatchNorm2d(512),
+                      nn.LeakyReLU(0.2),
+                      nn.Linear(512, 1024),
+                      nn.BatchNorm2d(1024),
+                      nn.LeakyReLU(0.2),
+                      nn.Linear(1024, 784),
+                      nn.Tanh())
+
+        for m in self.modules():
+            if isinstance(m, nn.Linear):
+                nn.init.xavier_uniform(m.weight, mean=0, std=0.01)
+                nn.init.data.fill_(m.bias, 0.01)
 
     def forward(self, z):
         # Generate images from z
-        pass
+        gen = self.gen
+
+        out = gen(z)
+
+        return out
 
 
 class Discriminator(nn.Module):
@@ -45,10 +69,20 @@ class Discriminator(nn.Module):
         #   LeakyReLU(0.2)
         #   Linear 256 -> 1
         #   Output non-linearity
+        self.input_dim = input_dim
+        self.dis = nn.Sequential(nn.Linear(784, 512),
+                                nn.LeakyReLU(0.2),
+                                nn.Linear(512, 256),
+                                nn.LeakyReLU(0.2),
+                                nn.Linear(256, 1),
+                                nn.Sigmoid)
 
     def forward(self, img):
         # return discriminator score for img
-        pass
+
+        out = self.dis(img)
+
+        return out
 
 
 def train(dataloader, discriminator, generator, optimizer_G, optimizer_D):
