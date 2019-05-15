@@ -100,8 +100,12 @@ class VAE(nn.Module):
         """
 
         # Plot input
-        im_grid = make_grid(input[0, :, :, :], normalize=True, scale_each=True)
-        writer.add_image('Input Image', im_grid, idx)
+        im_grid = make_grid(input[:9, :, :, :], nrow=3, normalize=True, scale_each=True)
+        writer.add_image('InputImage', im_grid, idx)
+        plt.imshow(im_grid.permute(1, 2, 0))
+        plt.axis('off')
+        plt.savefig('VAEinput' + str(idx) + '.png')
+        plt.close()
 
         input = input.view(-1, 28 * 28)
         input = input.squeeze()
@@ -134,7 +138,7 @@ class VAE(nn.Module):
         """
         # TODO: Bernulli means for manifold?
 
-        if not z:
+        if z is None:
             z = torch.randn(n_samples, self.z_dim)
         im_means = self.decoder.forward(z)
         im_means = im_means.view(-1, 1, 28, 28)
@@ -222,7 +226,8 @@ def main():
         #  You can use the make_grid functioanlity that is already imported.
         # --------------------------------------------------------------------
 
-        #torch.save(model.state_dict(), 'modelstate' + str(epoch) + '.pt')
+        if epoch == 36:
+            torch.save(model.state_dict(), 'manifoldstate' + str(ARGS.zdim) + '.pt')
         #model.load_state_dict(torch.load('modelstate/modelstate30.pt'))
         #model.eval()
 
@@ -230,27 +235,29 @@ def main():
         im_grid = make_grid(model_im, nrow=3)
         writer.add_image('data/DecoIm', im_grid, epoch)
 
-        plt.imshow(im_grid.permute(1, 2, 0))
-        plt.axis('off')
-        plt.savefig('VAEsample' + str(epoch) + '.png')
-        plt.close()
+        #plt.imshow(im_grid.permute(1, 2, 0))
+        #plt.axis('off')
+        #plt.savefig('VAEsample' + str(epoch) + '.png')
+        #plt.close()
 
     # --------------------------------------------------------------------
     #  Add functionality to plot the learned data manifold after
     #  if required (i.e., if zdim == 2). You can use the make_grid
     #  functionality that is already imported.
     # --------------------------------------------------------------------
-    if ARGS.zdim == 2:
-        # TODO: ppf to cover significant z-space?
-        ls = torch.linspace(-2, 2, 10)
-        xx, xy = torch.meshgrid(x, x)
-        z_mesh = torch.stack([xx, xy], dim=0)
-        z_mesh = z_mesh.view(-1,2)
-        model_bern = model.sample(1, z_mesh)[1]
-        im_grid = make_grid(model_bern, nrow=3)
-        plt.imshow(im_grid.permute(1, 2, 0))
-        plt.axis('off')
-        plt.savefig('VAEmanifold.png')
+        if ARGS.zdim == 2:
+            # TODO: ppf to cover significant z-space?
+            x = torch.linspace(-2, 2, 10)
+            xx, xy = torch.meshgrid(x, x)
+            z_mesh = torch.stack([xx, xy], 0)
+            z_mesh = z_mesh.view(2, -1).t()
+            model_bern = model.sample(1, z_mesh)[1]
+            im_grid = make_grid(model_bern, nrow=10)
+            writer.add_image('data/ManifoldIm', im_grid, epoch)
+
+            #plt.imshow(im_grid.permute(1, 2, 0))
+            #plt.axis('off')
+            #plt.savefig('VAEmanifold.png')
 
     save_elbo_plot(train_curve, val_curve, 'elbo.pdf')
     writer.export_scalars_to_json("./all_scalars.json")

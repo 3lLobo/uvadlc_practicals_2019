@@ -3,49 +3,91 @@
   <component name="ChangeListManager">
     <list default="true" id="2618bb8c-9274-432c-80de-4c78db9698e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample10.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample11.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample12.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample13.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample14.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample15.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample16.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample17.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample18.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample19.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample19.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample20.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample21.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample22.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample23.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample24.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample25.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample26.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample27.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample27.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample28.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample28.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample29.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample30.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample30.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample31.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample32.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample33.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample33.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample34.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample34.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample35.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample35.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample36.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample36.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample37.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample37.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample38.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample38.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample39.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample39.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample5.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample6.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample7.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample8.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample9.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/VAEsample9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEinput.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/VAEsample9.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code/a3_gan_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/a3_gan_template.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/a3_vae_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/a3_vae_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/all_scalars.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/all_scalars.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/elbo.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/code/elbo.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample10.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample11.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample12.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample13.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample14.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample15.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample16.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample17.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample18.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample19.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample20.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample21.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample22.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample23.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample24.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample25.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample26.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample27.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample28.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample29.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample30.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample31.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample32.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample33.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample34.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample35.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample36.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample37.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample37.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample38.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample39.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample5.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample6.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample7.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample8.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample9.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample9.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/a3_vae_template.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+            <state relative-caret-position="204">
+              <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -84,8 +126,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/a3_gan_template.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39">
-              <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+            <state relative-caret-position="357">
+              <caret line="105" column="33" lean-forward="true" selection-end-line="179" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -117,8 +159,8 @@
         <option value="$PROJECT_DIR$/code/datasets/bmnist.py" />
         <option value="$PROJECT_DIR$/code/test.py" />
         <option value="$PROJECT_DIR$/code/plotVAE.py" />
-        <option value="$PROJECT_DIR$/code/a3_vae_template.py" />
         <option value="$PROJECT_DIR$/code/a3_gan_template.py" />
+        <option value="$PROJECT_DIR$/code/a3_vae_template.py" />
       </list>
     </option>
   </component>
@@ -178,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a3_vae_template">
+  <component name="RunManager" selected="Python.a3_gan_template">
     <configuration name="main bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler>BIBTEX</compiler>
@@ -187,19 +229,6 @@
         <main-file>$PROJECT_DIR$/report/main.tex</main-file>
         <aux-dir>$USER_HOME$/Desktop</aux-dir>
       </texify-bibtex>
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" temporary="true">
-      <texify>
-        <compiler>PDFLATEX</compiler>
-        <compiler-path />
-        <compiler-arguments />
-        <main-file>$PROJECT_DIR$/report/main.tex</main-file>
-        <aux-dir>true</aux-dir>
-        <out-dir>true</out-dir>
-        <output-format>PDF</output-format>
-        <bib-run-config />
-      </texify>
       <method v="2" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -216,6 +245,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="a3_gan_template" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="assignment_3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/a3_gan_template.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,11 +387,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.a3_gan_template" />
         <item itemvalue="Python.a3_vae_template" />
         <item itemvalue="Python.plotVAE" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.code" />
-        <item itemvalue="LaTeX.main" />
       </list>
     </recent_temporary>
   </component>
@@ -377,11 +428,15 @@
       <workItem from="1557677186035" duration="7673000" />
       <workItem from="1557748471464" duration="2014000" />
       <workItem from="1557761426397" duration="5579000" />
+      <workItem from="1557820627997" duration="2228000" />
+      <workItem from="1557856514518" duration="8572000" />
+      <workItem from="1557911306783" duration="4027000" />
+      <workItem from="1557927116233" duration="4592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86103000" />
+    <option name="totallyTimeSpent" value="105522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1233" height="735" extended-state="6" />
@@ -554,8 +609,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/a3_vae_template.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+        <state relative-caret-position="204">
+          <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -564,8 +619,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/a3_gan_template.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+        <state relative-caret-position="357">
+          <caret line="105" column="33" lean-forward="true" selection-end-line="179" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
