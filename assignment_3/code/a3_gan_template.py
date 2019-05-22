@@ -85,28 +85,26 @@ class Discriminator(nn.Module):
 
 
 def train(dataloader, discriminator, generator, optimizer_G, optimizer_D, criterion):
+
     for epoch in range(args.n_epochs):
         for i, (imgs, _) in enumerate(dataloader):
 
-            imgs.to(device)
+            imgs = imgs.to(device)
 
             # Train Generator
             # ---------------
             signal = torch.Tensor(torch.randn((args.batch_size, args.latent_dim))).to(device)
             gen_out = generator.forward(signal)
-            dis_on_gen  = discriminator.forward(gen_out)
+            dis_on_gen = discriminator.forward(gen_out)
             loss_g = criterion(dis_on_gen, torch.ones_like(dis_on_gen))
             loss_g.backward()
             optimizer_G.step()
             optimizer_G.zero_grad()
-            print('Loss G:', loss_g)
+            print('Loss G:', loss_g.item())
 
-            # TODO check img size and flatten evtl
-            # TODO loss funtion to update gen!!!
             # Train Discriminator
             # -------------------
-            # TODO di input? image or gen output?
-            imgs = imgs.view(args.batch_size, -1)
+            imgs = imgs.view(-1, 784)
             dis_on_set = discriminator(imgs)
             gen_out = generator.forward(signal)
             dis_on_gen = discriminator(gen_out.detach())
@@ -115,7 +113,7 @@ def train(dataloader, discriminator, generator, optimizer_G, optimizer_D, criter
                                torch.ones_like(dis_on_set)) +
                       criterion(dis_on_gen,
                                 torch.zeros_like(dis_on_gen)))
-            print('Loss D:', loss_d)
+            print('Loss D:', loss_d.item())
             loss_d.backward()
             optimizer_D.step()
             optimizer_D.zero_grad()
@@ -148,8 +146,8 @@ def main():
                                              shuffle=True)
 
     # Initialize models and optimizers
-    generator = Generator(latent_dim=args.latent_dim)
-    discriminator = Discriminator()
+    generator = Generator(latent_dim=args.latent_dim).to(device)
+    discriminator = Discriminator().to(device)
     optimizer_G = torch.optim.Adam(generator.parameters(), lr=args.lr)
     optimizer_D = torch.optim.Adam(discriminator.parameters(), lr=args.lr)
     loss_func = nn.BCELoss()
@@ -160,6 +158,32 @@ def main():
     # You can save your generator here to re-use it to generate images for your
     # report, e.g.:
     # torch.save(generator.state_dict(), "mnist_generator.pt")
+
+def mainifold():
+    device = 'cpu'
+    generator = Generator(latent_dim=args.latent_dim).to(device)
+    generator.load_state_dict(torch.load('./modelstate/mnist_generator.pt', map_location='cpu'))
+    '''
+    signal1 = torch.Tensor(torch.randn((1, args.latent_dim))).to(device)
+    signal = signal1
+    signal2 = torch.Tensor(torch.randn((1, args.latent_dim))).to(device)
+    for n in range(5):
+        signal3 = signal1 + (signal2 - signal1) * (n+1)/5
+        signal = torch.cat((signal, signal3), 0)
+    signal = torch.cat((signal, signal2), 0)
+    '''
+    signal1 = torch.ones(1, args.latent_dim)
+    for n in range(6):
+        signal2 = signal1 * (n+2)
+        signal1 = torch.cat([signal1, signal2], dim=0)
+    signal = signal1
+    #
+    manifold = generator.forward(signal)
+    manifold = manifold.view(-1, 1, 28, 28)
+    save_image(manifold,
+               'images/GANmania.png',
+               ncol=1, normalize=True)
+
 
 
 if __name__ == "__main__":

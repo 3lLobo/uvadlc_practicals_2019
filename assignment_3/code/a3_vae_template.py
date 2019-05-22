@@ -7,7 +7,8 @@ from torchvision.utils import make_grid
 from tensorboardX import SummaryWriter
 
 from datasets.bmnist import bmnist
-
+from scipy.stats import norm
+from torchvision.utils import save_image
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -29,7 +30,7 @@ class Encoder(nn.Module):
                 nn.init.xavier_uniform(m.weight, mean=0, std=0.01)
                 nn.init.data.fill_(m.bias, 0.01)
 
-        self.net = net
+        self.net = net.to(device)
 
     def forward(self, input):
         """
@@ -100,12 +101,16 @@ class VAE(nn.Module):
         """
 
         # Plot input
-        im_grid = make_grid(input[:9, :, :, :], nrow=3, normalize=True, scale_each=True)
-        writer.add_image('InputImage', im_grid, idx)
-        plt.imshow(im_grid.permute(1, 2, 0))
-        plt.axis('off')
-        plt.savefig('VAEinput' + str(idx) + '.png')
-        plt.close()
+        im_grid = make_grid(input[:25, :, :, :], nrow=5, normalize=True, scale_each=True)
+
+        # Make 5x5 grid
+        save_image(im_grid, 'input_grid.png', nrow=5)
+
+        #writer.add_image('InputImage', im_grid, idx)
+        #plt.imshow(im_grid.permute(1, 2, 0))
+        #plt.axis('off')
+        #plt.savefig('VAEinput' + str(idx) + '.png')
+        #plt.close()
 
         input = input.view(-1, 28 * 28)
         input = input.squeeze()
@@ -116,7 +121,7 @@ class VAE(nn.Module):
         KL = 1/2 * torch.sum((enco_var + enco_mean.pow(2) - enco_var.log() - 1), dim=-1)
 
         # Create latent space
-        eps = torch.randn(self.z_dim)
+        eps = torch.randn(self.z_dim).to(device)
 
         latent_space = eps * enco_std + enco_mean
         deco_mean = self.decoder.forward(latent_space)
@@ -136,7 +141,6 @@ class VAE(nn.Module):
         (from bernoulli) and the means for these bernoullis (as these are
         used to plot the data manifold).
         """
-        # TODO: Bernulli means for manifold?
 
         if z is None:
             z = torch.randn(n_samples, self.z_dim)
@@ -163,6 +167,7 @@ def epoch_iter(model, data, optimizer, writer, val=False):
     elbo_sum = torch.tensor(0).to(device)
     count = 0
     for idx, batch in enumerate(data):
+        batch = batch.to(device)
         average_epoch_elbo = model.forward(batch, writer, idx)
         if not val:
             optimizer.zero_grad()
@@ -247,7 +252,7 @@ def main():
     # --------------------------------------------------------------------
         if ARGS.zdim == 2:
             # TODO: ppf to cover significant z-space?
-            x = torch.linspace(-2, 2, 10)
+            x = torch.linspace(norm.ppf(0.1), norm.ppf(0.9), 10)
             xx, xy = torch.meshgrid(x, x)
             z_mesh = torch.stack([xx, xy], 0)
             z_mesh = z_mesh.view(2, -1).t()

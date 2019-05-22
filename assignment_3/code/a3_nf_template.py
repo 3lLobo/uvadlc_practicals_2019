@@ -8,14 +8,23 @@ import numpy as np
 from datasets.mnist import mnist
 import os
 from torchvision.utils import make_grid
+from torch.nn.utils import clip_grad_norm_
+from torchvision.utils import save_image
 
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 def log_prior(x):
     """
     Compute the elementwise log probability of a standard Gaussian, i.e.
     N(x | mu=0, sigma=1).
     """
-    raise NotImplementedError
+
+    torch_pi = torch.ones_like(x) * 2 * np.pi
+    logp = - 0.5 * torch.pow(x, 2) - 0.5 * torch.log(torch_pi)
+    logp = torch.sum(logp, -1)
+
+    #logp = np.log(2 * np.pi) * (n/2) * (torch.sum(torch.pow(x, 2), -1) / (2))
     return logp
 
 
@@ -23,8 +32,8 @@ def sample_prior(size):
     """
     Sample from a standard Gaussian.
     """
-    raise NotImplementedError
 
+    sample = torch.randn(size)
     if torch.cuda.is_available():
         sample = sample.cuda()
 
@@ -55,14 +64,24 @@ class Coupling(torch.nn.Module):
         # Create shared architecture to generate both the translation and
         # scale variables.
         # Suggestion: Linear ReLU Linear ReLU Linear.
+
         self.nn = torch.nn.Sequential(
-            None
+            nn.Linear(c_in, n_hidden),
+            nn.ReLU(),
+            nn.Linear(n_hidden, n_hidden),
+            nn.ReLU(),
+            nn.Linear(n_hidden, c_in*2),
             )
 
         # The nn should be initialized such that the weights of the last layer
         # is zero, so that its initial transform is identity.
+
         self.nn[-1].weight.data.zero_()
         self.nn[-1].bias.data.zero_()
+
+        # pass on the mask
+        self.mask = mask
+        self.c_in = c_in
 
     def forward(self, z, ldj, reverse=False):
         # Implement the forward and inverse for an affine coupling layer. Split
@@ -74,11 +93,23 @@ class Coupling(torch.nn.Module):
         # log_scale = tanh(h), where h is the scale-output
         # from the NN.
 
-        if not reverse:
-            raise NotImplementedError
-        else:
-            raise NotImplementedError
+        # apply mask
+        z1 = self.mask * z
+        z2 = (1 - self.mask) *z
 
+        # get t and s   TODO: do we feed in z or zMask??ß
+        ts = torch.tanh(self.nn(z1))
+        t = ts[:, :self.c_in]
+        s = ts[:, self.c_in:]
+
+
+        #               TODO: Why is ldj passed on???
+        if not reverse:
+            z = z1 + z2 * torch.exp(s) + t
+            ldj = torch.sum(s, -1)
+        else:
+            z = z1 + ((z2 - t) * torch.exp(-s))
+            #ldj = torch.zeros_like(ldj)     # TODO: zeros or None???
         return z, ldj
 
 
@@ -101,6 +132,7 @@ class Flow(nn.Module):
         if not reverse:
             for layer in self.layers:
                 z, logdet = layer(z, logdet)
+
         else:
             for layer in reversed(self.layers):
                 z, logdet = layer(z, logdet, reverse=True)
@@ -147,8 +179,9 @@ class Model(nn.Module):
         """
         Given input, encode the input to z space. Also keep track of ldj.
         """
+
         z = input
-        ldj = torch.zeros(z.size(0), device=z.device)
+        ldj = torch.zeros(z.size(0)).to(device)
 
         z = self.dequantize(z)
         z, ldj = self.logit_normalize(z, ldj)
@@ -156,8 +189,10 @@ class Model(nn.Module):
         z, ldj = self.flow(z, ldj)
 
         # Compute log_pz and log_px per example
-
-        raise NotImplementedError
+        #log_pz = torch.log(z)
+        #log_pz = torch.sum(log_pz, -1)
+        log_pz = log_prior(z)
+        log_px = log_pz + ldj
 
         return log_px
 
@@ -169,7 +204,9 @@ class Model(nn.Module):
         z = sample_prior((n_samples,) + self.flow.z_shape)
         ldj = torch.zeros(z.size(0), device=z.device)
 
-        raise NotImplementedError
+
+        z, ldj = self.flow.forward(z, ldj, reverse=True)
+        z, ldj = self.logit_normalize(z, ldj, reverse=True)
 
         return z
 
@@ -182,9 +219,32 @@ def epoch_iter(model, data, optimizer):
     Returns the average bpd ("bits per dimension" which is the negative
     log_2 likelihood per dimension) averaged over the complete epoch.
     """
+    loss_sum = torch.zeros(1).to(device)
+    for idx, (batch, _) in enumerate(data):
+        batch = batch.to(device)
+        print('batch :', idx)
+        logpx = - torch.mean(model(batch))
+        loss = (logpx / np.log(2)) / 28 * 28
+        loss_sum += loss
+        #print('Loss:', logpx.exp().item())
 
-    avg_bpd = None
+        # backwards pass
+        if model.training:
+            optimizer.zero_grad()
+            clip_grad_norm_(model.parameters(), max_norm=0.6)
+            logpx.backward()
+            print('back done!')
+            print(device)
+            optimizer.step()
 
+            # sample print
+            manifold = model.sample(25)
+            manifold = manifold.view(-1, 1, 28, 28)
+            save_image(manifold,
+                       'NFmania' + str(idx) + '.png',
+                       nrow=5, normalize=True)
+    # dim = len(loss_list)
+    avg_bpd = loss_sum.item() / idx
     return avg_bpd
 
 
@@ -216,7 +276,6 @@ def save_bpd_plot(train_curve, val_curve, filename):
 
 def main():
     data = mnist()[:2]  # ignore test split
-
     model = Model(shape=[784])
 
     if torch.cuda.is_available():
@@ -242,6 +301,7 @@ def main():
         # --------------------------------------------------------------------
 
     save_bpd_plot(train_curve, val_curve, 'nfs_bpd.pdf')
+    torch.save(model.state_dict(), 'NFstate.pt')
 
 
 if __name__ == "__main__":
