@@ -1,0 +1,3817 @@
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to ./data/mnist/MNIST/raw/train-images-idx3-ubyte.gz
+
+0it [00:00, ?it/s]
+  0%|          | 0/9912422 [00:00<?, ?it/s]
+  0%|          | 16384/9912422 [00:00<01:03, 155195.84it/s]
+  1%|          | 73728/9912422 [00:00<00:52, 188737.28it/s]
+  2%|▏         | 245760/9912422 [00:00<00:38, 252040.68it/s]
+  7%|▋         | 720896/9912422 [00:00<00:26, 348297.98it/s]
+ 25%|██▌       | 2506752/9912422 [00:00<00:15, 491485.91it/s]
+ 81%|████████  | 7987200/9912422 [00:00<00:02, 699434.13it/s]
+9920512it [00:01, 9493039.33it/s]                            
+Extracting ./data/mnist/MNIST/raw/train-images-idx3-ubyte.gz
+
+
+
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to ./data/mnist/MNIST/raw/train-labels-idx1-ubyte.gz
+
+0it [00:00, ?it/s]
+  0%|          | 0/28881 [00:00<?, ?it/s]
+32768it [00:00, 134742.49it/s]           
+
+Extracting ./data/mnist/MNIST/raw/train-labels-idx1-ubyte.gz
+
+0it [00:00, ?it/s]
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz to ./data/mnist/MNIST/raw/t10k-images-idx3-ubyte.gz
+
+  0%|          | 0/1648877 [00:00<?, ?it/s]
+  1%|          | 16384/1648877 [00:00<00:10, 153712.50it/s]
+  6%|▌         | 98304/1648877 [00:00<00:07, 195400.69it/s]
+ 26%|██▌       | 425984/1648877 [00:00<00:04, 268797.37it/s]
+ 85%|████████▌ | 1409024/1648877 [00:00<00:00, 377415.86it/s]
+1654784it [00:00, 2243756.93it/s]                            
+
+Extracting ./data/mnist/MNIST/raw/t10k-images-idx3-ubyte.gz
+
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz to ./data/mnist/MNIST/raw/t10k-labels-idx1-ubyte.gz
+
+0it [00:00, ?it/s]
+  0%|          | 0/4542 [00:00<?, ?it/s]
+Extracting ./data/mnist/MNIST/raw/t10k-labels-idx1-ubyte.gz
+Processing...
+
+8192it [00:00, 52638.11it/s]            
+
+Done!
+
+Loss G: 0.6908239722251892
+
+Loss D: tensor(1.4578, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.660849928855896
+
+Loss D: tensor(1.3033, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6343323588371277
+
+Loss D: tensor(1.1951, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6101927757263184
+
+Loss D: tensor(1.1077, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5825881958007812
+
+Loss D: tensor(1.0614, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5550152659416199
+
+Loss D: tensor(1.0365, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5253379940986633
+
+Loss D: tensor(1.0384, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4932591915130615
+
+Loss D: tensor(1.0622, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4622153043746948
+
+Loss D: tensor(1.1047, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4330076277256012
+
+Loss D: tensor(1.1508, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4073500335216522
+
+Loss D: tensor(1.2023, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.38789522647857666
+
+Loss D: tensor(1.2457, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.3724002242088318
+
+Loss D: tensor(1.2795, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.36590510606765747
+
+Loss D: tensor(1.2968, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.36665087938308716
+
+Loss D: tensor(1.2956, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.37299931049346924
+
+Loss D: tensor(1.2814, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.38781124353408813
+
+Loss D: tensor(1.2480, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.41368788480758667
+
+Loss D: tensor(1.1950, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4434593915939331
+
+Loss D: tensor(1.1419, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4834488332271576
+
+Loss D: tensor(1.0764, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5322113037109375
+
+Loss D: tensor(1.0093, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5890321135520935
+
+Loss D: tensor(0.9448, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6443047523498535
+
+Loss D: tensor(0.8965, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6952955722808838
+
+Loss D: tensor(0.8635, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7186699509620667
+
+Loss D: tensor(0.8493, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.716538667678833
+
+Loss D: tensor(0.8541, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6870824694633484
+
+Loss D: tensor(0.8878, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6354482769966125
+
+Loss D: tensor(0.9451, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5685633420944214
+
+Loss D: tensor(1.0263, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5142897367477417
+
+Loss D: tensor(1.1103, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4806984066963196
+
+Loss D: tensor(1.1718, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4664957821369171
+
+Loss D: tensor(1.2037, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.47407954931259155
+
+Loss D: tensor(1.2093, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.49810367822647095
+
+Loss D: tensor(1.1966, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5278278589248657
+
+Loss D: tensor(1.1871, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5631259083747864
+
+Loss D: tensor(1.1930, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5645575523376465
+
+Loss D: tensor(1.1960, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5482525825500488
+
+Loss D: tensor(1.2611, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5059080123901367
+
+Loss D: tensor(1.3163, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4575546681880951
+
+Loss D: tensor(1.3786, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.42336946725845337
+
+Loss D: tensor(1.4386, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.41033411026000977
+
+Loss D: tensor(1.4588, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.41856876015663147
+
+Loss D: tensor(1.4516, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4438088536262512
+
+Loss D: tensor(1.4078, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.477924108505249
+
+Loss D: tensor(1.3568, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5108225345611572
+
+Loss D: tensor(1.3332, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5212000608444214
+
+Loss D: tensor(1.2787, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5188502073287964
+
+Loss D: tensor(1.2748, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.503425121307373
+Loss D: tensor(1.2463, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.49965548515319824
+
+Loss D: tensor(1.2224, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5068294405937195
+
+Loss D: tensor(1.1927, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5385230183601379
+
+Loss D: tensor(1.1332, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5760492086410522
+
+Loss D: tensor(1.0832, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6160805225372314
+
+Loss D: tensor(1.0262, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6427062749862671
+
+Loss D: tensor(0.9798, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6573803424835205
+
+Loss D: tensor(0.9625, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.651339054107666
+Loss D: tensor(0.9672, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.64227694272995
+
+Loss D: tensor(0.9652, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6360108852386475
+
+Loss D: tensor(0.9707, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6396320462226868
+
+Loss D: tensor(0.9706, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6554247140884399
+
+Loss D: tensor(0.9475, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6836514472961426
+
+Loss D: tensor(0.9258, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6980286240577698
+
+Loss D: tensor(0.9210, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6979150772094727
+
+Loss D: tensor(0.9160, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6780460476875305
+
+Loss D: tensor(0.9413, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6587637662887573
+
+Loss D: tensor(0.9720, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6530143022537231
+
+Loss D: tensor(0.9708, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.657387912273407
+
+Loss D: tensor(0.9822, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6707437038421631
+
+Loss D: tensor(0.9721, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6782660484313965
+
+Loss D: tensor(0.9520, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6900479793548584
+
+Loss D: tensor(0.9510, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6905815601348877
+
+Loss D: tensor(0.9485, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.692461371421814
+
+Loss D: tensor(0.9454, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6795926094055176
+
+Loss D: tensor(0.9707, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6779655814170837
+
+Loss D: tensor(0.9644, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6899563074111938
+
+Loss D: tensor(0.9456, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.70046067237854
+
+Loss D: tensor(0.9397, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7048107385635376
+
+Loss D: tensor(0.9287, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7002936601638794
+
+Loss D: tensor(0.9315, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6854437589645386
+
+Loss D: tensor(0.9284, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6896944046020508
+
+Loss D: tensor(0.9472, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6912994980812073
+
+Loss D: tensor(0.9228, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7001199722290039
+
+Loss D: tensor(0.9090, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.720032274723053
+
+Loss D: tensor(0.8879, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7139486074447632
+
+Loss D: tensor(0.8792, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7111085057258606
+
+Loss D: tensor(0.8872, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7052723169326782
+
+Loss D: tensor(0.8725, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7160838842391968
+
+Loss D: tensor(0.8570, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.727724015712738
+
+Loss D: tensor(0.8294, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.742964506149292
+
+Loss D: tensor(0.8184, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7326855659484863
+
+Loss D: tensor(0.8204, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7243431806564331
+
+Loss D: tensor(0.8357, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.714197039604187
+
+Loss D: tensor(0.8386, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7179632782936096
+
+Loss D: tensor(0.8351, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7338335514068604
+
+Loss D: tensor(0.8147, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7392504811286926
+
+Loss D: tensor(0.8093, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7387427687644958
+
+Loss D: tensor(0.8055, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7310749292373657
+
+Loss D: tensor(0.8209, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7197738885879517
+
+Loss D: tensor(0.8217, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7289078235626221
+
+Loss D: tensor(0.8150, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7317017912864685
+
+Loss D: tensor(0.8052, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7342892289161682
+
+Loss D: tensor(0.8073, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7255417108535767
+
+Loss D: tensor(0.8088, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7029082179069519
+
+Loss D: tensor(0.8276, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.708107590675354
+
+Loss D: tensor(0.8218, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.722632646560669
+
+Loss D: tensor(0.8080, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7395386695861816
+
+Loss D: tensor(0.7871, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7214732766151428
+
+Loss D: tensor(0.8053, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7050573825836182
+
+Loss D: tensor(0.8193, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7028124332427979
+
+Loss D: tensor(0.8214, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7213667035102844
+
+Loss D: tensor(0.8009, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7323170900344849
+
+Loss D: tensor(0.7882, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.715800404548645
+
+Loss D: tensor(0.8083, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6959033012390137
+
+Loss D: tensor(0.8231, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7071727514266968
+
+Loss D: tensor(0.8145, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7123819589614868
+
+Loss D: tensor(0.8098, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7077133655548096
+
+Loss D: tensor(0.8112, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7081058025360107
+
+Loss D: tensor(0.8221, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6960751414299011
+
+Loss D: tensor(0.8283, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.696341872215271
+
+Loss D: tensor(0.8270, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7028692960739136
+
+Loss D: tensor(0.8185, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7197538614273071
+
+Loss D: tensor(0.8040, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7088912725448608
+
+Loss D: tensor(0.8206, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6725630760192871
+
+Loss D: tensor(0.8614, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6847455501556396
+
+Loss D: tensor(0.8438, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7150157690048218
+
+Loss D: tensor(0.8216, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7014923095703125
+
+Loss D: tensor(0.8376, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6897526979446411
+
+Loss D: tensor(0.8567, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.679350733757019
+
+Loss D: tensor(0.8638, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6972178220748901
+
+Loss D: tensor(0.8528, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6959038972854614
+
+Loss D: tensor(0.8586, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6783672571182251
+
+Loss D: tensor(0.8738, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6771156191825867
+
+Loss D: tensor(0.8812, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6774396896362305
+
+Loss D: tensor(0.8987, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6748005747795105
+
+Loss D: tensor(0.9048, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6539666652679443
+
+Loss D: tensor(0.9257, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6685253977775574
+
+Loss D: tensor(0.8996, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6902635097503662
+
+Loss D: tensor(0.8972, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.681000828742981
+
+Loss D: tensor(0.9032, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6379536390304565
+
+Loss D: tensor(0.9596, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6431471705436707
+
+Loss D: tensor(0.9598, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6781708002090454
+
+Loss D: tensor(0.9334, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6385238170623779
+
+Loss D: tensor(0.9653, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6435288786888123
+
+Loss D: tensor(0.9691, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.672622561454773
+
+Loss D: tensor(0.9393, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6462183594703674
+
+Loss D: tensor(0.9596, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6269427537918091
+
+Loss D: tensor(0.9900, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6235787272453308
+
+Loss D: tensor(1.0124, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6486218571662903
+
+Loss D: tensor(0.9703, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6581069231033325
+
+Loss D: tensor(0.9713, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6170329451560974
+
+Loss D: tensor(1.0153, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6229935884475708
+
+Loss D: tensor(1.0092, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6722281575202942
+
+Loss D: tensor(0.9658, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6450557708740234
+
+Loss D: tensor(0.9794, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6049941778182983
+
+Loss D: tensor(1.0108, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6599869728088379
+
+Loss D: tensor(0.9723, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6511373519897461
+
+Loss D: tensor(0.9744, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6290262937545776
+
+Loss D: tensor(1.0098, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6235449910163879
+
+Loss D: tensor(1.0056, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6669515371322632
+
+Loss D: tensor(0.9391, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6943405866622925
+
+Loss D: tensor(0.9320, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6318902373313904
+
+Loss D: tensor(1.0093, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5882003307342529
+
+Loss D: tensor(1.0518, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6320613622665405
+
+Loss D: tensor(0.9964, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6955485343933105
+
+Loss D: tensor(0.9414, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6784747242927551
+
+Loss D: tensor(0.9432, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6054474115371704
+
+Loss D: tensor(1.0174, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6470255851745605
+
+Loss D: tensor(0.9670, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7299090623855591
+
+Loss D: tensor(0.8984, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6949546337127686
+
+Loss D: tensor(0.9242, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6066851615905762
+
+Loss D: tensor(1.0255, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6290782690048218
+
+Loss D: tensor(1.0040, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6903616189956665
+
+Loss D: tensor(0.9370, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7121343612670898
+
+Loss D: tensor(0.9378, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6421781778335571
+
+Loss D: tensor(0.9868, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6124492287635803
+
+Loss D: tensor(1.0318, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6598389148712158
+
+Loss D: tensor(1.0003, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7111194133758545
+
+Loss D: tensor(0.9287, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6571018099784851
+
+Loss D: tensor(1.0135, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6068235039710999
+
+Loss D: tensor(1.0468, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6268357634544373
+
+Loss D: tensor(1.0426, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6564823389053345
+
+Loss D: tensor(1.0059, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6981630921363831
+
+Loss D: tensor(0.9829, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6525219082832336
+
+Loss D: tensor(1.0074, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6104108691215515
+
+Loss D: tensor(1.0451, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6446065902709961
+
+Loss D: tensor(1.0252, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6954320669174194
+
+Loss D: tensor(0.9741, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6364458799362183
+
+Loss D: tensor(1.0428, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6091141700744629
+
+Loss D: tensor(1.0700, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6483190655708313
+
+Loss D: tensor(1.0222, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7066404819488525
+
+Loss D: tensor(0.9770, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6715418100357056
+
+Loss D: tensor(1.0106, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5964170694351196
+
+Loss D: tensor(1.1130, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6290755271911621
+
+Loss D: tensor(1.0560, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6994078159332275
+
+Loss D: tensor(1.0046, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6997421979904175
+
+Loss D: tensor(1.0150, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5934656262397766
+
+Loss D: tensor(1.1128, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6188864707946777
+
+Loss D: tensor(1.1030, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6816451549530029
+
+Loss D: tensor(1.0166, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7207058668136597
+
+Loss D: tensor(1.0410, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5865815281867981
+
+Loss D: tensor(1.1621, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5857781171798706
+
+Loss D: tensor(1.1754, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.609060525894165
+
+Loss D: tensor(1.1649, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6763707399368286
+
+Loss D: tensor(1.0810, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6905293464660645
+
+Loss D: tensor(1.0985, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5787529945373535
+
+Loss D: tensor(1.2361, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5562366843223572
+
+Loss D: tensor(1.2128, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6288861632347107
+
+Loss D: tensor(1.1609, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6662372350692749
+
+Loss D: tensor(1.1577, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.637005090713501
+
+Loss D: tensor(1.1593, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5933094024658203
+
+Loss D: tensor(1.1817, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6106849908828735
+
+Loss D: tensor(1.1890, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.642170786857605
+
+Loss D: tensor(1.1424, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6782650351524353
+
+Loss D: tensor(1.1192, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.614957332611084
+
+Loss D: tensor(1.1598, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5820266604423523
+
+Loss D: tensor(1.2140, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6420366764068604
+
+Loss D: tensor(1.1604, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.640304684638977
+
+Loss D: tensor(1.1217, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6630926132202148
+
+Loss D: tensor(1.1339, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6508678793907166
+
+Loss D: tensor(1.1284, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6212044358253479
+
+Loss D: tensor(1.1335, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6076624989509583
+
+Loss D: tensor(1.1442, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6756980419158936
+
+Loss D: tensor(1.0841, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6910621523857117
+
+Loss D: tensor(1.0840, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6350374221801758
+
+Loss D: tensor(1.1133, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6098010540008545
+
+Loss D: tensor(1.1550, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6634812951087952
+
+Loss D: tensor(1.1015, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7062884569168091
+
+Loss D: tensor(1.0360, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6572010517120361
+
+Loss D: tensor(1.0587, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6787500381469727
+
+Loss D: tensor(1.0486, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6993992328643799
+
+Loss D: tensor(1.0168, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6684772968292236
+
+Loss D: tensor(1.0573, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6489417552947998
+
+Loss D: tensor(1.0476, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.666940450668335
+
+Loss D: tensor(1.0358, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.708786129951477
+
+Loss D: tensor(0.9680, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7259290218353271
+
+Loss D: tensor(0.9494, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7428570985794067
+
+Loss D: tensor(0.9419, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6441099643707275
+
+Loss D: tensor(1.0555, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6229714155197144
+
+Loss D: tensor(1.0645, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.685721755027771
+
+Loss D: tensor(0.9762, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.8177249431610107
+
+Loss D: tensor(0.8732, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7273190021514893
+
+Loss D: tensor(0.9439, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6136844158172607
+Loss D: tensor(1.0794, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6623950600624084
+
+Loss D: tensor(1.0020, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7084399461746216
+
+Loss D: tensor(0.9568, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7962788343429565
+
+Loss D: tensor(0.8952, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7164889574050903
+
+Loss D: tensor(0.9553, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6203756332397461
+
+Loss D: tensor(1.0528, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6318187117576599
+
+Loss D: tensor(1.0293, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7140597105026245
+
+Loss D: tensor(0.9167, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7710496187210083
+
+Loss D: tensor(0.8758, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6999852657318115
+
+Loss D: tensor(0.9343, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7008813619613647
+
+Loss D: tensor(0.9156, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6642401218414307
+
+Loss D: tensor(0.9594, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7097873687744141
+
+Loss D: tensor(0.9335, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7367957234382629
+
+Loss D: tensor(0.8739, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7499912977218628
+
+Loss D: tensor(0.8887, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6934648752212524
+
+Loss D: tensor(0.9444, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6587508916854858
+
+Loss D: tensor(0.9653, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6563229560852051
+
+Loss D: tensor(0.9775, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7359116077423096
+
+Loss D: tensor(0.8811, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7545393705368042
+
+Loss D: tensor(0.8592, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6899659037590027
+
+Loss D: tensor(0.9210, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7171066999435425
+
+Loss D: tensor(0.8925, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6826457381248474
+
+Loss D: tensor(0.9444, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6870800256729126
+
+Loss D: tensor(0.9260, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7357275485992432
+
+Loss D: tensor(0.8666, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7260253429412842
+
+Loss D: tensor(0.8802, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7176981568336487
+
+Loss D: tensor(0.9215, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7004685997962952
+
+Loss D: tensor(0.9196, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7030887603759766
+
+Loss D: tensor(0.9264, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6744314432144165
+
+Loss D: tensor(0.9574, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6842836141586304
+
+Loss D: tensor(0.9516, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6865869760513306
+
+Loss D: tensor(0.9454, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7020660638809204
+
+Loss D: tensor(0.9418, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6968297362327576
+
+Loss D: tensor(0.9585, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6997310519218445
+
+Loss D: tensor(0.9384, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6907047033309937
+
+Loss D: tensor(0.9419, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7114697694778442
+
+Loss D: tensor(0.9264, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6791713237762451
+
+Loss D: tensor(0.9431, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6685147285461426
+
+Loss D: tensor(0.9569, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.72878497838974
+
+Loss D: tensor(0.8885, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7405771017074585
+
+Loss D: tensor(0.8886, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.740455150604248
+
+Loss D: tensor(0.8954, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6969860792160034
+
+Loss D: tensor(0.9382, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6618521213531494
+
+Loss D: tensor(0.9745, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6688279509544373
+
+Loss D: tensor(0.9692, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7100139856338501
+
+Loss D: tensor(0.9392, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7274609804153442
+
+Loss D: tensor(0.8903, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7543061971664429
+
+Loss D: tensor(0.8845, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.700901985168457
+
+Loss D: tensor(0.9400, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7074391841888428
+
+Loss D: tensor(0.9343, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7268801927566528
+
+Loss D: tensor(0.8773, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7379278540611267
+
+Loss D: tensor(0.9022, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7209309339523315
+
+Loss D: tensor(0.9304, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7186671495437622
+
+Loss D: tensor(0.8978, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6885770559310913
+
+Loss D: tensor(0.9144, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6683444976806641
+
+Loss D: tensor(0.9548, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6882349252700806
+
+Loss D: tensor(0.9400, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7396209239959717
+
+Loss D: tensor(0.8718, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.734356164932251
+
+Loss D: tensor(0.8801, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6834418773651123
+
+Loss D: tensor(0.9336, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6941854953765869
+
+Loss D: tensor(0.9227, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6818201541900635
+
+Loss D: tensor(0.9283, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7003389596939087
+
+Loss D: tensor(0.9028, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7128926515579224
+
+Loss D: tensor(0.9123, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7352816462516785
+
+Loss D: tensor(0.8553, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.710913896560669
+
+Loss D: tensor(0.8662, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6665529012680054
+
+Loss D: tensor(0.9175, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6874189376831055
+
+Loss D: tensor(0.8793, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6734432578086853
+
+Loss D: tensor(0.9149, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6970534324645996
+
+Loss D: tensor(0.8976, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7218305468559265
+
+Loss D: tensor(0.8589, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6821799278259277
+
+Loss D: tensor(0.8969, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7027533054351807
+
+Loss D: tensor(0.8581, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6847313046455383
+
+Loss D: tensor(0.8612, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6611671447753906
+
+Loss D: tensor(0.8734, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6873643398284912
+
+Loss D: tensor(0.8478, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6945937275886536
+
+Loss D: tensor(0.8446, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6945267915725708
+
+Loss D: tensor(0.8364, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7013148069381714
+
+Loss D: tensor(0.8131, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6680916547775269
+
+Loss D: tensor(0.8483, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6621772050857544
+
+Loss D: tensor(0.8544, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7000512480735779
+
+Loss D: tensor(0.8128, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6880002617835999
+
+Loss D: tensor(0.8220, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6875269412994385
+
+Loss D: tensor(0.8151, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6593486070632935
+
+Loss D: tensor(0.8522, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6927691698074341
+
+Loss D: tensor(0.8173, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7136104106903076
+
+Loss D: tensor(0.7928, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.661133885383606
+
+Loss D: tensor(0.8631, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7003303170204163
+
+Loss D: tensor(0.8039, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6762431859970093
+
+Loss D: tensor(0.8232, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6649956703186035
+
+Loss D: tensor(0.8455, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.684984564781189
+
+Loss D: tensor(0.8263, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7033408880233765
+
+Loss D: tensor(0.8010, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6654722094535828
+
+Loss D: tensor(0.8459, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6345739364624023
+
+Loss D: tensor(0.8769, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6783018112182617
+
+Loss D: tensor(0.8199, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6839850544929504
+
+Loss D: tensor(0.8366, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6848133206367493
+
+Loss D: tensor(0.8158, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6692506670951843
+
+Loss D: tensor(0.8411, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.625688374042511
+
+Loss D: tensor(0.8907, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6109734177589417
+
+Loss D: tensor(0.9109, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.746803879737854
+
+Loss D: tensor(0.7689, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7060686349868774
+
+Loss D: tensor(0.7885, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6315751671791077
+
+Loss D: tensor(0.8901, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.652990460395813
+
+Loss D: tensor(0.8557, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6778644919395447
+
+Loss D: tensor(0.8478, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7022435665130615
+
+Loss D: tensor(0.8387, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6363593339920044
+
+Loss D: tensor(0.9146, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6062065958976746
+
+Loss D: tensor(0.9633, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7052818536758423
+
+Loss D: tensor(0.8563, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.687846302986145
+
+Loss D: tensor(0.8835, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.608214259147644
+
+Loss D: tensor(0.9856, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5839223861694336
+
+Loss D: tensor(0.9776, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6003080606460571
+
+Loss D: tensor(0.9841, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6416840553283691
+
+Loss D: tensor(0.9297, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7140821218490601
+
+Loss D: tensor(0.9175, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6110498309135437
+
+Loss D: tensor(0.9773, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6190036535263062
+
+Loss D: tensor(0.9863, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5780596733093262
+
+Loss D: tensor(0.9903, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5721958875656128
+
+Loss D: tensor(1.0636, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6256818771362305
+
+Loss D: tensor(1.0628, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7156082391738892
+
+Loss D: tensor(0.9643, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6561774015426636
+
+Loss D: tensor(0.9908, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.54883873462677
+
+Loss D: tensor(1.1250, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.47037190198898315
+
+Loss D: tensor(1.2460, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5431106090545654
+
+Loss D: tensor(1.1491, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6874704360961914
+
+Loss D: tensor(0.9727, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7167967557907104
+
+Loss D: tensor(0.9371, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5785403251647949
+
+Loss D: tensor(1.0744, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5225913524627686
+
+Loss D: tensor(1.1447, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5061919093132019
+
+Loss D: tensor(1.1880, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5718287825584412
+
+Loss D: tensor(1.1185, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6264241933822632
+
+Loss D: tensor(1.0641, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6630169749259949
+
+Loss D: tensor(1.0387, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6064310669898987
+
+Loss D: tensor(1.0841, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.542548418045044
+
+Loss D: tensor(1.1653, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.55179762840271
+
+Loss D: tensor(1.1576, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5901280641555786
+
+Loss D: tensor(1.1145, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.543614387512207
+
+Loss D: tensor(1.2001, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6183598041534424
+
+Loss D: tensor(1.0889, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.621880829334259
+
+Loss D: tensor(1.0430, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5744678974151611
+
+Loss D: tensor(1.0660, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5181432962417603
+
+Loss D: tensor(1.1813, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5530781149864197
+
+Loss D: tensor(1.1133, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5844546556472778
+
+Loss D: tensor(1.1018, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6004863977432251
+
+Loss D: tensor(1.1068, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6713416576385498
+
+Loss D: tensor(0.9961, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5969405770301819
+
+Loss D: tensor(1.0705, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.48950445652008057
+
+Loss D: tensor(1.2083, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5546319484710693
+
+Loss D: tensor(1.0807, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6307538747787476
+
+Loss D: tensor(0.9924, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6510521769523621
+
+Loss D: tensor(0.9946, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6180087924003601
+
+Loss D: tensor(1.0094, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5597823858261108
+
+Loss D: tensor(1.0858, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5861407518386841
+
+Loss D: tensor(1.0319, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5440374612808228
+
+Loss D: tensor(1.1060, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6378326416015625
+
+Loss D: tensor(0.9554, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6411454081535339
+
+Loss D: tensor(0.9643, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5830629467964172
+
+Loss D: tensor(1.0561, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5840908288955688
+
+Loss D: tensor(1.0188, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6187217235565186
+
+Loss D: tensor(0.9774, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5682121515274048
+
+Loss D: tensor(1.0481, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6297516822814941
+
+Loss D: tensor(0.9715, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6139892339706421
+
+Loss D: tensor(0.9909, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5930988788604736
+
+Loss D: tensor(1.0083, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5998445749282837
+
+Loss D: tensor(0.9780, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5983911156654358
+
+Loss D: tensor(0.9937, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.607119619846344
+
+Loss D: tensor(0.9897, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6057166457176208
+
+Loss D: tensor(0.9842, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.60387122631073
+
+Loss D: tensor(0.9869, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6069511771202087
+
+Loss D: tensor(0.9953, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6328129768371582
+
+Loss D: tensor(0.9612, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5957596302032471
+
+Loss D: tensor(0.9935, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6197125315666199
+
+Loss D: tensor(0.9821, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6172422170639038
+
+Loss D: tensor(0.9896, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5869562029838562
+
+Loss D: tensor(1.0194, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5935159921646118
+
+Loss D: tensor(1.0127, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6424943208694458
+
+Loss D: tensor(0.9781, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6358840465545654
+
+Loss D: tensor(0.9768, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5685819387435913
+
+Loss D: tensor(1.0642, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5798075795173645
+
+Loss D: tensor(1.0500, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6413966417312622
+
+Loss D: tensor(1.0219, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6061896085739136
+
+Loss D: tensor(1.0529, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5455220937728882
+
+Loss D: tensor(1.1509, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5189721584320068
+
+Loss D: tensor(1.1780, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6304075121879578
+
+Loss D: tensor(1.0702, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6113052368164062
+
+Loss D: tensor(1.1155, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.521977961063385
+
+Loss D: tensor(1.2040, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5106074810028076
+
+Loss D: tensor(1.2046, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6267364025115967
+
+Loss D: tensor(1.1019, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5989559888839722
+
+Loss D: tensor(1.0942, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5586835145950317
+
+Loss D: tensor(1.1654, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.550251841545105
+
+Loss D: tensor(1.1917, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5656206011772156
+
+Loss D: tensor(1.1860, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5594135522842407
+
+Loss D: tensor(1.2138, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5295663475990295
+
+Loss D: tensor(1.2613, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5047670602798462
+
+Loss D: tensor(1.2512, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5674118995666504
+
+Loss D: tensor(1.2694, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5277515649795532
+
+Loss D: tensor(1.2566, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5076514482498169
+
+Loss D: tensor(1.2992, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5534985065460205
+
+Loss D: tensor(1.2435, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5261377096176147
+
+Loss D: tensor(1.2969, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5256262421607971
+
+Loss D: tensor(1.3362, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4827246069908142
+
+Loss D: tensor(1.3475, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5277659893035889
+
+Loss D: tensor(1.3339, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.534205436706543
+
+Loss D: tensor(1.3464, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5019799470901489
+
+Loss D: tensor(1.4140, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.47998425364494324
+
+Loss D: tensor(1.4256, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4728856086730957
+
+Loss D: tensor(1.4464, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4879380464553833
+
+Loss D: tensor(1.4828, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.49214595556259155
+
+Loss D: tensor(1.4435, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.47804123163223267
+
+Loss D: tensor(1.4492, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4569593071937561
+
+Loss D: tensor(1.4863, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.48261597752571106
+
+Loss D: tensor(1.4650, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4479699432849884
+
+Loss D: tensor(1.4908, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4631633162498474
+
+Loss D: tensor(1.4455, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.49079257249832153
+
+Loss D: tensor(1.3812, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.474589079618454
+
+Loss D: tensor(1.3646, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4991280138492584
+
+Loss D: tensor(1.3025, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5008399486541748
+
+Loss D: tensor(1.3142, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5246628522872925
+
+Loss D: tensor(1.2386, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5183200240135193
+
+Loss D: tensor(1.2228, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5300846099853516
+
+Loss D: tensor(1.1816, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5681618452072144
+
+Loss D: tensor(1.1229, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5985360145568848
+
+Loss D: tensor(1.1066, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.571216881275177
+
+Loss D: tensor(1.1022, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5484775900840759
+
+Loss D: tensor(1.1148, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.60252445936203
+
+Loss D: tensor(1.0386, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6622015833854675
+
+Loss D: tensor(0.9784, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5977823734283447
+
+Loss D: tensor(1.0389, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5649986267089844
+
+Loss D: tensor(1.0766, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5936709642410278
+
+Loss D: tensor(1.0366, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.658338189125061
+
+Loss D: tensor(0.9656, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.642237663269043
+
+Loss D: tensor(0.9935, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6239981651306152
+
+Loss D: tensor(1.0160, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5766701698303223
+
+Loss D: tensor(1.0569, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.608502209186554
+
+Loss D: tensor(1.0412, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6951152086257935
+
+Loss D: tensor(0.9805, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6321157217025757
+
+Loss D: tensor(1.0788, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5552067756652832
+
+Loss D: tensor(1.1360, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5651612877845764
+
+Loss D: tensor(1.1530, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6523905992507935
+
+Loss D: tensor(1.0752, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6328349113464355
+
+Loss D: tensor(1.1182, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5515853762626648
+
+Loss D: tensor(1.2153, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.56815105676651
+
+Loss D: tensor(1.2162, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5783607959747314
+
+Loss D: tensor(1.2233, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5901495218276978
+
+Loss D: tensor(1.2092, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5598100423812866
+
+Loss D: tensor(1.2757, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5285635590553284
+
+Loss D: tensor(1.3106, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5263819694519043
+
+Loss D: tensor(1.3123, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5593624114990234
+
+Loss D: tensor(1.2492, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5358870029449463
+
+Loss D: tensor(1.2797, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.561531662940979
+
+Loss D: tensor(1.2096, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5744441747665405
+
+Loss D: tensor(1.2359, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5502796173095703
+
+Loss D: tensor(1.2373, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5688477754592896
+
+Loss D: tensor(1.2160, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5732194185256958
+
+Loss D: tensor(1.1933, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5747426152229309
+
+Loss D: tensor(1.1723, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.592438817024231
+
+Loss D: tensor(1.1669, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6237877607345581
+
+Loss D: tensor(1.1297, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.58360356092453
+
+Loss D: tensor(1.1498, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5783857107162476
+
+Loss D: tensor(1.1385, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5886872410774231
+
+Loss D: tensor(1.1365, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6568106412887573
+
+Loss D: tensor(1.0903, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5725135803222656
+
+Loss D: tensor(1.1507, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.536683201789856
+
+Loss D: tensor(1.1796, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6388822793960571
+
+Loss D: tensor(1.0391, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7178276777267456
+
+Loss D: tensor(1.0305, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5750221014022827
+
+Loss D: tensor(1.1090, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5432611703872681
+
+Loss D: tensor(1.1802, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6068651676177979
+
+Loss D: tensor(1.1139, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6895120739936829
+
+Loss D: tensor(0.9814, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6459966897964478
+
+Loss D: tensor(1.0733, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5670765042304993
+
+Loss D: tensor(1.1475, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5569341778755188
+
+Loss D: tensor(1.1681, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6202269792556763
+
+Loss D: tensor(1.1077, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6872249841690063
+
+Loss D: tensor(1.0660, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.589120090007782
+
+Loss D: tensor(1.1915, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5129597187042236
+
+Loss D: tensor(1.2541, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5568330883979797
+
+Loss D: tensor(1.2718, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6150467395782471
+
+Loss D: tensor(1.2034, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6281151175498962
+
+Loss D: tensor(1.1941, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5679641366004944
+
+Loss D: tensor(1.2277, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5293593406677246
+
+Loss D: tensor(1.3248, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5560836791992188
+
+Loss D: tensor(1.3161, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5744345188140869
+
+Loss D: tensor(1.3000, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5702448487281799
+
+Loss D: tensor(1.3291, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5169815421104431
+
+Loss D: tensor(1.3837, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.524767279624939
+
+Loss D: tensor(1.3567, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5549181699752808
+
+Loss D: tensor(1.3533, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5720223784446716
+
+Loss D: tensor(1.2933, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.530845582485199
+
+Loss D: tensor(1.3235, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5350514650344849
+
+Loss D: tensor(1.3332, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5081534385681152
+
+Loss D: tensor(1.3339, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5525184869766235
+
+Loss D: tensor(1.2732, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6030352115631104
+
+Loss D: tensor(1.1722, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5964776277542114
+
+Loss D: tensor(1.1838, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5768276453018188
+
+Loss D: tensor(1.1973, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5817027688026428
+
+Loss D: tensor(1.1445, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5907607078552246
+
+Loss D: tensor(1.1428, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6315426826477051
+
+Loss D: tensor(1.0863, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6501498222351074
+
+Loss D: tensor(1.0575, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.650797426700592
+
+Loss D: tensor(1.0432, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6024882793426514
+
+Loss D: tensor(1.0754, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6071122884750366
+
+Loss D: tensor(1.0958, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6351944208145142
+
+Loss D: tensor(1.0657, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6984415650367737
+
+Loss D: tensor(1.0112, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6799889802932739
+
+Loss D: tensor(1.0252, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6222367286682129
+
+Loss D: tensor(1.0750, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6319546699523926
+
+Loss D: tensor(1.0569, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6743984222412109
+
+Loss D: tensor(1.0072, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7224533557891846
+
+Loss D: tensor(0.9835, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6845599412918091
+
+Loss D: tensor(1.0250, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.680637001991272
+
+Loss D: tensor(1.0342, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6543949842453003
+
+Loss D: tensor(1.0801, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6377882957458496
+
+Loss D: tensor(1.1034, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6817981600761414
+
+Loss D: tensor(1.0526, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6586182117462158
+
+Loss D: tensor(1.0897, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6938818097114563
+
+Loss D: tensor(1.0616, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6270121335983276
+
+Loss D: tensor(1.1021, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6335854530334473
+
+Loss D: tensor(1.1296, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.644321620464325
+
+Loss D: tensor(1.0976, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6528737545013428
+
+Loss D: tensor(1.1108, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5962185859680176
+
+Loss D: tensor(1.1400, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.59614098072052
+
+Loss D: tensor(1.1495, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6389633417129517
+
+Loss D: tensor(1.1445, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6222147345542908
+
+Loss D: tensor(1.1421, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5975422859191895
+
+Loss D: tensor(1.1694, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5367718935012817
+
+Loss D: tensor(1.2552, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5726604461669922
+
+Loss D: tensor(1.2067, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.665418267250061
+
+Loss D: tensor(1.1144, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6256579756736755
+
+Loss D: tensor(1.1576, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5269315242767334
+
+Loss D: tensor(1.2633, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5832132697105408
+
+Loss D: tensor(1.1993, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6333204507827759
+
+Loss D: tensor(1.1457, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5901777744293213
+
+Loss D: tensor(1.2146, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5618422031402588
+
+Loss D: tensor(1.2309, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5753939151763916
+
+Loss D: tensor(1.1994, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6164084672927856
+
+Loss D: tensor(1.1393, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6943290829658508
+
+Loss D: tensor(1.1286, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5044454336166382
+
+Loss D: tensor(1.3104, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.4985504746437073
+
+Loss D: tensor(1.3081, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6398899555206299
+
+Loss D: tensor(1.1411, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7351306676864624
+
+Loss D: tensor(1.0956, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5816974639892578
+
+Loss D: tensor(1.1803, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5717660188674927
+
+Loss D: tensor(1.1769, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5651130080223083
+
+Loss D: tensor(1.1821, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6282558441162109
+
+Loss D: tensor(1.1215, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6966413259506226
+
+Loss D: tensor(1.0563, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7004077434539795
+
+Loss D: tensor(1.0348, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5992048978805542
+
+Loss D: tensor(1.1231, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6109796762466431
+
+Loss D: tensor(1.1085, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6691179871559143
+
+Loss D: tensor(1.0322, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6737070083618164
+
+Loss D: tensor(1.0152, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7005043029785156
+
+Loss D: tensor(0.9776, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6516981720924377
+
+Loss D: tensor(1.0307, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6728205680847168
+
+Loss D: tensor(0.9799, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6488257646560669
+
+Loss D: tensor(1.0421, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6534415483474731
+
+Loss D: tensor(1.0266, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6215092539787292
+
+Loss D: tensor(1.0558, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6502634882926941
+
+Loss D: tensor(1.0441, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6628478765487671
+
+Loss D: tensor(1.0355, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6303894519805908
+
+Loss D: tensor(1.0349, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6221657395362854
+
+Loss D: tensor(1.0482, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6353437304496765
+
+Loss D: tensor(1.0479, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6293690800666809
+
+Loss D: tensor(1.0330, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6576494574546814
+
+Loss D: tensor(1.0168, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6292662620544434
+
+Loss D: tensor(1.0453, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6073590517044067
+
+Loss D: tensor(1.0521, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6260300874710083
+
+Loss D: tensor(1.0677, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6226840019226074
+
+Loss D: tensor(1.0329, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6141582727432251
+
+Loss D: tensor(1.0671, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6256247162818909
+
+Loss D: tensor(1.0666, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6205679774284363
+
+Loss D: tensor(1.0509, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5987623929977417
+
+Loss D: tensor(1.0992, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5991697311401367
+
+Loss D: tensor(1.0692, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6408194899559021
+
+Loss D: tensor(1.0422, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6415852308273315
+
+Loss D: tensor(1.0492, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5590840578079224
+
+Loss D: tensor(1.1573, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5592526197433472
+
+Loss D: tensor(1.1462, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6155372858047485
+
+Loss D: tensor(1.0758, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6371092200279236
+
+Loss D: tensor(1.0631, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5788232088088989
+
+Loss D: tensor(1.1194, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6077218055725098
+
+Loss D: tensor(1.0860, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5883384346961975
+
+Loss D: tensor(1.1178, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6081041693687439
+
+Loss D: tensor(1.0899, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6087651252746582
+
+Loss D: tensor(1.0944, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6082636713981628
+
+Loss D: tensor(1.0987, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6134408116340637
+
+Loss D: tensor(1.0763, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.551459789276123
+
+Loss D: tensor(1.1601, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6149991154670715
+
+Loss D: tensor(1.0867, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6646630167961121
+
+Loss D: tensor(1.0437, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6315425038337708
+
+Loss D: tensor(1.0711, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5470361709594727
+
+Loss D: tensor(1.1578, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5881154537200928
+Loss D: tensor(1.1110, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6250393390655518
+
+Loss D: tensor(1.0623, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6476614475250244
+
+Loss D: tensor(1.0436, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6399495005607605
+
+Loss D: tensor(1.0231, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5841005444526672
+
+Loss D: tensor(1.0862, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5751444697380066
+
+Loss D: tensor(1.0796, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6656627655029297
+
+Loss D: tensor(0.9898, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6721203327178955
+
+Loss D: tensor(1.0033, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6252799034118652
+
+Loss D: tensor(1.0224, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5467366576194763
+
+Loss D: tensor(1.1248, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6330791711807251
+
+Loss D: tensor(0.9942, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6363956332206726
+
+Loss D: tensor(1.0345, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6919578313827515
+
+Loss D: tensor(0.9390, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.616351842880249
+
+Loss D: tensor(1.0263, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.617802619934082
+
+Loss D: tensor(1.0501, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5969654321670532
+
+Loss D: tensor(1.0718, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7262251377105713
+
+Loss D: tensor(0.8842, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6801729202270508
+
+Loss D: tensor(0.9450, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6191591024398804
+
+Loss D: tensor(0.9664, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5654032230377197
+
+Loss D: tensor(1.0729, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6557223796844482
+
+Loss D: tensor(0.9547, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6927480697631836
+
+Loss D: tensor(0.9226, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6829941272735596
+
+Loss D: tensor(0.9211, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6503510475158691
+
+Loss D: tensor(0.9532, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6552774906158447
+
+Loss D: tensor(0.9286, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6371933221817017
+
+Loss D: tensor(0.9485, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6368756890296936
+
+Loss D: tensor(0.9604, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7365818023681641
+
+Loss D: tensor(0.8253, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.632361888885498
+
+Loss D: tensor(0.9503, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6175759434700012
+
+Loss D: tensor(0.9645, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6526170372962952
+
+Loss D: tensor(0.9313, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6634718179702759
+
+Loss D: tensor(0.9104, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6661330461502075
+
+Loss D: tensor(0.9072, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6272751092910767
+
+Loss D: tensor(0.9406, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6490559577941895
+
+Loss D: tensor(0.9150, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6634407043457031
+
+Loss D: tensor(0.9105, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6816511750221252
+
+Loss D: tensor(0.8784, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6693673133850098
+
+Loss D: tensor(0.8838, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6633201837539673
+
+Loss D: tensor(0.8545, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6082463264465332
+
+Loss D: tensor(0.9466, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6273244619369507
+
+Loss D: tensor(0.9294, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6740645170211792
+
+Loss D: tensor(0.8759, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6784757375717163
+
+Loss D: tensor(0.8902, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7026649713516235
+
+Loss D: tensor(0.8608, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6364453434944153
+
+Loss D: tensor(0.9187, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5815538167953491
+
+Loss D: tensor(0.9836, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6261254549026489
+
+Loss D: tensor(0.9486, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.663928210735321
+
+Loss D: tensor(0.8991, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6599425077438354
+
+Loss D: tensor(0.8986, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6785878539085388
+
+Loss D: tensor(0.8894, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6419782638549805
+
+Loss D: tensor(0.9022, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6269508004188538
+
+Loss D: tensor(0.9254, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5826592445373535
+
+Loss D: tensor(0.9822, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6452438235282898
+
+Loss D: tensor(0.9257, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7240533828735352
+
+Loss D: tensor(0.8330, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.684616208076477
+
+Loss D: tensor(0.8674, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5860296487808228
+
+Loss D: tensor(1.0086, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5929970741271973
+
+Loss D: tensor(1.0214, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6671140193939209
+
+Loss D: tensor(0.9126, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7068164348602295
+
+Loss D: tensor(0.8973, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6312705278396606
+
+Loss D: tensor(0.9701, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5637046098709106
+
+Loss D: tensor(1.0594, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5738904476165771
+
+Loss D: tensor(1.0608, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6781971454620361
+
+Loss D: tensor(0.9429, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.672607958316803
+
+Loss D: tensor(0.9805, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5624507069587708
+
+Loss D: tensor(1.1010, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5702289342880249
+
+Loss D: tensor(1.0864, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5737566351890564
+
+Loss D: tensor(1.0973, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7170583605766296
+
+Loss D: tensor(0.9468, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6113119125366211
+
+Loss D: tensor(1.0712, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5833476185798645
+
+Loss D: tensor(1.1039, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.554410457611084
+
+Loss D: tensor(1.1900, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.642397403717041
+
+Loss D: tensor(1.0428, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5921362638473511
+
+Loss D: tensor(1.1291, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5991560220718384
+
+Loss D: tensor(1.1078, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.603489339351654
+
+Loss D: tensor(1.1152, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5535475611686707
+
+Loss D: tensor(1.1654, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5687719583511353
+
+Loss D: tensor(1.1574, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5974993109703064
+
+Loss D: tensor(1.1330, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5883965492248535
+
+Loss D: tensor(1.1974, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6261891722679138
+
+Loss D: tensor(1.0936, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5674468874931335
+
+Loss D: tensor(1.1408, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5412473678588867
+
+Loss D: tensor(1.1832, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5218490362167358
+
+Loss D: tensor(1.2329, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6962761282920837
+
+Loss D: tensor(0.9975, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6209238767623901
+
+Loss D: tensor(1.1240, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5706697106361389
+
+Loss D: tensor(1.1503, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5529543161392212
+
+Loss D: tensor(1.1414, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5203795433044434
+
+Loss D: tensor(1.2040, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5673717260360718
+
+Loss D: tensor(1.1323, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.640501856803894
+
+Loss D: tensor(1.0323, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6329123973846436
+
+Loss D: tensor(1.0462, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5568592548370361
+
+Loss D: tensor(1.1232, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5535205602645874
+
+Loss D: tensor(1.0960, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5917251110076904
+
+Loss D: tensor(1.0932, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.632068395614624
+
+Loss D: tensor(1.0391, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6630294919013977
+
+Loss D: tensor(0.9778, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5836905837059021
+
+Loss D: tensor(1.0810, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5745273232460022
+
+Loss D: tensor(1.0537, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5506366491317749
+
+Loss D: tensor(1.0843, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.64744633436203
+
+Loss D: tensor(0.9567, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6572756767272949
+
+Loss D: tensor(0.9705, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6449174880981445
+
+Loss D: tensor(0.9727, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5968160629272461
+
+Loss D: tensor(1.0087, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5936379432678223
+
+Loss D: tensor(0.9899, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.603125810623169
+
+Loss D: tensor(0.9854, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6037428975105286
+
+Loss D: tensor(0.9978, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6497488021850586
+
+Loss D: tensor(0.9358, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6520774364471436
+
+Loss D: tensor(0.9382, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6505430340766907
+
+Loss D: tensor(0.9098, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5990535616874695
+
+Loss D: tensor(0.9672, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5490095615386963
+
+Loss D: tensor(1.0488, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6630752086639404
+
+Loss D: tensor(0.9106, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7228653430938721
+
+Loss D: tensor(0.8670, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6481977701187134
+
+Loss D: tensor(0.9251, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6042215824127197
+
+Loss D: tensor(0.9808, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5803334712982178
+
+Loss D: tensor(1.0107, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6030404567718506
+
+Loss D: tensor(0.9784, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.665966272354126
+
+Loss D: tensor(0.9317, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6982876658439636
+
+Loss D: tensor(0.9044, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.571872353553772
+
+Loss D: tensor(1.0367, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5493757724761963
+
+Loss D: tensor(1.0565, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6041584610939026
+
+Loss D: tensor(1.0044, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7019873857498169
+
+Loss D: tensor(0.9149, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6819249391555786
+
+Loss D: tensor(0.9455, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5655553340911865
+
+Loss D: tensor(1.0782, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.531480073928833
+
+Loss D: tensor(1.1079, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5829542875289917
+
+Loss D: tensor(1.0598, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6820995807647705
+
+Loss D: tensor(0.9679, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6603935360908508
+
+Loss D: tensor(0.9933, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.575168251991272
+
+Loss D: tensor(1.1125, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5178514719009399
+
+Loss D: tensor(1.1732, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5497539639472961
+
+Loss D: tensor(1.1596, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6210265159606934
+
+Loss D: tensor(1.0678, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6284281015396118
+
+Loss D: tensor(1.1047, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5197969675064087
+
+Loss D: tensor(1.2293, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5262265205383301
+
+Loss D: tensor(1.2217, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.558631420135498
+
+Loss D: tensor(1.1900, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5760614275932312
+
+Loss D: tensor(1.1661, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5755099058151245
+
+Loss D: tensor(1.1695, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.536414384841919
+
+Loss D: tensor(1.2206, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5475221276283264
+
+Loss D: tensor(1.2110, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5625513195991516
+
+Loss D: tensor(1.1878, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5475684404373169
+
+Loss D: tensor(1.2214, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5551599860191345
+
+Loss D: tensor(1.2027, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5219535827636719
+
+Loss D: tensor(1.2213, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5475720167160034
+
+Loss D: tensor(1.2093, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5660929679870605
+
+Loss D: tensor(1.1783, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5532158613204956
+
+Loss D: tensor(1.1583, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5523370504379272
+
+Loss D: tensor(1.1668, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5683587789535522
+
+Loss D: tensor(1.1303, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.596977949142456
+
+Loss D: tensor(1.1022, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5750160217285156
+
+Loss D: tensor(1.1191, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5842198729515076
+
+Loss D: tensor(1.1008, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5971426963806152
+
+Loss D: tensor(1.0790, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6075676679611206
+
+Loss D: tensor(1.0578, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5717359781265259
+
+Loss D: tensor(1.0941, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.625057578086853
+
+Loss D: tensor(1.0326, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.611003041267395
+
+Loss D: tensor(1.0306, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5766288042068481
+
+Loss D: tensor(1.0477, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6180663108825684
+
+Loss D: tensor(1.0154, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6375830769538879
+
+Loss D: tensor(1.0037, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6248342990875244
+
+Loss D: tensor(1.0057, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6143483519554138
+
+Loss D: tensor(1.0439, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.606983482837677
+
+Loss D: tensor(1.0012, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6576437950134277
+
+Loss D: tensor(0.9768, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6638355255126953
+
+Loss D: tensor(0.9503, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6003354787826538
+
+Loss D: tensor(1.0186, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5682872533798218
+
+Loss D: tensor(1.0450, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6462316513061523
+
+Loss D: tensor(0.9542, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6767176389694214
+
+Loss D: tensor(0.9143, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6722196936607361
+
+Loss D: tensor(0.9299, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6258037090301514
+
+Loss D: tensor(0.9657, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6153577566146851
+
+Loss D: tensor(0.9827, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6647793054580688
+
+Loss D: tensor(0.9230, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6953192949295044
+
+Loss D: tensor(0.8825, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6562948226928711
+
+Loss D: tensor(0.9302, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5982123613357544
+
+Loss D: tensor(0.9893, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6584391593933105
+
+Loss D: tensor(0.9146, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7402307987213135
+
+Loss D: tensor(0.8448, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6481343507766724
+
+Loss D: tensor(0.9449, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5546332597732544
+
+Loss D: tensor(1.0817, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6576303243637085
+
+Loss D: tensor(0.9372, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7046571969985962
+
+Loss D: tensor(0.8975, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.619982898235321
+
+Loss D: tensor(0.9905, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6139792203903198
+
+Loss D: tensor(0.9917, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6615945100784302
+
+Loss D: tensor(0.9526, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6304919719696045
+
+Loss D: tensor(0.9912, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6516017913818359
+
+Loss D: tensor(0.9543, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6229044795036316
+
+Loss D: tensor(0.9951, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6039420366287231
+
+Loss D: tensor(1.0132, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6784507036209106
+
+Loss D: tensor(0.9428, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6376791000366211
+
+Loss D: tensor(0.9911, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5937918424606323
+
+Loss D: tensor(1.0192, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.598070502281189
+
+Loss D: tensor(1.0218, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6755918264389038
+
+Loss D: tensor(0.9390, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6648045778274536
+
+Loss D: tensor(0.9550, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6407029628753662
+
+Loss D: tensor(0.9651, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6330538988113403
+
+Loss D: tensor(0.9680, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.62151038646698
+
+Loss D: tensor(0.9984, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6354758739471436
+
+Loss D: tensor(0.9699, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6785498857498169
+
+Loss D: tensor(0.9245, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6453052163124084
+
+Loss D: tensor(0.9649, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6338967084884644
+
+Loss D: tensor(0.9936, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6290779709815979
+
+Loss D: tensor(0.9717, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6183629035949707
+
+Loss D: tensor(0.9903, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6567749977111816
+
+Loss D: tensor(0.9417, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6753730773925781
+
+Loss D: tensor(0.9110, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6213318109512329
+
+Loss D: tensor(0.9823, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6322012543678284
+
+Loss D: tensor(0.9943, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6409783363342285
+
+Loss D: tensor(0.9589, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6482364535331726
+
+Loss D: tensor(0.9560, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.636902928352356
+
+Loss D: tensor(0.9647, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6694860458374023
+
+Loss D: tensor(0.9360, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6768905520439148
+
+Loss D: tensor(0.9126, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5816881656646729
+
+Loss D: tensor(1.0249, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6331329941749573
+
+Loss D: tensor(0.9615, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6972309350967407
+
+Loss D: tensor(0.9162, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6488291025161743
+
+Loss D: tensor(0.9502, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6286745667457581
+
+Loss D: tensor(0.9651, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6405451893806458
+
+Loss D: tensor(0.9581, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6408565044403076
+
+Loss D: tensor(0.9791, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6932520270347595
+
+Loss D: tensor(0.9128, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.654323399066925
+
+Loss D: tensor(0.9423, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5956851243972778
+
+Loss D: tensor(1.0211, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6574121713638306
+
+Loss D: tensor(0.9197, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6628334522247314
+
+Loss D: tensor(0.9387, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.683711051940918
+
+Loss D: tensor(0.9267, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5870847105979919
+
+Loss D: tensor(1.0450, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7012815475463867
+
+Loss D: tensor(0.9141, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7033727169036865
+
+Loss D: tensor(0.9058, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5911989808082581
+
+Loss D: tensor(1.0146, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5770434141159058
+
+Loss D: tensor(1.0425, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7212543487548828
+
+Loss D: tensor(0.8948, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6885187029838562
+
+Loss D: tensor(0.9526, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5704556107521057
+
+Loss D: tensor(1.0937, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6144452095031738
+
+Loss D: tensor(1.0488, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6295709609985352
+
+Loss D: tensor(1.0032, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7049147486686707
+
+Loss D: tensor(0.9425, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6720476746559143
+
+Loss D: tensor(0.9456, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5592188835144043
+
+Loss D: tensor(1.0853, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6073470711708069
+
+Loss D: tensor(0.9932, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6409889459609985
+
+Loss D: tensor(0.9976, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7113314867019653
+
+Loss D: tensor(0.9447, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.643776535987854
+
+Loss D: tensor(0.9851, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5416864156723022
+
+Loss D: tensor(1.0992, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6092429161071777
+
+Loss D: tensor(1.0157, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6674973964691162
+
+Loss D: tensor(0.9605, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7498390078544617
+
+Loss D: tensor(0.8668, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6249313354492188
+
+Loss D: tensor(0.9971, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5323140621185303
+
+Loss D: tensor(1.1198, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6199350357055664
+
+Loss D: tensor(1.0023, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7640689611434937
+
+Loss D: tensor(0.8525, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7648019790649414
+
+Loss D: tensor(0.8731, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6161605715751648
+
+Loss D: tensor(1.0016, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5128301382064819
+
+Loss D: tensor(1.1336, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5873033404350281
+
+Loss D: tensor(1.0248, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7156080603599548
+
+Loss D: tensor(0.8767, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7252318263053894
+
+Loss D: tensor(0.8799, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6517876386642456
+
+Loss D: tensor(0.9197, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.556682825088501
+
+Loss D: tensor(1.0341, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5453997850418091
+
+Loss D: tensor(1.0417, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6184825301170349
+
+Loss D: tensor(0.9787, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.758147656917572
+
+Loss D: tensor(0.8357, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7791081070899963
+
+Loss D: tensor(0.8012, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6192751526832581
+
+Loss D: tensor(0.9718, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5475194454193115
+
+Loss D: tensor(1.0535, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6187520027160645
+
+Loss D: tensor(0.9471, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6968733668327332
+
+Loss D: tensor(0.8485, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7064859867095947
+
+Loss D: tensor(0.8573, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6838580369949341
+
+Loss D: tensor(0.8931, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.630577802658081
+
+Loss D: tensor(0.9239, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5882655382156372
+
+Loss D: tensor(0.9697, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6309932470321655
+
+Loss D: tensor(0.9429, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6601746678352356
+
+Loss D: tensor(0.9022, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.684684157371521
+
+Loss D: tensor(0.8871, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6572017073631287
+
+Loss D: tensor(0.9347, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6306723952293396
+
+Loss D: tensor(0.9285, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5950077772140503
+
+Loss D: tensor(1.0096, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6058827042579651
+
+Loss D: tensor(0.9784, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6688626408576965
+
+Loss D: tensor(0.8904, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.7023152112960815
+
+Loss D: tensor(0.8899, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5866940021514893
+
+Loss D: tensor(1.0028, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5744786858558655
+
+Loss D: tensor(1.0387, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.611397922039032
+
+Loss D: tensor(0.9724, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6831749677658081
+
+Loss D: tensor(0.8906, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6949810981750488
+
+Loss D: tensor(0.8780, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6083917021751404
+
+Loss D: tensor(0.9766, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5722600221633911
+
+Loss D: tensor(1.0125, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6141726970672607
+
+Loss D: tensor(0.9843, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6444169878959656
+
+Loss D: tensor(0.9794, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6769545078277588
+
+Loss D: tensor(0.9181, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6793621182441711
+
+Loss D: tensor(0.8908, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.623242199420929
+
+Loss D: tensor(0.9698, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5487316846847534
+
+Loss D: tensor(1.0743, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5659854412078857
+
+Loss D: tensor(1.0295, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6601101756095886
+
+Loss D: tensor(0.9340, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6384598612785339
+
+Loss D: tensor(0.9601, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6400773525238037
+
+Loss D: tensor(0.9695, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6025382280349731
+
+Loss D: tensor(0.9951, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.5623380541801453
+
+Loss D: tensor(1.0540, device='cuda:0', grad_fn=<AddBackward0>)
+
+Loss G: 0.6188662052154541
+
+Traceback (most recent call last):
+  File "../src/script.py", line 179, in <module>
+
+    main()
+  File "../src/script.py", line 158, in main
+    train(dataloader, discriminator, generator, optimizer_G, optimizer_D, loss_func)
+  File "../src/script.py", line 110, in train
+    dis_on_set = discriminator(imgs)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "../src/script.py", line 82, in forward
+    out = self.dis(img)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/module.py", line 489, in __call__
+
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/container.py", line 92, in forward
+    input = module(input)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/module.py", line 489, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 67, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/functional.py", line 1352, in linear
+
+    ret = torch.addmm(torch.jit._unwrap_optional(bias), input, weight.t())
+RuntimeError: size mismatch, m1: [64 x 392], m2: [784 x 512] at /opt/conda/conda-bld/pytorch_1549630534704/work/aten/src/THC/generic/THCTensorMathBlas.cu:266

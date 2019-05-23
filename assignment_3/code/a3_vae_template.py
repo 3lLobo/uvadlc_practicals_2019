@@ -210,6 +210,8 @@ def main():
 
     data = bmnist()[:2]  # ignore test split
     model = VAE(z_dim=ARGS.zdim)
+    print('VAE parameter count:', sum(p.numel() for p in model.parameters()))
+
     model = model.to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=5e-4)
     writer = SummaryWriter('logs/log1')
@@ -251,7 +253,7 @@ def main():
     #  functionality that is already imported.
     # --------------------------------------------------------------------
         if ARGS.zdim == 2:
-            # TODO: ppf to cover significant z-space?
+
             x = torch.linspace(norm.ppf(0.1), norm.ppf(0.9), 10)
             xx, xy = torch.meshgrid(x, x)
             z_mesh = torch.stack([xx, xy], 0)

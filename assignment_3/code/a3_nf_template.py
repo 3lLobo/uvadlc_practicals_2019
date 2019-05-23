@@ -8,6 +8,7 @@ import numpy as np
 from datasets.mnist import mnist
 import os
 from torchvision.utils import make_grid
+import numpy as np
 from torch.nn.utils import clip_grad_norm_
 from torchvision.utils import save_image
 
@@ -20,12 +21,10 @@ def log_prior(x):
     N(x | mu=0, sigma=1).
     """
 
-    torch_pi = torch.ones_like(x) * 2 * np.pi
-    logp = - 0.5 * torch.pow(x, 2) - 0.5 * torch.log(torch_pi)
-    logp = torch.sum(logp, -1)
 
-    #logp = np.log(2 * np.pi) * (n/2) * (torch.sum(torch.pow(x, 2), -1) / (2))
-    return logp
+    logp = - np.log(np.sqrt(2 * np.pi)) - (x.pow(2) / 2)
+
+    return logp.sum(-1)
 
 
 def sample_prior(size):
@@ -75,6 +74,10 @@ class Coupling(torch.nn.Module):
 
         # The nn should be initialized such that the weights of the last layer
         # is zero, so that its initial transform is identity.
+        for m in self.modules():
+            if isinstance(m, nn.Linear):
+                nn.init.xavier_uniform_(m.weight)
+                m.bias.data.fill_(0.01)
 
         self.nn[-1].weight.data.zero_()
         self.nn[-1].bias.data.zero_()
@@ -95,21 +98,17 @@ class Coupling(torch.nn.Module):
 
         # apply mask
         z1 = self.mask * z
-        z2 = (1 - self.mask) *z
+        inv_mask = (1 - self.mask)
 
-        # get t and s   TODO: do we feed in z or zMask??ß
-        ts = torch.tanh(self.nn(z1))
+        ts = self.nn(z1)
         t = ts[:, :self.c_in]
-        s = ts[:, self.c_in:]
+        s = torch.tanh(ts[:, self.c_in:])
 
-
-        #               TODO: Why is ldj passed on???
         if not reverse:
-            z = z1 + z2 * torch.exp(s) + t
-            ldj = torch.sum(s, -1)
+            z = z1 + (z * torch.exp(s) + t) * inv_mask
+            ldj += torch.sum(s * inv_mask, -1)
         else:
-            z = z1 + ((z2 - t) * torch.exp(-s))
-            #ldj = torch.zeros_like(ldj)     # TODO: zeros or None???
+            z = z1 + ((z - t) * torch.exp(-s)) * inv_mask
         return z, ldj
 
 
@@ -189,8 +188,6 @@ class Model(nn.Module):
         z, ldj = self.flow(z, ldj)
 
         # Compute log_pz and log_px per example
-        #log_pz = torch.log(z)
-        #log_pz = torch.sum(log_pz, -1)
         log_pz = log_prior(z)
         log_px = log_pz + ldj
 
@@ -222,29 +219,20 @@ def epoch_iter(model, data, optimizer):
     loss_sum = torch.zeros(1).to(device)
     for idx, (batch, _) in enumerate(data):
         batch = batch.to(device)
-        print('batch :', idx)
         logpx = - torch.mean(model(batch))
-        loss = (logpx / np.log(2)) / 28 * 28
+        loss = (logpx / np.log(2)) / (28 * 28)
+        print('Loss:', loss.item())
         loss_sum += loss
-        #print('Loss:', logpx.exp().item())
 
         # backwards pass
         if model.training:
             optimizer.zero_grad()
-            clip_grad_norm_(model.parameters(), max_norm=0.6)
+            clip_grad_norm_(model.parameters(), max_norm=0.5)
             logpx.backward()
-            print('back done!')
-            print(device)
             optimizer.step()
 
-            # sample print
-            manifold = model.sample(25)
-            manifold = manifold.view(-1, 1, 28, 28)
-            save_image(manifold,
-                       'NFmania' + str(idx) + '.png',
-                       nrow=5, normalize=True)
-    # dim = len(loss_list)
     avg_bpd = loss_sum.item() / idx
+
     return avg_bpd
 
 
@@ -277,6 +265,7 @@ def save_bpd_plot(train_curve, val_curve, filename):
 def main():
     data = mnist()[:2]  # ignore test split
     model = Model(shape=[784])
+    print('NF parameter count:', sum(p.numel() for p in model.parameters()))
 
     if torch.cuda.is_available():
         model = model.cuda()
@@ -287,6 +276,7 @@ def main():
 
     train_curve, val_curve = [], []
     for epoch in range(ARGS.epochs):
+        print(device, epoch)
         bpds = run_epoch(model, data, optimizer)
         train_bpd, val_bpd = bpds
         train_curve.append(train_bpd)
@@ -294,6 +284,12 @@ def main():
         print("[Epoch {epoch}] train bpd: {train_bpd} val_bpd: {val_bpd}".format(
             epoch=epoch, train_bpd=train_bpd, val_bpd=val_bpd))
 
+        # sample print
+        manifold = model.sample(25)
+        manifold = manifold.view(-1, 1, 28, 28)
+        save_image(manifold,
+                   'images_nfs/NFmania' + str(epoch) + '.png',
+                   nrow=5, normalize=True)
         # --------------------------------------------------------------------
         #  Add functionality to plot samples from model during training.
         #  You can use the make_grid functionality that is already imported.
@@ -301,7 +297,7 @@ def main():
         # --------------------------------------------------------------------
 
     save_bpd_plot(train_curve, val_curve, 'nfs_bpd.pdf')
-    torch.save(model.state_dict(), 'NFstate.pt')
+    torch.save(model.state_dict(), 'images_nfs/NFstate.pt')
 
 
 if __name__ == "__main__":

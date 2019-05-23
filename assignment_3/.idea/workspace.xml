@@ -3,91 +3,163 @@
   <component name="ChangeListManager">
     <list default="true" id="2618bb8c-9274-432c-80de-4c78db9698e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEinput.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/VAEsample9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/a3_gan_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/a3_gan_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/a3_nf_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/a3_nf_template.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/a3_vae_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/a3_vae_template.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/all_scalars.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/all_scalars.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/elbo.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/code/elbo.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample0.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample1.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample10.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample11.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample12.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample13.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample14.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample15.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample16.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample17.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample18.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample19.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample19.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample2.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample20.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample21.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample22.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample23.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample24.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample25.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample26.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample27.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample27.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample28.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample28.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample29.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample3.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample30.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample30.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample31.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample32.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample33.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample33.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample34.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample34.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample35.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample35.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample36.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample36.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample37.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample37.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample38.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample38.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample39.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample39.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample4.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample5.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample6.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample7.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample8.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample9.png" beforeDir="false" afterPath="$PROJECT_DIR$/code/samples/VAEsample9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/Bernulli prob/events.out.tfevents.1557677703.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/Bernulli prob/events.out.tfevents.1557678155.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/Bernulli prob/events.out.tfevents.1557678593.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/Bernulli prob/events.out.tfevents.1557678828.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/Bernulli prob/events.out.tfevents.1557679735.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/Bernulli prob/events.out.tfevents.1557679853.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/Bernulli prob/events.out.tfevents.1557680891.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/Bernulli prob/events.out.tfevents.1557681085.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/Bernulli prob/events.out.tfevents.1557681725.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/KL/events.out.tfevents.1557677703.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/KL/events.out.tfevents.1557678155.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/KL/events.out.tfevents.1557678593.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/KL/events.out.tfevents.1557678827.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/KL/events.out.tfevents.1557679735.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/KL/events.out.tfevents.1557679853.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/KL/events.out.tfevents.1557680891.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/KL/events.out.tfevents.1557681085.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/KL/KL/events.out.tfevents.1557681725.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/train elbo/events.out.tfevents.1557678619.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/train elbo/events.out.tfevents.1557678854.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/train elbo/events.out.tfevents.1557679763.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/train elbo/events.out.tfevents.1557679883.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/train elbo/events.out.tfevents.1557681109.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/train elbo/events.out.tfevents.1557681754.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/train elbo/events.out.tfevents.1557688491.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/train elbo/events.out.tfevents.1557912311.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/train elbo/events.out.tfevents.1557912674.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/train elbo/events.out.tfevents.1557913012.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/train elbo/events.out.tfevents.1557913885.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/train elbo/events.out.tfevents.1557915090.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/train elbo/events.out.tfevents.1557932817.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/val elbo/events.out.tfevents.1557678619.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/val elbo/events.out.tfevents.1557678854.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/val elbo/events.out.tfevents.1557679763.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/val elbo/events.out.tfevents.1557679883.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/val elbo/events.out.tfevents.1557681109.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/val elbo/events.out.tfevents.1557681754.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/val elbo/events.out.tfevents.1557688491.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/val elbo/events.out.tfevents.1557912311.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/val elbo/events.out.tfevents.1557912674.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/val elbo/events.out.tfevents.1557913012.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/val elbo/events.out.tfevents.1557913885.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/val elbo/events.out.tfevents.1557915090.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/data/elbos/val elbo/events.out.tfevents.1557932817.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557676964.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557677041.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557677436.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557677517.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557677569.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557677594.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557677698.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557678152.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557678576.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557678825.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557679732.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557679850.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557680821.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557680833.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557680889.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557681082.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557681722.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557688468.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557863392.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557912288.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557912642.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557912986.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557913860.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557915067.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557932784.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557933706.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/logs/log1/events.out.tfevents.1557933717.DESKTOP-SBVJAN2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate0.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate1.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate10.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate11.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate12.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate13.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate14.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate15.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate16.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate17.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate18.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate19.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate2.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate20.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate21.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate22.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate23.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate24.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate25.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate26.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate27.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate28.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate29.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate3.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate30.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate31.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate32.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate33.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate34.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate35.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate36.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate37.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate38.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate39.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate4.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate5.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate6.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate7.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate8.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/modelstate/modelstate9.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEinput.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/samples/VAEsample9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,10 +184,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/a3_vae_template.py">
+        <entry file="file://$PROJECT_DIR$/code/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+            <state relative-caret-position="323">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;a7e6cabc-6eef-4a6e-9d9b-0ede17b01486&gt;/NF/a3_vae_template.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="222" column="28" selection-start-line="222" selection-start-column="28" selection-end-line="222" selection-end-column="28" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -123,11 +207,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/a3_gan_template.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lisa/NF/a3_gan_template.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="105" column="33" lean-forward="true" selection-end-line="179" />
+            <state relative-caret-position="3315">
+              <caret line="202" column="8" selection-start-line="202" selection-start-column="8" selection-end-line="202" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/a3_nf_template.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4335">
+              <caret line="267" column="25" selection-start-line="267" selection-end-line="268" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -147,7 +243,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>make</find>
+      <find>zero</find>
+      <find>grad</find>
+      <find>elbos</find>
     </findStrings>
+    <replaceStrings>
+      <replace>el</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -157,17 +259,26 @@
       <list>
         <option value="$PROJECT_DIR$/report/main.tex" />
         <option value="$PROJECT_DIR$/code/datasets/bmnist.py" />
-        <option value="$PROJECT_DIR$/code/test.py" />
         <option value="$PROJECT_DIR$/code/plotVAE.py" />
+        <option value="$PROJECT_DIR$/code/LSTMgen.job" />
+        <option value="$PROJECT_DIR$/code/NF.job" />
+        <option value="$PROJECT_DIR$/code/test.py" />
+        <option value="&lt;a7e6cabc-6eef-4a6e-9d9b-0ede17b01486&gt;/NF/NF2/a3_nf_template.py" />
+        <option value="&lt;a7e6cabc-6eef-4a6e-9d9b-0ede17b01486&gt;/NF/a3_gan_template.py" />
+        <option value="&lt;a7e6cabc-6eef-4a6e-9d9b-0ede17b01486&gt;/NF/NF.job" />
+        <option value="&lt;a7e6cabc-6eef-4a6e-9d9b-0ede17b01486&gt;/NF/a3_nf_template.py" />
         <option value="$PROJECT_DIR$/code/a3_gan_template.py" />
+        <option value="$PROJECT_DIR$/Lisa/NF/a3_gan_template.py" />
+        <option value="$PROJECT_DIR$/code/a3_nf_template.py" />
         <option value="$PROJECT_DIR$/code/a3_vae_template.py" />
+        <option value="&lt;a7e6cabc-6eef-4a6e-9d9b-0ede17b01486&gt;/NF/a3_vae_template.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
+    <option name="x" value="12" />
     <option name="y" value="30" />
-    <option name="width" value="1797" />
+    <option name="width" value="1800" />
     <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -186,7 +297,20 @@
             <path>
               <item name="assignment_3" type="b2602c69:ProjectViewProjectNode" />
               <item name="assignment_3" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Lisa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment_3" type="462c0819:PsiDirectoryNode" />
+              <item name="Lisa" type="462c0819:PsiDirectoryNode" />
+              <item name="NF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment_3" type="462c0819:PsiDirectoryNode" />
+              <item name="Lisa" type="462c0819:PsiDirectoryNode" />
+              <item name="NF" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,7 +330,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/code/unittests.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,7 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a3_gan_template">
+  <component name="RunManager" selected="Python.a3_vae_template (1)">
     <configuration name="main bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler>BIBTEX</compiler>
@@ -253,7 +377,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="a3_gan_template" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="a3_gan_template (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="assignment_3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lisa/NF" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lisa/NF/a3_gan_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="a3_nf_template" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="assignment_3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,7 +412,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/a3_gan_template.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/a3_nf_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="a3_vae_template (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="assignment_3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="/" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="&lt;a7e6cabc-6eef-4a6e-9d9b-0ede17b01486&gt;/NF/a3_vae_template.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,50 +454,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/a3_vae_template.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="code" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="assignment_3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="C:/Anaconda3/envs/aniko/Lib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:/Anaconda3/envs/aniko/Lib/code.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="plotVAE" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="assignment_3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/plotVAE.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -387,11 +508,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.a3_gan_template" />
+        <item itemvalue="Python.a3_vae_template (1)" />
         <item itemvalue="Python.a3_vae_template" />
-        <item itemvalue="Python.plotVAE" />
+        <item itemvalue="Python.a3_nf_template" />
+        <item itemvalue="Python.a3_gan_template (1)" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.code" />
       </list>
     </recent_temporary>
   </component>
@@ -431,18 +552,55 @@
       <workItem from="1557820627997" duration="2228000" />
       <workItem from="1557856514518" duration="8572000" />
       <workItem from="1557911306783" duration="4027000" />
-      <workItem from="1557927116233" duration="4592000" />
+      <workItem from="1557927116233" duration="7841000" />
+      <workItem from="1558007836134" duration="7259000" />
+      <workItem from="1558022391155" duration="2866000" />
+      <workItem from="1558029437886" duration="4492000" />
+      <workItem from="1558094403583" duration="2651000" />
+      <workItem from="1558105945261" duration="3303000" />
+      <workItem from="1558109405591" duration="242000" />
+      <workItem from="1558109958891" duration="662000" />
+      <workItem from="1558196942289" duration="13318000" />
+      <workItem from="1558264445328" duration="23640000" />
+      <workItem from="1558292867751" duration="3612000" />
+      <workItem from="1558347081297" duration="1214000" />
+      <workItem from="1558376483096" duration="766000" />
+      <workItem from="1558428745350" duration="4359000" />
+      <workItem from="1558433482481" duration="9375000" />
+      <workItem from="1558446709583" duration="7849000" />
+      <workItem from="1558462929208" duration="8226000" />
+      <workItem from="1558518374025" duration="1999000" />
+      <workItem from="1558531308236" duration="3472000" />
+      <workItem from="1558608913041" duration="110000" />
+      <workItem from="1558609400366" duration="2567000" />
     </task>
+    <task id="LOCAL-00001" summary="Finito!">
+      <created>1558531875795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558531875795</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105522000" />
+    <option name="totallyTimeSpent" value="210753000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1233" height="735" extended-state="6" />
+    <frame x="-7" y="-7" width="1201" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1438298" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20472442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -451,56 +609,63 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.23013245" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3294702" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.10638298" side_tool="true" weight="0.21854305" />
+      <window_info anchor="bottom" id="File Transfer" order="11" weight="0.37748346" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="R Graphics" order="4" />
-      <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" x="0" y="0" width="258" height="535" id="Documentation" order="6" sideWeight="0.278481" side_tool="true" weight="0.28425533" />
-      <window_info anchor="right" id="Python Console" order="7" sideWeight="0.89361703" weight="0.4025532" />
-      <window_info active="true" anchor="right" id="Terminal" order="8" sideWeight="0.72302157" visible="true" weight="0.37787235" />
-      <window_info anchor="right" id="Database" order="9" sideWeight="0.49503312" weight="0.27829787" />
-      <window_info anchor="right" id="Remote Host" order="10" weight="0.3293617" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3293617" />
+      <window_info anchor="right" id="Terminal" order="4" sideWeight="0.72302157" weight="0.30533683" />
+      <window_info anchor="right" id="R Graphics" order="5" />
+      <window_info anchor="right" id="R Packages" order="6" />
+      <window_info anchor="right" x="0" y="0" width="258" height="535" id="Documentation" order="7" sideWeight="0.278481" side_tool="true" weight="0.28425533" />
+      <window_info anchor="right" id="Python Console" order="8" sideWeight="0.89361703" weight="0.38670167" />
+      <window_info anchor="right" id="Database" order="9" sideWeight="0.49503312" weight="0.2774468" />
+      <window_info active="true" anchor="right" id="Remote Host" order="10" visible="true" weight="0.22047244" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1438298" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15380375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49872342" weight="0.26821193" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39900663" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294702" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3294702" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.10638298" side_tool="true" weight="0.21854305" />
+      <window_info anchor="bottom" id="File Transfer" order="11" weight="0.3271028" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.72302157" visible="true" weight="0.19003116" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3293617" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" x="0" y="0" width="258" height="535" id="Documentation" order="6" sideWeight="0.278481" side_tool="true" weight="0.28425533" />
-      <window_info active="true" anchor="right" id="Python Console" order="7" sideWeight="0.89361703" visible="true" weight="0.37106383" />
-      <window_info anchor="right" id="Terminal" order="8" sideWeight="0.72302157" weight="0.37787235" />
-      <window_info anchor="right" id="Database" order="9" sideWeight="0.49503312" weight="0.27829787" />
-      <window_info anchor="right" id="Remote Host" order="10" weight="0.3293617" />
+      <window_info anchor="right" id="Python Console" order="7" sideWeight="0.89361703" weight="0.3880851" />
+      <window_info anchor="right" id="Database" order="8" sideWeight="0.49503312" weight="0.2774468" />
+      <window_info active="true" anchor="right" id="Remote Host" order="9" visible="true" weight="0.24145535" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finito!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finito!" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/assignment_3$a3_vae_template.coverage" NAME="a3_vae_template Coverage Results" MODIFIED="1557590038626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/assignment_3$a3_nf_template.coverage" NAME="a3_nf_template Coverage Results" MODIFIED="1558220272880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/assignment_3$Unnamed.coverage" NAME="unittests Coverage Results" MODIFIED="1557257390587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
   <component name="editorHistoryManager">
@@ -524,23 +689,6 @@
     <entry file="file://$PROJECT_DIR$/report/neurips_2018.sty">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/unittests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Anaconda3/envs/aniko/Lib/site-packages/matplotlib/axes/_axes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -552,13 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="637" selection-start-line="637" selection-end-line="637" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Anaconda3/envs/aniko/Lib/code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
@@ -607,10 +748,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/a3_vae_template.py">
+    <entry file="file://C:/Anaconda3/envs/aniko/Lib/code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="103" column="31" selection-start-line="103" selection-start-column="31" selection-end-line="103" selection-end-column="31" />
+        <state relative-caret-position="105">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/envs/aniko/Lib/site-packages/torch/autograd/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/envs/aniko/Lib/site-packages/torch/tensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/datasets/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/NF.job">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/unittests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -619,10 +795,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/a3_gan_template.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="105" column="33" lean-forward="true" selection-end-line="179" />
+        <state relative-caret-position="796">
+          <caret line="202" column="8" selection-start-line="202" selection-start-column="8" selection-end-line="202" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lisa/NF/a3_nf_template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="39" lean-forward="true" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GANresults/gan01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lisa/NF/a3_gan_template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3315">
+          <caret line="202" column="8" selection-start-line="202" selection-start-column="8" selection-end-line="202" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/a3_nf_template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4335">
+          <caret line="267" column="25" selection-start-line="267" selection-end-line="268" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/a3_vae_template.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="269" column="4" selection-start-line="269" selection-start-column="4" selection-end-line="269" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
